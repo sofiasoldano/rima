@@ -1,31 +1,114 @@
 header{
+    .world-menu{
+        position: absolute;
+        width: 91px;
+        height: 91px;
+        background: $white;
+        text-align: center;
+        top: -50px;
+        left: calc(50% - 45px);
+        border-radius: 50px;
+    }
+    
+    .new{
+        position: relative;
+        
+        &:after{
+            content: "12";
+            position: absolute;
+            background: $blue;
+            color: $white;
+            top: -5px;
+            right: -20px;
+            border-radius: 50px;
+            font-size: 10px;
+            padding: 0 5px;
+        }
+    }
+    
     .main-header{
-        padding: 18px 20px;
+        height: 110px;
+        position: relative;
+        padding: 12px;
         overflow: hidden;
         
+        @include respond-to('medium'){
+            padding: 18px 20px;
+            height: auto;
+        }
+        
         .header-logos{
-            padding-top: 5px;
+            max-width: 45%;
+            padding-top: 2px;
             
-            img{
-                margin-right: 20px;
+            @include respond-to('medium'){
+                padding-top: 5px;
+                max-width: fit-content;
+            }
+            
+            .main-logo{
+                width: 73px;
+                margin-right: 5px;
+                max-width: 52%;
+                
+                @include respond-to('medium'){
+                    margin-right: 20px;
+                    width: 120px;
+                    max-width: fit-content;
+                }
+            }
+            
+            .partner-logo{
+                width: 58px;
+                max-width: 40%;
+                margin-right: 0;
+                
+                @include respond-to('medium'){
+                    width: 67px;
+                    max-width: fit-content;
+                }
             }
         }
         
         .header-info{
             display: flex;
             align-items: center;
+            max-width: 60%;
+            
+            @include respond-to('medium'){
+                max-width: fit-content;
+            }
             
             .search{
-                position: relative;
+                position: absolute;
+                bottom: 12px;
+                left: 0;
+                width: 100%;
+                padding: 0 10px;
                 overflow: hidden;
+                
+                @include respond-to('medium'){
+                    width: auto;
+                    position: relative;
+                    padding: 0;
+                    bottom: initial;
+                }
 
                 .input-search{
                     background: $light-gray;
                     border: none;
-                    width: 550px;
+                    width: 100%;
                     height: 45px;
                     border-radius: 22px;
                     padding: 20px;
+                    
+                    @include respond-to('medium'){
+                        width: 350px;
+                    }
+                    
+                    @include respond-to('large'){
+                        width: 550px;
+                    }
 
                     &::placeholder{
                         font-family: "Encode Sans";
@@ -47,26 +130,24 @@ header{
             }
 
             .notifs{
-                margin: 0px 50px;
+                margin: 0px 30px;
+                display: none;
+                
+                @include respond-to('medium'){
+                    display: block;
+                }
+                
+                @include respond-to('large'){
+                    margin: 0px 50px;
+                }
 
                 ul{
                     li{
                         display: inline-block;
-                        margin: 0 18px;
-                        position: relative;
-
-                        &.new{
-                            &:after{
-                                content: "12";
-                                position: absolute;
-                                background: $blue;
-                                color: $white;
-                                top: 0;
-                                right: -20px;
-                                border-radius: 50px;
-                                font-size: 10px;
-                                padding: 0 5px;
-                            }
+                        margin: 0 10px;
+                        
+                        @include respond-to('large'){
+                            margin: 0 18px;
                         }
                     }
                 }
@@ -76,21 +157,37 @@ header{
                 .picture{
                     border-radius: 40%;
                     overflow: hidden;
-                    margin-right: 12px;
+                    margin-right: 5px;
+                    width: 30px;
+                    
+                    @include respond-to('medium'){
+                        margin-right: 12px;
+                        width: auto;
+                    }
                 }
 
                 .data{
                     .name{
                         margin: 0;
-                        font-size: 16px;
+                        font-size: 14px;
                         font-weight: $medium;
                         line-height: 1;
                         margin-top: 2px;
+                        
+                        @include respond-to('medium'){
+                            font-size: 16px;
+                        }
                     }
                     .medal{
                         margin: 0;
-                        font-size: 12px;
+                        font-size: 10px;
                         font-weight: $semi-bold;
+                        letter-spacing: -0.2px;
+                        
+                        @include respond-to('medium'){
+                            font-size: 12px;
+                            letter-spacing: 0;
+                        }
                     }
                     .credits{
                         font-weight: $regular;
@@ -105,6 +202,11 @@ header{
             border-top: 1px solid #E9E9E9;
             padding: 20px 0;
             overflow: hidden;
+            display: none;
+            
+            @include respond-to('medium'){
+                display: block;
+            }
             
             ul{
                 li{
@@ -131,21 +233,86 @@ header{
             
             .header-bg{
                 width: 100%;
-                height: 50px;
-                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+                height: 20px;
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 80% 70%, 65% 61%, 50% 60%, 35% 61%, 22% 70%, 8% 87%, 0% 100%);
+                
+                @include respond-to('medium'){
+                    height: 50px;
+                    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+                }
             }
             
             .world-menu{
-                position: absolute;
-                width: 91px;
-                height: 91px;
-                background: $white;
-                text-align: center;
-                top: -50px;
-                left: calc(50% - 45px);
                 border: 1px solid #E9E9E9;
-                border-radius: 50px;
+                display: none;
                 padding-top: 8px;
+                 
+                @include respond-to('medium'){
+                     display: block;
+                }
+            }
+        }
+    }
+    
+    .menu-mobile{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 99999999;
+        background: $white;
+        
+        @include respond-to('medium'){
+             display: none;
+        }
+        
+        ul{
+            li{
+                width: calc(20% - 3px);
+                height: 50px;
+                font-size: 0;
+                vertical-align: bottom;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                
+                .menu-icon{
+                    width: 22px;
+                    height: 18px;
+                    display: block;
+                    position: relative;
+                    cursor: pointer;
+                    
+                    .line{
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        border-radius: 50px;
+                        background-color: $gray;
+                        right: 0;
+                        
+                        &:nth-of-type(1){
+                            top: 0;
+                            transition: all 0.5s;
+                        }
+                        
+                        &:nth-of-type(2) {
+                            top: calc(50% - 1px);
+                            transition: all 0.5s 0.1s;
+                        }
+                        
+                        &:nth-of-type(3) {
+                            bottom: 0;
+                            transition: all 0.5s 0.1s;
+                        }
+                    }
+                }
+                
+                .world-menu{
+                    width: 75px;
+                    height: 75px;
+                    top: -30px;
+                    left: calc(50% - 37px);
+                }
             }
         }
     }

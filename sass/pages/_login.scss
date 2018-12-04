@@ -5,6 +5,7 @@
     
     .hero{
         height: 100vh;
+        min-height: 850px;
         background-color: $black;
         background-image: url(img/login-bg.png);
         background-size: cover;

@@ -1,22 +1,38 @@
 .small-block{
-    height: 115px;
+    min-height: 135px;
     overflow: hidden;
     display: flex;
     align-items: center;
     border-top: 1px solid #E9E9E9;
     border-bottom: 1px solid #E9E9E9;
     margin-top: -1px;
+    padding: 10px 0;
+    margin-right: -15px;
+    padding-right: 15px;
+    
+    @include respond-to('small'){
+        min-height: auto;
+        height: 115px;
+        margin-right: 0;
+        padding-right: 0;
+    }
     
     .number{
         width: 25px;
+        min-width: 25px;
         font-size: 44px;
-        margin-left: 20px;
-        margin-right: 35px;
+        margin-right: 20px;
         text-align: center;
+        
+        @include respond-to('small'){
+            margin-left: 20px;
+            margin-right: 35px;
+        }
     }
     
     .feature-image{
         width: 81px;
+        min-width: 81px;
         height: 81px;
         border-radius: 6px;
         overflow: hidden;

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main-title">Noticias y novedades</div>
+                <div class="main-title">Noticias <span class="hidden-xs">y novedades</span></div>
                 <div class="main-new">
                     <a href="#">
                     <img src="img/main-new.png" class="feature-image img-responsive">
@@ -47,7 +47,9 @@
                     <a href="#">
                     <img src="img/news-video.png" class="img-responsive featured-image"> 
                     <div class="info">
-                        <img src="img/icons/play.png" width="61" class="left">
+                        <div class="icon-play">
+                            <img src="img/icons/play.png" width="61" class="left img-responsive">
+                        </div>
                         <p>Aplicar impuestos sobre alimentos de alto nivel calórico y bajo nivel nutricional resultó progresivo</p>
                     </div>
                     </a>
@@ -75,7 +77,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-xs">
                 <div class="medium-new">
                     <a href="#">
                     <div class="feature-image">
@@ -88,7 +90,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-xs">
                 <div class="medium-new">
                     <a href="#">
                     <div class="feature-image">

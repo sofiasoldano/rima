@@ -27,15 +27,23 @@
                         <button type="submit" value="Enviar" class="button-search"><img src="img/icons/search.png"  width="18"></button>
                     </form>
                 </div>
-                <div class="notifs hidden-xs">
+                <div class="notifs">
                     <ul>
-                        <li><a href="#"><img src="img/icons/envelope.png" width="22"></a></li>
-                        <li class="new"><a href="#"><img src="img/icons/bell.png" width="18"></a></li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icons/envelope.png" width="22">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="new">
+                                <img src="img/icons/bell.png" width="18">
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="profile">
                     <div class="picture left">
-                        <img src="img/profile-pic.png" width="35">
+                        <img src="img/profile-pic.png" width="35" class="img-responsive">
                     </div>
                     <div class="data left">
                         <p class="name">Dr. Eduardo Hornos</p>
@@ -45,25 +53,25 @@
             </div>
         </div>
         
-        <div class="menu-desktop hidden-xs">
+        <div class="menu-desktop">
             <div class="top">
                 <div class="right">
                     <ul>
                         <li>
                             <a href="#">
-                                <img src="img/icons/books.png" width="19">
+                                <img src="img/icons/books-blue.png" width="19">
                                 <p>Mi biblioteca</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/icons/graphic.png" width="23">
+                                <img src="img/icons/graphic-blue.png" width="23">
                                 <p>Mi actividad</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/icons/calendar.png" width="25">
+                                <img src="img/icons/calendar-blue.png" width="25">
                                 <p>Eventos</p>
                             </a>
                         </li>
@@ -76,6 +84,38 @@
                     <img src="img/world.png" width="75">
                 </a>
             </div>
+        </div>
+        
+        <div class="menu-mobile">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/icons/books.png" width="19">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/icons/graphic.png" width="23">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="world-menu">
+                        <img src="img/world.png" width="75">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="new">
+                        <img src="img/icons/bell.png" width="18">
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </header>
 

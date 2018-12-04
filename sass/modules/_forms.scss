@@ -1,0 +1,26 @@
+input, textarea{
+    &:focus{
+        outline: none;
+    }
+}
+input[type='text'], input[type='password'], input[type='email'], textarea{
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    
+    &::placeholder{
+        color: #9B9B9B;
+    }
+}
+textarea{
+    height: 90px;
+}
+label{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #9B9B9B;
+}

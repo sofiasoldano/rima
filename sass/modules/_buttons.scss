@@ -1,0 +1,27 @@
+.btn-full{
+    display: block;
+    width: 350px;
+    margin: 35px auto;
+    padding: 10px 0;
+    border-radius: 50px;
+    border: none;
+    color: $white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.border-btn{
+    width: 290px;
+    display: block;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 8px 0;
+    
+    p{
+        color: $black;
+        font-size: 14px;
+        margin: 0;
+    }
+}

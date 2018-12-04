@@ -1,0 +1,28 @@
+// Colors 
+$white: #FFFFFF;
+$black: #000000;
+$gray: #4A4A4A;
+$light-gray: #F4F5F8;
+$blue: #2283CE;
+$orange: #F99652;
+
+.blue{
+    color: $blue;
+}
+.blue-bg{
+    background-color: $blue;
+}
+
+// Font weights
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+// Base Font
+$base-font-family: 'Exo 2', sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 16px;
+$base-line-height: 1.5;
+

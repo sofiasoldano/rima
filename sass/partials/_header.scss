@@ -1,0 +1,152 @@
+header{
+    .main-header{
+        padding: 18px 20px;
+        overflow: hidden;
+        
+        .header-logos{
+            padding-top: 5px;
+            
+            img{
+                margin-right: 20px;
+            }
+        }
+        
+        .header-info{
+            display: flex;
+            align-items: center;
+            
+            .search{
+                position: relative;
+                overflow: hidden;
+
+                .input-search{
+                    background: $light-gray;
+                    border: none;
+                    width: 550px;
+                    height: 45px;
+                    border-radius: 22px;
+                    padding: 20px;
+
+                    &::placeholder{
+                        font-family: "Encode Sans";
+                        font-size: 14px;
+                        color: #8B8A8A;
+                        font-weight: $medium;
+                    }
+                }
+
+                .button-search{
+                    position: absolute;
+                    right: 15px;
+                    top: 0;
+                    height: 38px;
+                    width: 45px;
+                    border: none;
+                    background: none;
+                }
+            }
+
+            .notifs{
+                margin: 0px 50px;
+
+                ul{
+                    li{
+                        display: inline-block;
+                        margin: 0 18px;
+                        position: relative;
+
+                        &.new{
+                            &:after{
+                                content: "12";
+                                position: absolute;
+                                background: $blue;
+                                color: $white;
+                                top: 0;
+                                right: -20px;
+                                border-radius: 50px;
+                                font-size: 10px;
+                                padding: 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .profile{
+                .picture{
+                    border-radius: 40%;
+                    overflow: hidden;
+                    margin-right: 12px;
+                }
+
+                .data{
+                    .name{
+                        margin: 0;
+                        font-size: 16px;
+                        font-weight: $medium;
+                        line-height: 1;
+                        margin-top: 2px;
+                    }
+                    .medal{
+                        margin: 0;
+                        font-size: 12px;
+                        font-weight: $semi-bold;
+                    }
+                    .credits{
+                        font-weight: $regular;
+                    }
+                }
+            }
+        }
+    }
+    
+    .menu-desktop{
+        .top{
+            border-top: 1px solid #E9E9E9;
+            padding: 20px 0;
+            overflow: hidden;
+            
+            ul{
+                li{
+                    display: inline-block;
+                    width: 115px;
+                    margin-left: 35px;
+                    
+                    img{
+                        float: left;
+                        margin-right: 10px;
+                    }
+                    
+                    p{
+                        font-size: 14px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        
+        .bottom{
+            position: relative;
+            margin-bottom: -30px;
+            
+            .header-bg{
+                width: 100%;
+                height: 50px;
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+            }
+            
+            .world-menu{
+                position: absolute;
+                width: 91px;
+                height: 91px;
+                background: $white;
+                text-align: center;
+                top: -50px;
+                left: calc(50% - 45px);
+                border: 1px solid #E9E9E9;
+                border-radius: 50px;
+                padding-top: 8px;
+            }
+        }
+    }
+}

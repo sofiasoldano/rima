@@ -229,7 +229,11 @@ header{
         
         .bottom{
             position: relative;
-            margin-bottom: -30px;
+            margin-bottom: -20px;
+            
+            @include respond-to('medium'){
+                margin-bottom: -30px;
+            }
             
             .header-bg{
                 width: 100%;

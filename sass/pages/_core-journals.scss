@@ -1,0 +1,23 @@
+.page-core-journals{
+    .header-bg{
+        background-image: radial-gradient(circle at 50% 10px , #FAD961 4%, #F76B1C 60%);
+    }
+    
+    .magazine{
+        margin-bottom: 20px;
+        
+        @include respond-to('medium'){
+            margin-bottom: 50px;
+        }
+        
+        .feature-image{
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.75);
+        }
+        
+        p{
+            margin: 10px 0;
+        }
+    }
+}

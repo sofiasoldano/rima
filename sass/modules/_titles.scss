@@ -1,7 +1,11 @@
 .main-title{
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     margin-bottom: 40px;
+    
+    @include respond-to('small'){
+        font-size: 36px;
+    }
 }
 
 .title{

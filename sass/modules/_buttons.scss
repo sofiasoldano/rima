@@ -21,6 +21,14 @@
     margin: 50px auto;
     padding: 8px 0;
     
+    &.small{
+        width: max-content;
+        padding: 8px 42px;
+        border-radius: 50px;
+        margin: 0;
+    }
+    
+    
     p{
         color: $black;
         font-size: 14px;

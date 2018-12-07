@@ -1,18 +1,26 @@
-input, textarea{
+input, textarea, select{
     &:focus{
         outline: none;
     }
 }
-input[type='text'], input[type='password'], input[type='email'], textarea{
+input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select{
+    -webkit-appearance: none;
+    background: none;
+    border-radius: 0;
     border: none;
     width: 100%;
     display: block;
     border-bottom: 1px solid #979797;
     padding-bottom: 5px;
     margin-bottom: 40px;
+    font-size: 14px;
+
+    @include respond-to('small'){
+        font-size: 16px;
+    }
     
     &::placeholder{
-        color: #9B9B9B;
+        color: $black;
     }
 }
 textarea{
@@ -23,4 +31,41 @@ label{
     font-size: 12px;
     letter-spacing: 3px;
     color: #9B9B9B;
+}
+
+.dropdown{
+    width: 45%;
+    position: relative;
+    margin-right: 10%;
+        
+    &.no-m{
+        margin-right: 0;
+    }
+    
+    @include respond-to('medium'){
+        width: 160px;
+        margin-right: 30px;
+    }
+
+    &:after{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 9px;
+        background: url(img/arrow-down.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: 15px;
+        top: 13px;
+    }
+}
+
+.caption{
+    font-size: 12px;
+    color: $gray;
+    margin-top: -35px;
+    
+     @include respond-to('small'){
+        font-size: 14px;
+    }
 }

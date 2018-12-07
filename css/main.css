@@ -117,35 +117,88 @@ ul {
 
 }*/
 /* line 2, ../sass/modules/_forms.scss */
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
 /* line 6, ../sass/modules/_forms.scss */
-input[type='text'], input[type='password'], input[type='email'], textarea {
+input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select {
+  -webkit-appearance: none;
+  background: none;
+  border-radius: 0;
   border: none;
   width: 100%;
   display: block;
   border-bottom: 1px solid #979797;
   padding-bottom: 5px;
   margin-bottom: 40px;
+  font-size: 14px;
 }
-/* line 14, ../sass/modules/_forms.scss */
-input[type='text']::placeholder, input[type='password']::placeholder, input[type='email']::placeholder, textarea::placeholder {
-  color: #9B9B9B;
+@media (min-width: 768px) {
+  /* line 6, ../sass/modules/_forms.scss */
+  input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select {
+    font-size: 16px;
+  }
+}
+/* line 22, ../sass/modules/_forms.scss */
+input[type='text']::placeholder, input[type='password']::placeholder, input[type='number']::placeholder, input[type='email']::placeholder, textarea::placeholder, select::placeholder {
+  color: #000000;
 }
 
-/* line 18, ../sass/modules/_forms.scss */
+/* line 26, ../sass/modules/_forms.scss */
 textarea {
   height: 90px;
 }
 
-/* line 21, ../sass/modules/_forms.scss */
+/* line 29, ../sass/modules/_forms.scss */
 label {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
   color: #9B9B9B;
+}
+
+/* line 36, ../sass/modules/_forms.scss */
+.dropdown {
+  width: 45%;
+  position: relative;
+  margin-right: 10%;
+}
+/* line 41, ../sass/modules/_forms.scss */
+.dropdown.no-m {
+  margin-right: 0;
+}
+@media (min-width: 990px) {
+  /* line 36, ../sass/modules/_forms.scss */
+  .dropdown {
+    width: 160px;
+    margin-right: 30px;
+  }
+}
+/* line 50, ../sass/modules/_forms.scss */
+.dropdown:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 9px;
+  background: url(img/arrow-down.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 15px;
+  top: 13px;
+}
+
+/* line 63, ../sass/modules/_forms.scss */
+.caption {
+  font-size: 12px;
+  color: #4A4A4A;
+  margin-top: -35px;
+}
+@media (min-width: 768px) {
+  /* line 63, ../sass/modules/_forms.scss */
+  .caption {
+    font-size: 14px;
+  }
 }
 
 /* line 1, ../sass/modules/_search.scss */
@@ -603,7 +656,7 @@ footer {
 .submenu {
   background: #F4F5F8;
   padding-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 /* line 6, ../sass/partials/_submenu.scss */
 .submenu.mb {
@@ -612,7 +665,7 @@ footer {
 @media (min-width: 990px) {
   /* line 6, ../sass/partials/_submenu.scss */
   .submenu.mb {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 /* line 14, ../sass/partials/_submenu.scss */
@@ -739,6 +792,7 @@ footer {
   position: absolute;
   bottom: -50px;
   left: calc(50% - 101px);
+  margin-right: 0;
 }
 @media (min-width: 990px) {
   /* line 112, ../sass/partials/_submenu.scss */
@@ -748,7 +802,7 @@ footer {
     left: initial;
   }
 }
-/* line 124, ../sass/partials/_submenu.scss */
+/* line 125, ../sass/partials/_submenu.scss */
 .submenu .dropdown:after {
   content: "";
   position: absolute;
@@ -760,7 +814,7 @@ footer {
   right: 15px;
   top: 13px;
 }
-/* line 136, ../sass/partials/_submenu.scss */
+/* line 137, ../sass/partials/_submenu.scss */
 .submenu .dropdown select {
   background: none;
   border: 1px solid #979797;
@@ -769,8 +823,9 @@ footer {
   width: 100%;
   padding: 5px 19px;
   font-size: 14px;
+  margin-bottom: 0;
 }
-/* line 145, ../sass/partials/_submenu.scss */
+/* line 147, ../sass/partials/_submenu.scss */
 .submenu .dropdown select:focus {
   outline: none;
 }
@@ -1034,6 +1089,14 @@ footer {
   background-position: bottom;
 }
 /* line 14, ../sass/pages/_login.scss */
+.page-login .hero input[type='text'], .page-login .hero input[type='password'], .page-login .hero input[type='number'], .page-login .hero input[type='email'], .page-login .hero textarea, .page-login .hero select {
+  font-size: 16px;
+}
+/* line 18, ../sass/pages/_login.scss */
+.page-login .hero input[type='text']::placeholder, .page-login .hero input[type='password']::placeholder, .page-login .hero input[type='number']::placeholder, .page-login .hero input[type='email']::placeholder, .page-login .hero textarea::placeholder, .page-login .hero select::placeholder {
+  color: #9B9B9B;
+}
+/* line 23, ../sass/pages/_login.scss */
 .page-login .hero .login-box {
   position: relative;
   width: 50%;
@@ -1045,29 +1108,29 @@ footer {
   padding: 30px 50px;
   text-align: center;
 }
-/* line 25, ../sass/pages/_login.scss */
+/* line 34, ../sass/pages/_login.scss */
 .page-login .hero .login-box .login-title {
   font-size: 18px;
   color: #000000;
   font-weight: 500;
   margin: 20px 0;
 }
-/* line 32, ../sass/pages/_login.scss */
+/* line 41, ../sass/pages/_login.scss */
 .page-login .hero .login-box .forgot-pass {
   display: block;
   margin-top: -25px;
   font-size: 12px;
   text-align: left;
 }
-/* line 39, ../sass/pages/_login.scss */
+/* line 48, ../sass/pages/_login.scss */
 .page-login .hero .login-box p {
   font-size: 15px;
 }
-/* line 42, ../sass/pages/_login.scss */
+/* line 51, ../sass/pages/_login.scss */
 .page-login .hero .login-box p a {
   font-weight: 600;
 }
-/* line 47, ../sass/pages/_login.scss */
+/* line 56, ../sass/pages/_login.scss */
 .page-login .hero .login-box .bottom-info {
   position: absolute;
   width: 100%;
@@ -1078,28 +1141,28 @@ footer {
   padding: 25px;
   font-size: 14px;
 }
-/* line 57, ../sass/pages/_login.scss */
+/* line 66, ../sass/pages/_login.scss */
 .page-login .hero .login-box .bottom-info p {
   margin: 0;
   font-size: 14px;
 }
-/* line 65, ../sass/pages/_login.scss */
+/* line 74, ../sass/pages/_login.scss */
 .page-login .info {
   position: relative;
 }
-/* line 68, ../sass/pages/_login.scss */
+/* line 77, ../sass/pages/_login.scss */
 .page-login .info p {
   width: 92%;
   color: #4A4A4A;
   margin-bottom: 25px;
 }
-/* line 74, ../sass/pages/_login.scss */
+/* line 83, ../sass/pages/_login.scss */
 .page-login .info .btn-full {
   width: 230px;
   margin: -15px 0 0;
   border-radius: 5px;
 }
-/* line 80, ../sass/pages/_login.scss */
+/* line 89, ../sass/pages/_login.scss */
 .page-login .info:before, .page-login .info .container:before {
   content: "";
   position: absolute;
@@ -1110,37 +1173,37 @@ footer {
   left: -10%;
   border-radius: 50%;
 }
-/* line 91, ../sass/pages/_login.scss */
+/* line 100, ../sass/pages/_login.scss */
 .page-login .info:before {
   top: initial;
   bottom: -115px;
 }
-/* line 98, ../sass/pages/_login.scss */
+/* line 107, ../sass/pages/_login.scss */
 .page-login .partners {
   padding-top: 165px;
   padding-bottom: 30px;
   background: #F4F5F8;
 }
-/* line 103, ../sass/pages/_login.scss */
+/* line 112, ../sass/pages/_login.scss */
 .page-login .partners .box-logos {
   padding: 30px 0;
   background: #FFFFFF;
   border-radius: 5px;
   text-align: center;
 }
-/* line 110, ../sass/pages/_login.scss */
+/* line 119, ../sass/pages/_login.scss */
 .page-login .partners .box-logos ul li {
   display: inline-block;
   margin: 0 10px;
 }
-/* line 114, ../sass/pages/_login.scss */
+/* line 123, ../sass/pages/_login.scss */
 .page-login .partners .box-logos ul li img {
   width: 94px;
   height: 54px;
   object-fit: contain;
   object-position: center;
 }
-/* line 125, ../sass/pages/_login.scss */
+/* line 134, ../sass/pages/_login.scss */
 .page-login footer {
   background: #F4F5F8;
   border: none;
@@ -1468,5 +1531,18 @@ footer {
   /* line 47, ../sass/pages/_core-journals.scss */
   .page-core-journals .magazine-list {
     margin-top: 25px;
+  }
+}
+@media (min-width: 990px) {
+  /* line 56, ../sass/pages/_core-journals.scss */
+  .page-core-journals .pedido-bibliografico .form-box {
+    border: 1px solid #E9E9E9;
+    padding: 90px 0;
+  }
+  /* line 60, ../sass/pages/_core-journals.scss */
+  .page-core-journals .pedido-bibliografico .form-box form {
+    max-width: 100%;
+    width: 460px;
+    margin: 0 auto;
   }
 }

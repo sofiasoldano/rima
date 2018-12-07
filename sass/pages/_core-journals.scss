@@ -49,4 +49,20 @@
             margin-top: 25px;
         }
     }
+    
+    .pedido-bibliografico{
+        
+        @include respond-to('medium'){
+            .form-box{
+                border: 1px solid #E9E9E9;
+                padding: 90px 0;
+                
+                form{
+                    max-width: 100%;
+                    width: 460px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
 }

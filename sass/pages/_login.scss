@@ -11,6 +11,15 @@
         background-size: cover;
         background-position: bottom;
         
+        input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select{
+            
+            font-size: 16px;
+
+            &::placeholder{
+                color: #9B9B9B;
+            }
+        }
+        
         .login-box{
             position: relative;
             width: 50%;

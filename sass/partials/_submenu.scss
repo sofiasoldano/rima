@@ -1,13 +1,13 @@
 .submenu{
     background: $light-gray;
     padding-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
     &.mb{
         margin-bottom: 70px;
         
         @include respond-to('medium'){
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
     }
     
@@ -114,6 +114,7 @@
         position: absolute;
         bottom: -50px;
         left: calc(50% - 101px);
+        margin-right: 0;
         
         @include respond-to('medium'){
             position: relative;
@@ -141,6 +142,7 @@
             width: 100%;
             padding: 5px 19px;
             font-size: 14px;
+            margin-bottom: 0; 
             
             &:focus{
                 outline: none;

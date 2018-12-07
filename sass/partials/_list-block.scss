@@ -1,0 +1,12 @@
+.list-block{
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    margin-top: -1px;
+    padding: 12px 0;
+    
+    .vol{
+        color: $gray;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}

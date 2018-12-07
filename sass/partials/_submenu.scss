@@ -24,6 +24,10 @@
         margin-left: -15px;
         width: calc(100% + 30px);
         overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+          &::-webkit-scrollbar {
+            display: none;
+          }
         
         @include respond-to('small'){
             text-align: center;
@@ -65,6 +69,10 @@
         margin-left: -15px;
         width: calc(100% + 30px);
         overflow-x: scroll;
+         -webkit-overflow-scrolling: touch;
+          &::-webkit-scrollbar {
+            display: none;
+          }
         
         @include respond-to('small'){
             width: auto;

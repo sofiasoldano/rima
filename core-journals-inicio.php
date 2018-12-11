@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -17,7 +17,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -47,7 +47,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -69,7 +69,7 @@
          <div class="row">
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -79,7 +79,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -89,7 +89,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -109,7 +109,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>
@@ -119,7 +119,7 @@
             </div>
             <div class="col-4 col-md-2">
                 <div class="magazine">
-                    <a href="#">
+                    <a href="core-journals-single.php">
                         <div class="feature-image">
                             <img src="img/magazine-1.png" class="img-responsive">
                         </div>

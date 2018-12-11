@@ -15,7 +15,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -26,7 +26,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -37,7 +37,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -48,7 +48,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -59,7 +59,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -70,7 +70,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -81,7 +81,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -92,7 +92,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -103,7 +103,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 <div class="main-block">
@@ -114,7 +114,7 @@
                         <div class="author">Pediatrics in Review 2018;(39)10:490-500</div>
                     </div>
                     <div class="visible-hover right">
-                        <a href="#" class="border-btn small orange"><p>Ver artículo</p></a>
+                        <a href="core-journals-single.php" class="border-btn small orange"><p>Ver artículo</p></a>
                     </div>
                 </div>
                 

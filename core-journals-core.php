@@ -12,31 +12,31 @@
                         <img src="img/icons/add-folder.png" width="40">
                         <p>Nueva carpeta</p>
                     </a>
-                    <a href="#" class="folder pink">
+                    <a href="core-journals-core-single.php" class="folder pink">
                         <img src="img/icons/folder.png" width="47">
                         <p>Para compartir <span class="quantity">8 artículos</span></p>
                     </a>
-                    <a href="#" class="folder green">
+                    <a href="core-journals-core-single.php" class="folder green">
                         <img src="img/icons/folder.png" width="47">
                         <p>Sin título <span class="quantity">18 artículos</span></p>
                     </a>
-                    <a href="#" class="folder light-blue">
+                    <a href="core-journals-core-single.php" class="folder light-blue">
                         <img src="img/icons/folder.png" width="47">
                         <p>Pediatría <span class="quantity">18 artículos</span></p>
                     </a>
-                    <a href="#" class="folder purple">
+                    <a href="core-journals-core-single.php" class="folder purple">
                         <img src="img/icons/folder.png" width="47">
                         <p>Temas varios <span class="quantity">18 artículos</span></p>
                     </a>
-                    <a href="#" class="folder red">
+                    <a href="core-journals-core-single.php" class="folder red">
                         <img src="img/icons/folder.png" width="47">
                         <p>Sin título <span class="quantity">18 artículos</span></p>
                     </a>
-                    <a href="#" class="folder light-gray">
+                    <a href="core-journals-core-single.php" class="folder light-gray">
                         <img src="img/icons/folder.png" width="47">
                         <p>Sin título <span class="quantity">18 artículos</span></p>
                     </a>
-                    <a href="#" class="folder orange">
+                    <a href="core-journals-core-single.php" class="folder orange">
                         <img src="img/icons/folder.png" width="47">
                         <p>Favoritas <span class="quantity">18 artículos</span></p>
                     </a>

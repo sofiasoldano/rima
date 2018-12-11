@@ -76,7 +76,15 @@
                         </li>
                     </ul>   
                 </div>
-                <div class="dropdown right">
+                <div 
+                    <?php 
+                         if (isset($nofilter)){ 
+                             echo 'class="dropdown right hidden-xs"';
+                         } else{
+                             echo 'class="dropdown right"';
+                         } 
+                    ?>
+                >
                     <select name="rubros">
                         <option value="cardiologia">Cardiologia</option>
                         <option value="cardiologia">Cardiologia</option>

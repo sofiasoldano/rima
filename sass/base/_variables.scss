@@ -5,6 +5,7 @@ $gray: #4A4A4A;
 $light-gray: #F4F5F8;
 $blue: #2283CE;
 $orange: #F99652;
+$green: #7ED2C9;
 
 .blue{
     color: $blue;
@@ -17,6 +18,12 @@ $orange: #F99652;
 }
 .orange-bg{
     background-color: $orange;
+}
+.green{
+    color: $green;
+}
+.green-bg{
+    background-color: $green;
 }
 
 // Font weights

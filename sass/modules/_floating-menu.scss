@@ -1,0 +1,44 @@
+.floating-menu{
+    overflow: hidden;
+    margin: 20px 0 10px;
+    
+    li{
+        display: inline-block;
+    }
+    
+    .left{
+        li{
+            margin-right: 20px;
+        }
+    }
+    
+    .right{
+        li{
+            margin-left: 20px;
+        }
+    }
+    
+    @include respond-to('large'){
+        position: fixed;
+        right: 15px;
+        top: 400px;
+        
+        li{
+            display: block;
+        }
+        
+        .left, .right{
+            float: none;
+            
+            li{
+                margin: 20px 0;
+                width: 30px;
+                text-align: center;
+            }
+        }
+    }
+    
+    @include respond-to('xlarge'){
+        right: 100px;
+    }
+}

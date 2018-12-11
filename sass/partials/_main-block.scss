@@ -48,7 +48,7 @@
     }
     
     .info{
-        .author{
+        .author, .pages{
             font-size: 12px;
             color: #808080;
             margin-top: 10px;
@@ -99,6 +99,13 @@
             p{
                 color: $black;
             }
+        }
+    }
+    
+   .button-list{
+        li{
+            display: inline-block;
+            margin-right: 15px;
         }
     }
     

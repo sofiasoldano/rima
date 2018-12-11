@@ -1,0 +1,105 @@
+.single{
+    .single-title{
+        border-bottom: 1px solid #E9E9E9;
+        padding: 10px 0;
+        overflow: hidden;
+        
+        p{
+            font-size: 23px;
+            font-weight: $medium;
+            margin: 0;
+            
+            @include respond-to('medium'){
+                 font-size: 32px;
+                float: left;
+            }
+        }
+        
+        .dropdown{
+            margin: 0;
+            width: 202px;
+            margin-top: 7px;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 101px);
+            
+             @include respond-to('medium'){
+                position: relative;
+                 top: 0;
+                 left: 0;
+            }
+            
+            select{
+                margin: 0;
+                border: none;
+                background: #F4F5F8;
+                font-size: 12px;
+                border-radius: 50px;
+                padding: 10px 20px;
+            }
+        }
+    }
+    
+    .caption{
+        margin: 20px 0;
+        
+        p{
+            font-size: 12px;
+            margin: 0;
+            line-height: 1.6;
+        }
+    }
+    
+    .content{
+        .title{
+            margin-bottom: 50px;
+            font-size: 18px;
+            
+            @include respond-to('medium'){
+                max-width: 68%;
+                font-size: 24px;
+            }
+        }
+        
+        p{
+            margin-bottom: 50px;
+            color: $gray;
+            line-height: 2;
+        }
+    }
+    
+    .comments{
+        border-top: 1px solid #E9E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 45px 0;
+        
+        .discussion{
+            height: 253px;
+            margin-bottom: 50px;
+            
+            @include respond-to('medium'){
+                height: 383px;
+            }
+        }
+        
+        .main-block{
+            min-height: 210px;
+            display: block;
+            padding-bottom: 60px;
+            
+            .author, .pages{
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            
+            .bottom{
+                position: absolute;
+                bottom: 18px;
+            }
+        }
+        
+    }
+    
+}

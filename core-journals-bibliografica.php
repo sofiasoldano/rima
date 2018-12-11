@@ -1,4 +1,5 @@
 <?php $core_int = "bibliografica" ?>
+<?php $nofilter = true ?>
 <?php include('core-journals-submenu.php'); ?>
 
 <div class="pedido-bibliografico">

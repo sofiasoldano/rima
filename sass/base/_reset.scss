@@ -6,6 +6,11 @@ html, body{
 	line-height: $base-line-height;
     color: $black;
 }
+
+body{
+    overflow-x: hidden;
+}
+
 p{
     margin-bottom: 10px;
 }

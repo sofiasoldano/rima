@@ -6,17 +6,31 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="login-box">
-                    <img src="img/logo-large.png" width="351">
+                    <div class="dropdown">
+                        <select name="lan">
+                            <option value="esp">ESP</option>
+                            <option value="esp">ESP</option>
+                            <option value="esp">ESP</option>
+                        </select>
+                    </div>
+                    <img src="img/logo-large.png" width="217">
                     <div class="login-title">Ingresa tus datos para poder acceder </div>
                     <form>
                         <input type="text" placeholder="Usuario">
                         <input type="password" placeholder="Contraseña">
-                        <a href="#" class="forgot-pass">Recuperar contraseña</a>
+                        <a href="#" class="forgot-pass underline">Recuperar contraseña</a>
                         <input type="submit" value="Ingresar" class="btn-full blue-bg"> 
                     </form>
-                    <p>Tengo mi <a href="#" class="blue">Código Llave</a> para registrarme. <a href="#" class="underline">Ingresar acá</a></p>
+                    
                     <div class="bottom-info">
-                        <p class="left">Me interesa postularme para poder acceder al portal RIMA</p><a href="#" class="right blue underline">Solicitar acceso</a>
+                        <div class="code">
+                            <p>Tengo mi <span class="blue">Código Llave</span> para registrarme.</p>
+                            <input class="number" placeholder="Ingresar código aquí">
+                            <a class="btn-full blue-bg"><img src="img/icons/arrow-next-white.png" width="10"></a>
+                        </div>
+                        <div class="access">
+                            <p class="left">Me interesa postularme para poder acceder al portal RIMA</p><a href="#" class="right blue underline">Solicitar acceso</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -45,7 +59,7 @@
                     <input type="email" id="mail">
                     <label for="message">Comentario</label>
                     <textarea id="message"></textarea>
-                    <input type="submit" value="Enviar" class="btn-full blue-bg right">
+                    <input type="submit" value="Enviar" class="btn-full blue-bg">
                 </form>
             </div>
         </div>
@@ -58,14 +72,14 @@
             <div class="col-md-12">
                 <div class="box-logos">
                     <ul>
-                        <li><img src="img/partner1.png"></li>
-                        <li><img src="img/partner2.png"></li>
-                        <li><img src="img/partner3.png"></li>
-                        <li><img src="img/partner4.png"></li>
-                        <li><img src="img/partner5.png"></li>
-                        <li><img src="img/partner6.png"></li>
-                        <li><img src="img/partner7.png"></li>
-                        <li><img src="img/partner8.png"></li>
+                        <li><img src="img/partner1.png" class="img-responsive"></li>
+                        <li><img src="img/partner2.png" class="img-responsive"></li>
+                        <li><img src="img/partner3.png" class="img-responsive"></li>
+                        <li><img src="img/partner4.png" class="img-responsive"></li>
+                        <li><img src="img/partner5.png" class="img-responsive"></li>
+                        <li><img src="img/partner6.png" class="img-responsive"></li>
+                        <li><img src="img/partner7.png" class="img-responsive"></li>
+                        <li><img src="img/partner8.png" class="img-responsive"></li>
                     </ul>
                 </div>
             </div>

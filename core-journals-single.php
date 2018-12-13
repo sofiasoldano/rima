@@ -1,4 +1,4 @@
-<?php $core_int = "inicio" ?>
+<?php $page_int = "inicio" ?>
 <?php $nofilter = true ?>
 <?php include('core-journals-submenu.php'); ?>
 

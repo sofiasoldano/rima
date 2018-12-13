@@ -2,11 +2,34 @@
     border-top: 1px solid #E9E9E9;
     border-bottom: 1px solid #E9E9E9;
     margin-top: -1px;
-    padding: 12px 0;
+    
+    a{
+        display: block;
+        padding: 12px 0;
+    }
     
     .vol{
         color: $gray;
         font-size: 12px;
         margin-left: 10px;
+    }
+    
+    p{
+        color: $gray;
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+
+.magazine-list{
+    @include respond-to('medium'){
+        margin-top: 25px;
+    }
+    
+    .col-11 {
+        @include respond-to('xxsmall'){
+            max-width: 90%;
+        }
     }
 }

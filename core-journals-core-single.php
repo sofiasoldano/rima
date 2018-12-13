@@ -1,4 +1,4 @@
-<?php $core_int = "core" ?>
+<?php $page_int = "core" ?>
 <?php include('core-journals-submenu.php'); ?>
 
 <div class="mi-core single">

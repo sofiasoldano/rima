@@ -17,17 +17,15 @@
         .title{
             margin-top: 3px;
         }
-        
-        .col-11 {
-            @include respond-to('xxsmall'){
-                max-width: 90%;
-            }
-        }
     }
     
-    .magazine-list{
-        @include respond-to('medium'){
-            margin-top: 25px;
+    .ranking{
+        .main-block {
+            padding: 15px 12px 30px;
+            
+            @include respond-to('medium'){
+                padding: 20px 35px;
+            }
         }
     }
     

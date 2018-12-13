@@ -1,4 +1,4 @@
-<?php $core_int = "ranking" ?>
+<?php $page_int = "ranking" ?>
 
 <?php include('core-journals-submenu.php'); ?>
 

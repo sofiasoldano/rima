@@ -1,4 +1,4 @@
-<?php $page_name = "core-journals" ?>
+<?php $page_name = "medline-pearls" ?>
 <?php include('header.php'); ?>
 
 <section class="submenu mb">
@@ -8,29 +8,21 @@
                 <?php include('academica-menu.php'); ?>
             </div>
             <div class="col-md-12">
-                <div class="main-title text-center">Core Journals <a href="#"><img src="img/icons/alert.png" width="20"></a></div>
+                <div class="main-title text-center">Medline Pearls <a href="#"><img src="img/icons/alert.png" width="20"></a></div>
             </div>
             <div class="col-md-12">
                 <div class="submenu-tabs left">
                     <ul>
-                        <li <?php if ( $page_int == "inicio" ) echo 'class="active orange"'; ?>>
-                            <a href="core-journals-inicio.php">Inicio</a>
+                        <li <?php if ( $page_int == "sinopsis" ) echo 'class="active purple"'; ?>>
+                            <a href="medline-pearls-sinopsis.php">Sinopsis</a>
                         </li>
-                        <li <?php if ( $page_int == "ranking" ) echo 'class="active orange"'; ?>>
-                            <a href="core-journals-ranking.php">Ranking</a>
+                        <li <?php if ( $page_int == "glosario" ) echo 'class="active purple"'; ?>>
+                            <a href="medline-pearls-glosario.php">Glosario</a>
                         </li>
-                        <li <?php if ( $page_int == "core" ) echo 'class="active orange"'; ?>>
-                            <a href="core-journals-core.php">Mi Core</a>
+                        <li <?php if ( $page_int == "evidencia" ) echo 'class="active purple"'; ?>>
+                            <a href="medline-pearls-evidencia.php">Nivel de evidencia</a>
                         </li>
-                        <li <?php if ( $page_int == "acceso" ) echo 'class="active orange"'; ?>>
-                            <a href="core-journals-acceso.php">Acceso libre</a>
-                        </li>
-                        <li <?php if ( $page_int == "todas" ) echo 'class="active orange"'; ?>>
-                            <a href="core-journals-todas.php">Todas</a>
-                        </li>
-                        <li <?php if ( $page_int == "bibliografica" ) echo 'class="active orange"'; ?>>
-                            <a href="core-journals-bibliografica.php">Pedido por cita bibliografica</a>
-                        </li>
+           
                     </ul>   
                 </div>
                 <div 

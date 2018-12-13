@@ -1,4 +1,4 @@
-<?php $core_int = "todas" ?>
+<?php $page_int = "todas" ?>
 <?php include('core-journals-submenu.php'); ?>
 
 <div class="acceso-libre">
@@ -47,7 +47,7 @@
                         <a href="#">Abdominal Imaging  <span class="vol"> Vol. 40 (7) 1/10/2015</span></a>
                     </div>
                     <div class="list-block">
-                        <a href="#">Abdominal Radiology <span class="vol">  Vol. 43 (12) 1/12/2018</a>
+                        <a href="#">Abdominal Radiology <span class="vol">  Vol. 43 (12) 1/12/2018</span></a>
                     </div>
                     <div class="list-block">
                         <a href="#">Academic Emergency Medicine  <span class="vol"> Vol. 25 (10) 1/10/2018</span></a>

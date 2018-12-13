@@ -1,0 +1,13 @@
+.page-medline-pearls{
+    .header-bg{
+        background-image: radial-gradient(circle at 50% 10px , #3023AE 4%, #C86DD7 60%);
+    }
+    
+    .main-block{
+        min-height: 150px;
+    }
+    
+    .letters-menu li.active:before{
+        background: $purple;
+    }
+}

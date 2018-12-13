@@ -1,4 +1,4 @@
-<?php $core_int = "bibliografica" ?>
+<?php $page_int = "bibliografica" ?>
 <?php $nofilter = true ?>
 <?php include('core-journals-submenu.php'); ?>
 

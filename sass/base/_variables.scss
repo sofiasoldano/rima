@@ -6,6 +6,7 @@ $light-gray: #F4F5F8;
 $blue: #2283CE;
 $orange: #F99652;
 $green: #7ED2C9;
+$purple: #8765CB;
 
 .blue{
     color: $blue;
@@ -25,6 +26,13 @@ $green: #7ED2C9;
 .green-bg{
     background-color: $green;
 }
+.purple{
+    color: $purple;
+}
+.purple-bg{
+    background-color: $purple;
+}
+
 
 // Font weights
 $light: 300;

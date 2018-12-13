@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="breadcrumbs">
-                    <a href="core-journals-inicio.php" class="before green">Inicio</a><span class="arrow"><img src="img/icons/arrow-next.png" width="10"></span><a href="#">La presión arterial sería...</a>
+                    <a href="noticias.php" class="before green">Inicio</a><span class="arrow"><img src="img/icons/arrow-next.png" width="10"></span><a href="#">La presión arterial sería...</a>
                 </div>
                 <div class="floating-menu">
                     <ul>

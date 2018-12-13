@@ -1,33 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans:500,600,700");
-/* line 10, ../sass/base/_variables.scss */
+/* line 11, ../sass/base/_variables.scss */
 .blue {
   color: #2283CE;
 }
 
-/* line 13, ../sass/base/_variables.scss */
+/* line 14, ../sass/base/_variables.scss */
 .blue-bg {
   background-color: #2283CE;
 }
 
-/* line 16, ../sass/base/_variables.scss */
+/* line 17, ../sass/base/_variables.scss */
 .orange {
   color: #F99652;
 }
 
-/* line 19, ../sass/base/_variables.scss */
+/* line 20, ../sass/base/_variables.scss */
 .orange-bg {
   background-color: #F99652;
 }
 
-/* line 22, ../sass/base/_variables.scss */
+/* line 23, ../sass/base/_variables.scss */
 .green {
   color: #7ED2C9;
 }
 
-/* line 25, ../sass/base/_variables.scss */
+/* line 26, ../sass/base/_variables.scss */
 .green-bg {
   background-color: #7ED2C9;
+}
+
+/* line 29, ../sass/base/_variables.scss */
+.purple {
+  color: #8765CB;
+}
+
+/* line 32, ../sass/base/_variables.scss */
+.purple-bg {
+  background-color: #8765CB;
 }
 
 /* line 1, ../sass/base/_reset.scss */
@@ -118,19 +128,14 @@ ul {
 /*@import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:600');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
-
+*/
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url('fonts/ProximaNova.eot');
-    src: url('fonts/ProximaNova.eot?#iefix') format('embedded-opentype'),
-         url('fonts/ProximaNova.woff2') format('woff2'),
-         url('fonts/ProximaNova.woff') format('woff'),
-         url('fonts/ProximaNova.ttf') format('truetype'),
-         url('fonts/ProximaNova.svg#proxima_nova_ltsemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}*/
+  font-family: 'Proxima Nova';
+  src: url("fonts/ProximaNova.eot");
+  src: url("fonts/ProximaNova.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNova.woff") format("woff"), url("fonts/ProximaNova.ttf") format("truetype"), url("fonts/ProximaNova.svg#proxima_nova_ltsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 @keyframes Gradient {
   0% {
     background-position: 0% 50%;
@@ -368,6 +373,12 @@ input[type='checkbox']:checked {
   font-weight: 500;
 }
 
+/* line 26, ../sass/modules/_titles.scss */
+.uppercase-subtitle {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 /* line 1, ../sass/modules/_date.scss */
 .date {
   font-size: 10px;
@@ -448,6 +459,27 @@ input[type='checkbox']:checked {
   .floating-menu {
     right: 100px;
   }
+}
+
+/* line 1, ../sass/modules/_page-indicator.scss */
+.page-indicator {
+  text-align: center;
+  margin: 50px 0;
+}
+/* line 6, ../sass/modules/_page-indicator.scss */
+.page-indicator ul li {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  align-items: center;
+  font-family: 'Proxima Nova';
+  justify-content: center;
+  border-radius: 2px;
+}
+/* line 16, ../sass/modules/_page-indicator.scss */
+.page-indicator ul li.active {
+  background: #F4F5F8;
 }
 
 /* line 2, ../sass/partials/_header.scss */
@@ -856,7 +888,7 @@ footer .footer-social .dropdown select {
   }
 }
 /* line 22, ../sass/partials/_submenu.scss */
-.submenu .core-menu {
+.submenu .academica-menu {
   margin-bottom: 20px;
   margin-left: -15px;
   width: calc(100% + 30px);
@@ -864,112 +896,112 @@ footer .footer-social .dropdown select {
   -webkit-overflow-scrolling: touch;
 }
 /* line 28, ../sass/partials/_submenu.scss */
-.submenu .core-menu::-webkit-scrollbar {
+.submenu .academica-menu::-webkit-scrollbar {
   display: none;
 }
 @media (min-width: 768px) {
   /* line 22, ../sass/partials/_submenu.scss */
-  .submenu .core-menu {
+  .submenu .academica-menu {
     text-align: center;
     margin-left: 0;
     width: auto;
   }
 }
 /* line 38, ../sass/partials/_submenu.scss */
-.submenu .core-menu ul {
+.submenu .academica-menu ul {
   width: max-content;
   padding-left: 5px;
 }
 @media (min-width: 768px) {
   /* line 38, ../sass/partials/_submenu.scss */
-  .submenu .core-menu ul {
+  .submenu .academica-menu ul {
     width: auto;
     padding: 0;
   }
 }
 /* line 47, ../sass/partials/_submenu.scss */
-.submenu .core-menu ul li {
+.submenu .academica-menu ul li {
   display: inline-block;
   width: 40px;
   margin: 0 10px;
 }
 @media (min-width: 990px) {
   /* line 47, ../sass/partials/_submenu.scss */
-  .submenu .core-menu ul li {
+  .submenu .academica-menu ul li {
     width: 45px;
     margin: 0 23px;
   }
 }
 /* line 57, ../sass/partials/_submenu.scss */
-.submenu .core-menu ul li.active {
+.submenu .academica-menu ul li.active {
   width: 50px;
 }
 @media (min-width: 990px) {
   /* line 57, ../sass/partials/_submenu.scss */
-  .submenu .core-menu ul li.active {
+  .submenu .academica-menu ul li.active {
     width: 55px;
   }
 }
 /* line 68, ../sass/partials/_submenu.scss */
-.submenu .core-tabs {
+.submenu .submenu-tabs {
   margin-left: -15px;
   width: calc(100% + 30px);
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
 /* line 73, ../sass/partials/_submenu.scss */
-.submenu .core-tabs::-webkit-scrollbar {
+.submenu .submenu-tabs::-webkit-scrollbar {
   display: none;
 }
 @media (min-width: 768px) {
   /* line 68, ../sass/partials/_submenu.scss */
-  .submenu .core-tabs {
+  .submenu .submenu-tabs {
     width: auto;
   }
 }
 @media (min-width: 1200px) {
   /* line 68, ../sass/partials/_submenu.scss */
-  .submenu .core-tabs {
+  .submenu .submenu-tabs {
     margin-left: 0;
   }
 }
 /* line 85, ../sass/partials/_submenu.scss */
-.submenu .core-tabs ul {
+.submenu .submenu-tabs ul {
   width: max-content;
 }
 @media (min-width: 990px) {
   /* line 85, ../sass/partials/_submenu.scss */
-  .submenu .core-tabs ul {
+  .submenu .submenu-tabs ul {
     width: auto;
   }
 }
 /* line 92, ../sass/partials/_submenu.scss */
-.submenu .core-tabs ul li {
+.submenu .submenu-tabs ul li {
   display: inline-block;
 }
 /* line 95, ../sass/partials/_submenu.scss */
-.submenu .core-tabs ul li.active {
+.submenu .submenu-tabs ul li.active {
   border-bottom: 3px solid;
 }
 /* line 98, ../sass/partials/_submenu.scss */
-.submenu .core-tabs ul li.active a {
+.submenu .submenu-tabs ul li.active a {
   font-weight: 700;
 }
 /* line 103, ../sass/partials/_submenu.scss */
-.submenu .core-tabs ul li a {
+.submenu .submenu-tabs ul li a {
   display: block;
   padding: 6px 15px;
   font-size: 14px;
 }
 @media (min-width: 768px) {
   /* line 103, ../sass/partials/_submenu.scss */
-  .submenu .core-tabs ul li a {
+  .submenu .submenu-tabs ul li a {
     padding: 6px 27px 15px;
   }
 }
 @media (min-width: 1200px) {
   /* line 103, ../sass/partials/_submenu.scss */
-  .submenu .core-tabs ul li a {
+  .submenu .submenu-tabs ul li a {
     padding: 6px 30px 15px;
   }
 }
@@ -1101,18 +1133,19 @@ footer .footer-social .dropdown select {
   display: flex;
   align-items: start;
   border: 1px solid #E9E9E9;
-  padding: 15px 12px 30px;
+  padding: 15px;
   margin-bottom: 14px;
   position: relative;
+  transition: all 0.5s;
 }
 @media (min-width: 990px) {
   /* line 1, ../sass/partials/_main-block.scss */
   .main-block {
-    padding: 20px 35px;
+    padding: 10px 15px;
     align-items: center;
   }
 }
-/* line 16, ../sass/partials/_main-block.scss */
+/* line 17, ../sass/partials/_main-block.scss */
 .main-block .number {
   width: 30px;
   min-width: 30px;
@@ -1124,7 +1157,7 @@ footer .footer-social .dropdown select {
   margin-left: -5px;
 }
 @media (min-width: 990px) {
-  /* line 16, ../sass/partials/_main-block.scss */
+  /* line 17, ../sass/partials/_main-block.scss */
   .main-block .number {
     font-size: 24px;
     margin-right: 35px;
@@ -1132,7 +1165,7 @@ footer .footer-social .dropdown select {
     margin-left: 0;
   }
 }
-/* line 34, ../sass/partials/_main-block.scss */
+/* line 35, ../sass/partials/_main-block.scss */
 .main-block .feature-image {
   width: 81px;
   min-width: 81px;
@@ -1141,20 +1174,31 @@ footer .footer-social .dropdown select {
   overflow: hidden;
   margin-right: 20px;
 }
-/* line 42, ../sass/partials/_main-block.scss */
+/* line 43, ../sass/partials/_main-block.scss */
 .main-block .feature-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
-/* line 51, ../sass/partials/_main-block.scss */
+/* line 52, ../sass/partials/_main-block.scss */
+.main-block .info .name {
+  transition: all 0.5s;
+}
+/* line 55, ../sass/partials/_main-block.scss */
 .main-block .info .author, .main-block .info .pages {
   font-size: 12px;
   color: #808080;
   margin-top: 10px;
 }
-/* line 57, ../sass/partials/_main-block.scss */
+/* line 61, ../sass/partials/_main-block.scss */
+.main-block .info .description {
+  font-size: 14px;
+  color: #4A4A4A;
+  font-weight: 500;
+  margin: 10px 0;
+}
+/* line 68, ../sass/partials/_main-block.scss */
 .main-block .info .available {
   font-size: 12px;
   color: #4A4A4A;
@@ -1162,11 +1206,11 @@ footer .footer-social .dropdown select {
   display: flex;
   align-items: center;
 }
-/* line 64, ../sass/partials/_main-block.scss */
+/* line 75, ../sass/partials/_main-block.scss */
 .main-block .info .available img {
   margin: 0 0 0 15px;
 }
-/* line 70, ../sass/partials/_main-block.scss */
+/* line 81, ../sass/partials/_main-block.scss */
 .main-block .visible-hover {
   margin-left: auto;
   opacity: 0;
@@ -1183,17 +1227,18 @@ footer .footer-social .dropdown select {
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
+  margin-left: 10px;
 }
-/* line 87, ../sass/partials/_main-block.scss */
+/* line 99, ../sass/partials/_main-block.scss */
 .main-block .visible-hover p {
   color: #FFFFFF;
 }
-/* line 91, ../sass/partials/_main-block.scss */
+/* line 103, ../sass/partials/_main-block.scss */
 .main-block .visible-hover img {
   -webkit-filter: invert(100%);
 }
 @media (min-width: 990px) {
-  /* line 70, ../sass/partials/_main-block.scss */
+  /* line 81, ../sass/partials/_main-block.scss */
   .main-block .visible-hover {
     position: relative;
     width: auto;
@@ -1203,27 +1248,38 @@ footer .footer-social .dropdown select {
     display: block;
     color: #000000;
   }
-  /* line 104, ../sass/partials/_main-block.scss */
+  /* line 116, ../sass/partials/_main-block.scss */
   .main-block .visible-hover p {
     color: #000000;
   }
-  /* line 108, ../sass/partials/_main-block.scss */
+  /* line 120, ../sass/partials/_main-block.scss */
   .main-block .visible-hover img {
     -webkit-filter: none;
   }
 }
-/* line 115, ../sass/partials/_main-block.scss */
+/* line 126, ../sass/partials/_main-block.scss */
+.main-block:hover {
+  background: #F7F7F7;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+}
+/* line 131, ../sass/partials/_main-block.scss */
+.main-block:hover .name {
+  font-weight: 700;
+  transition: all 0.5s;
+}
+/* line 136, ../sass/partials/_main-block.scss */
 .main-block:hover .visible-hover {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s;
 }
-/* line 123, ../sass/partials/_main-block.scss */
+/* line 144, ../sass/partials/_main-block.scss */
 .main-block .button-list li {
   display: inline-block;
   margin-right: 15px;
 }
-/* line 129, ../sass/partials/_main-block.scss */
+/* line 150, ../sass/partials/_main-block.scss */
 .main-block .magazine-image {
   overflow: hidden;
   border-radius: 5px;
@@ -1237,13 +1293,36 @@ footer .footer-social .dropdown select {
   border-top: 1px solid #E9E9E9;
   border-bottom: 1px solid #E9E9E9;
   margin-top: -1px;
+}
+/* line 6, ../sass/partials/_list-block.scss */
+.list-block a {
+  display: block;
   padding: 12px 0;
 }
-/* line 7, ../sass/partials/_list-block.scss */
+/* line 11, ../sass/partials/_list-block.scss */
 .list-block .vol {
   color: #4A4A4A;
   font-size: 12px;
   margin-left: 10px;
+}
+/* line 17, ../sass/partials/_list-block.scss */
+.list-block p {
+  color: #4A4A4A;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (min-width: 990px) {
+  /* line 25, ../sass/partials/_list-block.scss */
+  .magazine-list {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 360px) {
+  /* line 30, ../sass/partials/_list-block.scss */
+  .magazine-list .col-11 {
+    max-width: 90%;
+  }
 }
 
 /* line 1, ../sass/partials/_letters-menu.scss */
@@ -2141,25 +2220,23 @@ footer .footer-social .dropdown select {
 .page-core-journals .acceso-libre .title {
   margin-top: 3px;
 }
-@media (max-width: 360px) {
-  /* line 21, ../sass/pages/_core-journals.scss */
-  .page-core-journals .acceso-libre .col-11 {
-    max-width: 90%;
+/* line 23, ../sass/pages/_core-journals.scss */
+.page-core-journals .ranking .main-block {
+  padding: 15px 12px 30px;
+}
+@media (min-width: 990px) {
+  /* line 23, ../sass/pages/_core-journals.scss */
+  .page-core-journals .ranking .main-block {
+    padding: 20px 35px;
   }
 }
 @media (min-width: 990px) {
-  /* line 28, ../sass/pages/_core-journals.scss */
-  .page-core-journals .magazine-list {
-    margin-top: 25px;
-  }
-}
-@media (min-width: 990px) {
-  /* line 36, ../sass/pages/_core-journals.scss */
+  /* line 34, ../sass/pages/_core-journals.scss */
   .page-core-journals .pedido-bibliografico .form-box {
     border: 1px solid #E9E9E9;
     padding: 90px 0;
   }
-  /* line 40, ../sass/pages/_core-journals.scss */
+  /* line 38, ../sass/pages/_core-journals.scss */
   .page-core-journals .pedido-bibliografico .form-box form {
     max-width: 100%;
     width: 460px;
@@ -2167,7 +2244,7 @@ footer .footer-social .dropdown select {
   }
 }
 @media (min-width: 990px) {
-  /* line 49, ../sass/pages/_core-journals.scss */
+  /* line 47, ../sass/pages/_core-journals.scss */
   .page-core-journals .single .content .title {
     max-width: 68%;
   }
@@ -2326,4 +2403,17 @@ footer .footer-social .dropdown select {
     margin-left: 0;
     margin-top: 10px;
   }
+}
+
+/* line 2, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .header-bg {
+  background-image: radial-gradient(circle at 50% 10px, #3023ae 4%, #c86dd7 60%);
+}
+/* line 6, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .main-block {
+  min-height: 150px;
+}
+/* line 10, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .letters-menu li.active:before {
+  background: #8765CB;
 }

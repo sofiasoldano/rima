@@ -1,4 +1,4 @@
-<?php $core_int = "acceso" ?>
+<?php $page_int = "acceso" ?>
 <?php include('core-journals-submenu.php'); ?>
 
 <div class="acceso-libre">

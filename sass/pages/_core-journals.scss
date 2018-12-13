@@ -43,11 +43,4 @@
             }
         }
     }
-    .single{
-        .content .title {
-            @include respond-to('medium'){
-                max-width: 68%;
-            }
-        }
-    }
 }

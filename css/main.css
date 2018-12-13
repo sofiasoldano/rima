@@ -1,43 +1,53 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans:500,600,700");
-/* line 11, ../sass/base/_variables.scss */
+/* line 12, ../sass/base/_variables.scss */
 .blue {
   color: #2283CE;
 }
 
-/* line 14, ../sass/base/_variables.scss */
+/* line 15, ../sass/base/_variables.scss */
 .blue-bg {
   background-color: #2283CE;
 }
 
-/* line 17, ../sass/base/_variables.scss */
+/* line 18, ../sass/base/_variables.scss */
 .orange {
   color: #F99652;
 }
 
-/* line 20, ../sass/base/_variables.scss */
+/* line 21, ../sass/base/_variables.scss */
 .orange-bg {
   background-color: #F99652;
 }
 
-/* line 23, ../sass/base/_variables.scss */
+/* line 24, ../sass/base/_variables.scss */
 .green {
   color: #7ED2C9;
 }
 
-/* line 26, ../sass/base/_variables.scss */
+/* line 27, ../sass/base/_variables.scss */
 .green-bg {
   background-color: #7ED2C9;
 }
 
-/* line 29, ../sass/base/_variables.scss */
+/* line 30, ../sass/base/_variables.scss */
 .purple {
   color: #8765CB;
 }
 
-/* line 32, ../sass/base/_variables.scss */
+/* line 33, ../sass/base/_variables.scss */
 .purple-bg {
   background-color: #8765CB;
+}
+
+/* line 36, ../sass/base/_variables.scss */
+.dark-green {
+  color: #47897E;
+}
+
+/* line 39, ../sass/base/_variables.scss */
+.dark-green-bg {
+  background-color: #47897E;
 }
 
 /* line 1, ../sass/base/_reset.scss */
@@ -2416,4 +2426,13 @@ footer .footer-social .dropdown select {
 /* line 10, ../sass/pages/_medline-pearls.scss */
 .page-medline-pearls .letters-menu li.active:before {
   background: #8765CB;
+}
+
+/* line 2, ../sass/pages/_guias-practica.scss */
+.page-guias-practica .header-bg {
+  background-image: radial-gradient(circle at 50% 10px, #2e9984 4%, #125e52 60%);
+}
+/* line 6, ../sass/pages/_guias-practica.scss */
+.page-guias-practica .main-block {
+  min-height: 100px;
 }

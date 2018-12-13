@@ -6,7 +6,7 @@
             </a>
         </li>
         <li  <?php if ($page_name == "guias-practica"  ) echo 'class="active"'; ?>>
-            <a href="">
+            <a href="guias-practica-inicio.php">
                 <img src="img/icons/core-2.png" class="img-responsive">
             </a>
         </li>

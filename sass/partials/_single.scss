@@ -52,17 +52,25 @@
     
     .content{
         .title{
-            margin-bottom: 50px;
+            margin-bottom: 35px;
             font-size: 18px;
             
             @include respond-to('medium'){
-                max-width: 68%;
                 font-size: 24px;
             }
         }
         
+        .highlighted{
+            border-left: 2px solid;
+            padding-left: 20px;
+            
+            p{
+                font-weight: $semi-bold;
+            }
+        }
+        
         p{
-            margin-bottom: 50px;
+            margin-bottom: 35px;
             color: $gray;
             line-height: 2;
         }

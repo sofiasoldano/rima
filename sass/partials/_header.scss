@@ -8,6 +8,7 @@ header{
         top: -50px;
         left: calc(50% - 45px);
         border-radius: 50px;
+        z-index: 999;
     }
     
     .new{
@@ -181,6 +182,7 @@ header{
         .bottom{
             position: relative;
             margin-bottom: -20px;
+            z-index: 1;
             
             @include respond-to('medium'){
                 margin-bottom: -30px;

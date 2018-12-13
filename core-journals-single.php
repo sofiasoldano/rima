@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="breadcrumbs">
+                <div class="breadcrumbs hidden-mobile">
                     <a href="core-journals-inicio.php" class="before orange">Inicio</a><span class="arrow"><img src="img/icons/arrow-next.png" width="10"></span><a href="#">Archives of disease in childhood</a>
                 </div>
                 <div class="floating-menu">

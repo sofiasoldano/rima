@@ -9,6 +9,12 @@
     color: $white;
     font-size: 20px;
     text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    &:hover{
+        transition: all 0.5s;
+    }
 }
 
 .border-btn{
@@ -20,6 +26,23 @@
     text-align: center;
     margin: 50px auto;
     padding: 8px 0;
+    transition: all 0.5s;
+    
+        p{
+            color: $black;
+            font-size: 14px;
+            margin: 0;
+            transition: all 0.5s;
+        }
+    
+    &:hover{
+        transition: all 0.5s;
+        
+        p{
+            color: $white !important;
+            transition: all 0.5s;
+        }
+    }
     
     &.small{
         width: max-content;
@@ -29,9 +52,5 @@
     }
     
     
-    p{
-        color: $black;
-        font-size: 14px;
-        margin: 0;
-    }
+
 }

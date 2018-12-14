@@ -10,34 +10,94 @@ $dark-green: #47897E;
 $purple: #8765CB;
 
 .blue{
-    color: $blue;
+    color: $blue !important;
+    
+    &.border-btn{
+        &:hover{
+            background: $blue ;
+        }   
+    }
 }
 .blue-bg{
     background-color: $blue;
+    
+    &.btn-full{
+        &:hover{
+            background: #115D98 ;
+        }   
+    }
 }
 .orange{
-    color: $orange;
+    color: $orange !important;
+    
+    &.border-btn{
+        &:hover{
+            background: $orange ;
+        }   
+    }
 }
 .orange-bg{
     background-color: $orange;
+    
+    &.btn-full{
+        &:hover{
+            background-color: #ea7728;
+        }   
+    }
 }
 .green{
-    color: $green;
+    color: $green !important;
+    
+    &.border-btn{
+        &:hover{
+            background: $green ;
+        }   
+    }
 }
 .green-bg{
     background-color: $green;
+    
+    &.btn-full{
+        &:hover{
+            background-color: #64ada5;
+        }   
+    }
 }
 .purple{
-    color: $purple;
+    color: $purple !important;
+    
+    &.border-btn{
+        &:hover{
+            background: $purple ;
+        }   
+    }
 }
 .purple-bg{
     background-color: $purple;
+    
+    &.btn-full{
+        &:hover{
+            background-color: #624798;
+        }   
+    }
 }
 .dark-green{
-    color: $dark-green;
+    color: $dark-green !important;
+    
+    &.border-btn{
+        &:hover{
+            background: $dark-green ;
+        }   
+    }
 }
 .dark-green-bg{
     background-color: $dark-green;
+    
+    &.btn-full{
+        &:hover{
+            background-color: #356b62;
+        }   
+    }
 }
 
 // Font weights

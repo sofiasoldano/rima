@@ -8,9 +8,17 @@
     .feature-image{
         overflow: hidden;
         border-radius: 5px;
-        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
+        transition: all 0.5s;
     }
-
+    
+    &:hover{
+        .feature-image{
+            box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.75);
+            transition: all 0.5s;
+        }
+    }
+    
     p{
         margin: 10px 0;
         font-size: 12px;

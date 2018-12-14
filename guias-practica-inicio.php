@@ -45,7 +45,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                     <div class="visible-hover right">
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#" class="border-btn small dark-green"><p>Ver guía</p></a></li>
+                            <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
                     </div>
                 </div>

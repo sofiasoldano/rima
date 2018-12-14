@@ -1,0 +1,90 @@
+.accordion{
+    .card{
+        border: none;
+        
+        .card-header{
+            border: none;
+            background: #E6E8EC;
+            border-radius: 0;
+            font-size: 20px;
+            font-weight: $medium;
+            color: $black;
+            position: relative;
+            
+            p{
+                font-size: 16px;
+                font-weight: $medium;
+                color: $black;
+                margin: 0;
+                line-height: 1.4;
+                
+                @include respond-to('small'){
+                    font-size: 20px;
+                    margin-top: 4px;
+                }
+            }
+            
+            .ver-tabla{
+                display: block;
+                font-size: 12px;
+                text-decoration: underline;
+                margin: 0 10px;
+                
+                @include respond-to('small'){
+                    display: inline;
+                }
+            }
+            
+            .card-btn{
+                width: 38px;
+                height: 38px;
+                border-radius: 8px;
+                border: 1px solid #979797;
+                text-align: center;
+                
+                img{
+                    transition: all 0.5s;
+                }
+                
+                &.collapsed{
+                    img{
+                        transform: rotate(180deg);
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+        
+        .card-body{
+            background: #F4F5F8;
+            border-radius: 0;
+            
+            .box{
+                padding-bottom: 10px;
+                border-bottom: 1px solid #E9E9E9;
+                margin-bottom: 10px;
+                
+                &:last-of-type{
+                    border: none;
+                    margin-bottom: 0;
+                }
+            }
+            
+            .title{
+                font-size: 20px;
+                font-weight: $semi-bold;
+                margin-bottom: 15px;
+            }
+            
+            .subtitle{
+                font-size: 14px;
+                font-weight: $semi-bold;
+            }
+            
+            p{
+                margin: 0;
+                font-size: 14px;
+            }
+        }
+    }
+}

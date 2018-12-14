@@ -54,6 +54,10 @@
             }
         }
         
+        .uppercase-subtitle{
+            margin-top: 30px;
+        }
+        
         .highlighted{
             border-left: 2px solid;
             padding-left: 20px;
@@ -68,6 +72,14 @@
             color: $gray;
             line-height: 2;
         }
+        
+        .single-subsection{
+            margin-bottom: 35px;
+            
+            p{
+                margin-bottom: 0;
+            }
+        }
     }
     
     .caption{
@@ -77,6 +89,12 @@
             font-size: 12px;
             margin: 0;
             line-height: 1.6;
+        }
+        
+        .caption-subtitle{
+            color: $black;
+            font-size: 14px;
+            font-weight: $semi-bold;
         }
     }
     
@@ -106,6 +124,11 @@
         flex-wrap: wrap;
         width: 100%;
         padding: 45px 0;
+        margin-top: 50px;
+        
+        @include respond-to('medium'){
+            margin-top: 100px;
+        }
         
         .discussion{
             height: 253px;

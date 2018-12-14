@@ -492,6 +492,98 @@ input[type='checkbox']:checked {
   background: #F4F5F8;
 }
 
+/* line 2, ../sass/modules/_accordion.scss */
+.accordion .card {
+  border: none;
+}
+/* line 5, ../sass/modules/_accordion.scss */
+.accordion .card .card-header {
+  border: none;
+  background: #E6E8EC;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  position: relative;
+}
+/* line 14, ../sass/modules/_accordion.scss */
+.accordion .card .card-header p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  /* line 14, ../sass/modules/_accordion.scss */
+  .accordion .card .card-header p {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+}
+/* line 27, ../sass/modules/_accordion.scss */
+.accordion .card .card-header .ver-tabla {
+  display: block;
+  font-size: 12px;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+@media (min-width: 768px) {
+  /* line 27, ../sass/modules/_accordion.scss */
+  .accordion .card .card-header .ver-tabla {
+    display: inline;
+  }
+}
+/* line 38, ../sass/modules/_accordion.scss */
+.accordion .card .card-header .card-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #979797;
+  text-align: center;
+}
+/* line 45, ../sass/modules/_accordion.scss */
+.accordion .card .card-header .card-btn img {
+  transition: all 0.5s;
+}
+/* line 50, ../sass/modules/_accordion.scss */
+.accordion .card .card-header .card-btn.collapsed img {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+/* line 58, ../sass/modules/_accordion.scss */
+.accordion .card .card-body {
+  background: #F4F5F8;
+  border-radius: 0;
+}
+/* line 62, ../sass/modules/_accordion.scss */
+.accordion .card .card-body .box {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E9E9E9;
+  margin-bottom: 10px;
+}
+/* line 67, ../sass/modules/_accordion.scss */
+.accordion .card .card-body .box:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+/* line 73, ../sass/modules/_accordion.scss */
+.accordion .card .card-body .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+/* line 79, ../sass/modules/_accordion.scss */
+.accordion .card .card-body .subtitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* line 84, ../sass/modules/_accordion.scss */
+.accordion .card .card-body p {
+  margin: 0;
+  font-size: 14px;
+}
+
 /* line 2, ../sass/partials/_header.scss */
 header .world-menu {
   position: absolute;
@@ -1544,31 +1636,49 @@ footer .footer-social .dropdown select {
   }
 }
 /* line 57, ../sass/partials/_single.scss */
+.single .content .uppercase-subtitle {
+  margin-top: 30px;
+}
+/* line 61, ../sass/partials/_single.scss */
 .single .content .highlighted {
   border-left: 2px solid;
   padding-left: 20px;
 }
-/* line 61, ../sass/partials/_single.scss */
+/* line 65, ../sass/partials/_single.scss */
 .single .content .highlighted p {
   font-weight: 600;
 }
-/* line 66, ../sass/partials/_single.scss */
+/* line 70, ../sass/partials/_single.scss */
 .single .content p {
   margin-bottom: 35px;
   color: #4A4A4A;
   line-height: 2;
 }
-/* line 73, ../sass/partials/_single.scss */
+/* line 76, ../sass/partials/_single.scss */
+.single .content .single-subsection {
+  margin-bottom: 35px;
+}
+/* line 79, ../sass/partials/_single.scss */
+.single .content .single-subsection p {
+  margin-bottom: 0;
+}
+/* line 85, ../sass/partials/_single.scss */
 .single .caption {
   margin: 20px 0;
 }
-/* line 76, ../sass/partials/_single.scss */
+/* line 88, ../sass/partials/_single.scss */
 .single .caption p {
   font-size: 12px;
   margin: 0;
   line-height: 1.6;
 }
-/* line 83, ../sass/partials/_single.scss */
+/* line 94, ../sass/partials/_single.scss */
+.single .caption .caption-subtitle {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* line 101, ../sass/partials/_single.scss */
 .single .borders {
   border-top: 1px solid #E9E9E9;
   border-bottom: 1px solid #E9E9E9;
@@ -1576,49 +1686,56 @@ footer .footer-social .dropdown select {
   margin-bottom: 0;
   margin-top: -1px;
 }
-/* line 90, ../sass/partials/_single.scss */
+/* line 108, ../sass/partials/_single.scss */
 .single .borders.small-pd {
   padding: 10px 0;
 }
-/* line 94, ../sass/partials/_single.scss */
+/* line 112, ../sass/partials/_single.scss */
 .single .borders p {
   margin-bottom: 20px;
 }
-/* line 97, ../sass/partials/_single.scss */
+/* line 115, ../sass/partials/_single.scss */
 .single .borders p:last-of-type {
   margin: 0;
 }
-/* line 103, ../sass/partials/_single.scss */
+/* line 121, ../sass/partials/_single.scss */
 .single .comments {
   border-top: 1px solid #E9E9E9;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   padding: 45px 0;
+  margin-top: 50px;
 }
-/* line 110, ../sass/partials/_single.scss */
+@media (min-width: 990px) {
+  /* line 121, ../sass/partials/_single.scss */
+  .single .comments {
+    margin-top: 100px;
+  }
+}
+/* line 133, ../sass/partials/_single.scss */
 .single .comments .discussion {
   height: 253px;
   margin-bottom: 50px;
 }
 @media (min-width: 990px) {
-  /* line 110, ../sass/partials/_single.scss */
+  /* line 133, ../sass/partials/_single.scss */
   .single .comments .discussion {
     height: 383px;
   }
 }
-/* line 119, ../sass/partials/_single.scss */
+/* line 142, ../sass/partials/_single.scss */
 .single .comments .main-block {
   min-height: 210px;
   display: block;
   padding-bottom: 60px;
 }
-/* line 124, ../sass/partials/_single.scss */
+/* line 147, ../sass/partials/_single.scss */
 .single .comments .main-block .author, .single .comments .main-block .pages {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 129, ../sass/partials/_single.scss */
+/* line 152, ../sass/partials/_single.scss */
 .single .comments .main-block .bottom {
   position: absolute;
   bottom: 18px;

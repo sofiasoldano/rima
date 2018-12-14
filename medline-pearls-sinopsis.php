@@ -15,7 +15,7 @@
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
-                            <li><a href="#" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
+                            <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
-                            <li><a href="#" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
+                            <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
-                            <li><a href="#" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
+                            <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
-                            <li><a href="#" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
+                            <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
-                            <li><a href="#" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
+                            <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                         <ul class="button-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
-                            <li><a href="#" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
+                            <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
                         </ul>
                     </div>
                 </div>

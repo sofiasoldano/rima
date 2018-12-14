@@ -1329,7 +1329,6 @@ footer .footer-social .dropdown select {
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  margin-left: 10px;
 }
 /* line 99, ../sass/partials/_main-block.scss */
 .main-block .visible-hover p {
@@ -1349,39 +1348,40 @@ footer .footer-social .dropdown select {
     background: none;
     display: block;
     color: #000000;
+    padding-left: 10px;
   }
-  /* line 116, ../sass/partials/_main-block.scss */
+  /* line 117, ../sass/partials/_main-block.scss */
   .main-block .visible-hover p {
     color: #000000;
   }
-  /* line 120, ../sass/partials/_main-block.scss */
+  /* line 121, ../sass/partials/_main-block.scss */
   .main-block .visible-hover img {
     -webkit-filter: none;
   }
 }
-/* line 126, ../sass/partials/_main-block.scss */
+/* line 127, ../sass/partials/_main-block.scss */
 .main-block:hover {
   background: #F7F7F7;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.5s;
 }
-/* line 131, ../sass/partials/_main-block.scss */
+/* line 132, ../sass/partials/_main-block.scss */
 .main-block:hover .name {
   font-weight: 700;
   transition: all 0.5s;
 }
-/* line 136, ../sass/partials/_main-block.scss */
+/* line 137, ../sass/partials/_main-block.scss */
 .main-block:hover .visible-hover {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s;
 }
-/* line 144, ../sass/partials/_main-block.scss */
+/* line 145, ../sass/partials/_main-block.scss */
 .main-block .button-list li {
   display: inline-block;
   margin-right: 15px;
 }
-/* line 150, ../sass/partials/_main-block.scss */
+/* line 151, ../sass/partials/_main-block.scss */
 .main-block .magazine-image {
   overflow: hidden;
   border-radius: 5px;

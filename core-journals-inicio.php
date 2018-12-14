@@ -19,7 +19,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-2.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -29,7 +29,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-3.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -39,7 +39,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-4.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -49,7 +49,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-5.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -59,7 +59,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-6.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -71,7 +71,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-7.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -81,7 +81,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-8.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -91,7 +91,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-9.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -101,7 +101,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-10.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -111,7 +111,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-11.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>
@@ -121,7 +121,7 @@
                 <div class="magazine">
                     <a href="core-journals-single.php">
                         <div class="feature-image">
-                            <img src="img/magazine-1.png" class="img-responsive">
+                            <img src="img/magazine-12.png" class="img-responsive">
                         </div>
                         <p>Archives of disease in childhood</p>
                     </a>

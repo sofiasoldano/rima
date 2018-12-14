@@ -2489,11 +2489,30 @@ footer .footer-social .dropdown select {
   }
 }
 /* line 88, ../sass/pages/_core-journals-core-single.scss */
+.mi-core.single .micore-submenu .add-magazines {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-right: 15px;
+  display: none;
+}
+@media (min-width: 768px) {
+  /* line 88, ../sass/pages/_core-journals-core-single.scss */
+  .mi-core.single .micore-submenu .add-magazines {
+    display: inline-block;
+  }
+}
+/* line 99, ../sass/pages/_core-journals-core-single.scss */
+.mi-core.single .micore-submenu .add-magazines img {
+  margin-right: 10px;
+}
+/* line 104, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .micore-submenu .dropdown {
+  display: inline-block;
   width: 160px;
   margin-right: 0;
 }
-/* line 92, ../sass/pages/_core-journals-core-single.scss */
+/* line 109, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .micore-submenu .dropdown:after {
   content: "";
   position: absolute;
@@ -2505,7 +2524,7 @@ footer .footer-social .dropdown select {
   right: 15px;
   top: 13px;
 }
-/* line 104, ../sass/pages/_core-journals-core-single.scss */
+/* line 121, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .micore-submenu .dropdown select {
   background: none;
   border: 1px solid #979797;
@@ -2516,33 +2535,33 @@ footer .footer-social .dropdown select {
   font-size: 14px;
   margin-bottom: 0;
 }
-/* line 114, ../sass/pages/_core-journals-core-single.scss */
+/* line 131, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .micore-submenu .dropdown select:focus {
   outline: none;
 }
-/* line 121, ../sass/pages/_core-journals-core-single.scss */
+/* line 138, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .main-block {
   padding: 10px;
 }
-/* line 124, ../sass/pages/_core-journals-core-single.scss */
+/* line 141, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .main-block input[type='checkbox'] {
   border: 1px solid #E9E9E9;
   display: none;
 }
 @media (min-width: 990px) {
-  /* line 124, ../sass/pages/_core-journals-core-single.scss */
+  /* line 141, ../sass/pages/_core-journals-core-single.scss */
   .mi-core.single .main-block input[type='checkbox'] {
     display: block;
   }
 }
-/* line 133, ../sass/pages/_core-journals-core-single.scss */
+/* line 150, ../sass/pages/_core-journals-core-single.scss */
 .mi-core.single .main-block .author {
   width: calc(100% + 84px);
   margin-left: -87px;
   margin-top: 30px;
 }
 @media (min-width: 768px) {
-  /* line 133, ../sass/pages/_core-journals-core-single.scss */
+  /* line 150, ../sass/pages/_core-journals-core-single.scss */
   .mi-core.single .main-block .author {
     width: auto;
     margin-left: 0;

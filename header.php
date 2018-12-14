@@ -42,13 +42,15 @@
                     </ul>
                 </div>
                 <div class="profile">
-                    <div class="picture left">
-                        <img src="img/profile-pic.png" width="35" class="img-responsive">
-                    </div>
-                    <div class="data left">
-                        <p class="name">Dr. Eduardo Hornos</p>
-                        <p class="medal">Medalla de Plata <span class="credits"> - 4 créditos</span></p>
-                    </div>
+                    <a href="#">
+                        <div class="picture left">
+                            <img src="img/profile-pic.png" width="35" class="img-responsive">
+                        </div>
+                        <div class="data left">
+                            <p class="name">Dr. Eduardo Hornos</p>
+                            <p class="medal">Medalla de Plata <span class="credits"> - 4 créditos</span></p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

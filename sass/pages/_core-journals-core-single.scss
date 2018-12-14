@@ -85,7 +85,24 @@
             }
         }
         
+        .add-magazines{
+            font-size: 14px;
+            font-weight: $medium;
+            text-decoration: underline;
+            margin-right: 15px;
+            display: none;
+            
+            @include respond-to('small'){
+                display: inline-block;
+            }
+            
+            img{
+                margin-right: 10px;
+            }
+        }
+        
         .dropdown{
+            display: inline-block;
             width: 160px;
             margin-right: 0;
 

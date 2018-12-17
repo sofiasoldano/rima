@@ -1,10 +1,10 @@
 <?php $page_int = "inicio" ?>
 <?php $nofilter = true ?>
 <?php include('core-journals-submenu.php'); ?>
-
+<?php include('indice.php'); ?>
+<a href="#" class="open-indice js-open-indice"></a>
 
 <section class="single">
-    <?php include('indice.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -64,7 +64,7 @@
                             <div class="pages">Páginas 1008 - 1009</div>
                         </div>
                         <div class="bottom">
-                            <ul class="button-list">
+                            <ul class="btn-list">
                                 <li><a href="#"><img src="img/icons/bookmark.png" width="14"></a></li>
                                 <li><a href="#"><img src="img/icons/view.png" width="18"></a></li>
                                 <li><a href="#"><img src="img/icons/text-align.png" width="14"></a></li>
@@ -79,7 +79,7 @@
                             <div class="pages">Páginas 1005 - 1006</div>
                         </div>
                         <div class="bottom">
-                            <ul class="button-list">
+                            <ul class="btn-list">
                                 <li><a href="#"><img src="img/icons/bookmark.png" width="14"></a></li>
                                 <li><a href="#"><img src="img/icons/view.png" width="18"></a></li>
                                 <li><a href="#"><img src="img/icons/text-align.png" width="14"></a></li>

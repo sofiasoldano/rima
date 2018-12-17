@@ -62,7 +62,7 @@
                         <div class="name">Archives of disease in childhood</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
                             <li><a href="#" class="border-btn small orange"><p>Ver artículo</p></a></li>
@@ -78,7 +78,7 @@
 
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
                             <li><a href="#" class="border-btn small orange"><p>Ver artículo</p></a></li>
@@ -94,7 +94,7 @@
 
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
                             <li><a href="#" class="border-btn small orange"><p>Ver artículo</p></a></li>
@@ -110,7 +110,7 @@
 
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
                             <li><a href="#" class="border-btn small orange"><p>Ver artículo</p></a></li>
@@ -126,7 +126,7 @@
 
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
                             <li><a href="#" class="border-btn small orange"><p>Ver artículo</p></a></li>
@@ -142,7 +142,7 @@
 
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
                             <li><a href="#" class="border-btn small orange"><p>Ver artículo</p></a></li>

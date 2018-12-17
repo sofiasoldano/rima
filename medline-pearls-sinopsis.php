@@ -12,7 +12,7 @@
                         <div class="author">Pediatr Blood Cancer. 2018 Nov;65(11):e27308.</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
                             <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
@@ -26,7 +26,7 @@
                         <div class="author">Pediatr Blood Cancer. 2018 Nov;65(11):e27308.</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
                             <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
@@ -40,7 +40,7 @@
                         <div class="author">JAMA Pediatr. 2018 Aug 1;172(8):741-748.</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
                             <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
@@ -54,7 +54,7 @@
                         <div class="author">Lancet. 2018; 392: 557-68.</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
                             <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
@@ -68,7 +68,7 @@
                         <div class="author">Pediatr Blood Cancer. 2018 Nov;65(11):e27308.</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
                             <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>
@@ -82,7 +82,7 @@
                         <div class="author">JAMA Pediatr. 2018 Aug 1;172(8):741-748.</div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
 
                             <li><a href="medline-pearls-single.php" class="border-btn small purple"><p>Ver sinopsis</p></a></li>

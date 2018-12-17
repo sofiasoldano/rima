@@ -1,13 +1,5 @@
 .single{
     
-    .indice{
-        transform: translateX(calc(-100% + 45px));
-
-        &.open{
-            transform: translateX(0);
-        }
-    }
-    
     .single-title{
         border-bottom: 1px solid #E9E9E9;
         padding: 10px 0;
@@ -16,7 +8,6 @@
         p{
             font-size: 23px;
             font-weight: $medium;
-            margin: 0;
             
             @include respond-to('medium'){
                  font-size: 32px;

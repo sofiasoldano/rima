@@ -43,7 +43,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -55,7 +55,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -67,7 +67,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -79,7 +79,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -91,7 +91,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -103,7 +103,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -115,7 +115,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>
@@ -127,7 +127,7 @@
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
                     </div>
                     <div class="visible-hover right">
-                        <ul class="button-list">
+                        <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="guias-practica-single.php" class="border-btn small dark-green"><p>Ver guía</p></a></li>
                         </ul>

@@ -1623,26 +1623,34 @@ footer .footer-social .dropdown select {
   background: #FD9B00;
 }
 
-/* line 2, ../sass/partials/_single.scss */
+/* line 3, ../sass/partials/_single.scss */
+.single .indice {
+  transform: translateX(calc(-100% + 45px));
+}
+/* line 6, ../sass/partials/_single.scss */
+.single .indice.open {
+  transform: translateX(0);
+}
+/* line 11, ../sass/partials/_single.scss */
 .single .single-title {
   border-bottom: 1px solid #E9E9E9;
   padding: 10px 0;
   overflow: hidden;
 }
-/* line 7, ../sass/partials/_single.scss */
+/* line 16, ../sass/partials/_single.scss */
 .single .single-title p {
   font-size: 23px;
   font-weight: 500;
   margin: 0;
 }
 @media (min-width: 990px) {
-  /* line 7, ../sass/partials/_single.scss */
+  /* line 16, ../sass/partials/_single.scss */
   .single .single-title p {
     font-size: 32px;
     float: left;
   }
 }
-/* line 18, ../sass/partials/_single.scss */
+/* line 27, ../sass/partials/_single.scss */
 .single .single-title .dropdown {
   margin: 0;
   width: 202px;
@@ -1652,14 +1660,14 @@ footer .footer-social .dropdown select {
   left: calc(50% - 101px);
 }
 @media (min-width: 990px) {
-  /* line 18, ../sass/partials/_single.scss */
+  /* line 27, ../sass/partials/_single.scss */
   .single .single-title .dropdown {
     position: relative;
     top: 0;
     left: 0;
   }
 }
-/* line 32, ../sass/partials/_single.scss */
+/* line 41, ../sass/partials/_single.scss */
 .single .single-title .dropdown select {
   margin: 0;
   border: none;
@@ -1668,65 +1676,65 @@ footer .footer-social .dropdown select {
   border-radius: 50px;
   padding: 10px 20px;
 }
-/* line 44, ../sass/partials/_single.scss */
+/* line 53, ../sass/partials/_single.scss */
 .single .content .title {
   margin-bottom: 35px;
   font-size: 18px;
 }
 @media (min-width: 990px) {
-  /* line 44, ../sass/partials/_single.scss */
+  /* line 53, ../sass/partials/_single.scss */
   .single .content .title {
     font-size: 24px;
   }
-  /* line 51, ../sass/partials/_single.scss */
+  /* line 60, ../sass/partials/_single.scss */
   .single .content .title.max {
     max-width: 68%;
   }
 }
-/* line 57, ../sass/partials/_single.scss */
+/* line 66, ../sass/partials/_single.scss */
 .single .content .uppercase-subtitle {
   margin-top: 30px;
 }
-/* line 61, ../sass/partials/_single.scss */
+/* line 70, ../sass/partials/_single.scss */
 .single .content .highlighted {
   border-left: 2px solid;
   padding-left: 20px;
 }
-/* line 65, ../sass/partials/_single.scss */
+/* line 74, ../sass/partials/_single.scss */
 .single .content .highlighted p {
   font-weight: 600;
 }
-/* line 70, ../sass/partials/_single.scss */
+/* line 79, ../sass/partials/_single.scss */
 .single .content p {
   margin-bottom: 35px;
   color: #4A4A4A;
   line-height: 2;
 }
-/* line 76, ../sass/partials/_single.scss */
+/* line 85, ../sass/partials/_single.scss */
 .single .content .single-subsection {
   margin-bottom: 35px;
 }
-/* line 79, ../sass/partials/_single.scss */
+/* line 88, ../sass/partials/_single.scss */
 .single .content .single-subsection p {
   margin-bottom: 0;
 }
-/* line 85, ../sass/partials/_single.scss */
+/* line 94, ../sass/partials/_single.scss */
 .single .caption {
   margin: 20px 0;
 }
-/* line 88, ../sass/partials/_single.scss */
+/* line 97, ../sass/partials/_single.scss */
 .single .caption p {
   font-size: 12px;
   margin: 0;
   line-height: 1.6;
 }
-/* line 94, ../sass/partials/_single.scss */
+/* line 103, ../sass/partials/_single.scss */
 .single .caption .caption-subtitle {
   color: #000000;
   font-size: 14px;
   font-weight: 600;
 }
-/* line 101, ../sass/partials/_single.scss */
+/* line 110, ../sass/partials/_single.scss */
 .single .borders {
   border-top: 1px solid #E9E9E9;
   border-bottom: 1px solid #E9E9E9;
@@ -1734,19 +1742,19 @@ footer .footer-social .dropdown select {
   margin-bottom: 0;
   margin-top: -1px;
 }
-/* line 108, ../sass/partials/_single.scss */
+/* line 117, ../sass/partials/_single.scss */
 .single .borders.small-pd {
   padding: 10px 0;
 }
-/* line 112, ../sass/partials/_single.scss */
+/* line 121, ../sass/partials/_single.scss */
 .single .borders p {
   margin-bottom: 20px;
 }
-/* line 115, ../sass/partials/_single.scss */
+/* line 124, ../sass/partials/_single.scss */
 .single .borders p:last-of-type {
   margin: 0;
 }
-/* line 121, ../sass/partials/_single.scss */
+/* line 130, ../sass/partials/_single.scss */
 .single .comments {
   border-top: 1px solid #E9E9E9;
   display: flex;
@@ -1756,34 +1764,34 @@ footer .footer-social .dropdown select {
   margin-top: 50px;
 }
 @media (min-width: 990px) {
-  /* line 121, ../sass/partials/_single.scss */
+  /* line 130, ../sass/partials/_single.scss */
   .single .comments {
     margin-top: 100px;
   }
 }
-/* line 133, ../sass/partials/_single.scss */
+/* line 142, ../sass/partials/_single.scss */
 .single .comments .discussion {
   height: 253px;
   margin-bottom: 50px;
 }
 @media (min-width: 990px) {
-  /* line 133, ../sass/partials/_single.scss */
+  /* line 142, ../sass/partials/_single.scss */
   .single .comments .discussion {
     height: 383px;
   }
 }
-/* line 142, ../sass/partials/_single.scss */
+/* line 151, ../sass/partials/_single.scss */
 .single .comments .main-block {
   min-height: 210px;
   display: block;
   padding-bottom: 60px;
 }
-/* line 147, ../sass/partials/_single.scss */
+/* line 156, ../sass/partials/_single.scss */
 .single .comments .main-block .author, .single .comments .main-block .pages {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 152, ../sass/partials/_single.scss */
+/* line 161, ../sass/partials/_single.scss */
 .single .comments .main-block .bottom {
   position: absolute;
   bottom: 18px;
@@ -1855,6 +1863,108 @@ footer .footer-social .dropdown select {
     font-size: 46px;
     max-width: 65%;
   }
+}
+
+/* line 1, ../sass/partials/_indice.scss */
+.indice {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  transform: translateX(calc(-100% + 45px));
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+/* line 12, ../sass/partials/_indice.scss */
+.indice .bg-cerrar {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+/* line 20, ../sass/partials/_indice.scss */
+.indice .content {
+  position: absolute;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 100%;
+  height: 100%;
+}
+/* line 27, ../sass/partials/_indice.scss */
+.indice .content.transition {
+  transition-delay: 0.5s;
+}
+/* line 31, ../sass/partials/_indice.scss */
+.indice .content .indice-header {
+  background: #f3f3f3;
+  padding: 10px;
+  position: relative;
+  height: 45px;
+  position: sticky;
+  top: 0;
+}
+/* line 39, ../sass/partials/_indice.scss */
+.indice .content .indice-header p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* line 44, ../sass/partials/_indice.scss */
+.indice .content .indice-header p span {
+  font-size: 12px;
+  font-weight: 400;
+}
+/* line 51, ../sass/partials/_indice.scss */
+.indice .content .indice-header .btn-cerrar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45px;
+  background: rgba(216, 216, 216, 0.3);
+  height: 45px;
+  float: right;
+  text-align: center;
+  padding-top: 8px;
+}
+/* line 64, ../sass/partials/_indice.scss */
+.indice .content .item {
+  padding: 20px 10px;
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9;
+  margin-top: -1px;
+}
+/* line 70, ../sass/partials/_indice.scss */
+.indice .content .item .author, .indice .content .item .pages {
+  font-size: 12px;
+  color: #4A4A4A;
+}
+/* line 75, ../sass/partials/_indice.scss */
+.indice .content .item .btn-list {
+  margin-top: 10px;
+}
+/* line 78, ../sass/partials/_indice.scss */
+.indice .content .item .btn-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 86, ../sass/partials/_indice.scss */
+.indice.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 0.5s;
+}
+/* line 92, ../sass/partials/_indice.scss */
+.indice.open .bg-cerrar {
+  display: block;
+}
+/* line 96, ../sass/partials/_indice.scss */
+.indice.open .content {
+  width: 70%;
+  overflow-y: scroll;
 }
 
 /* line 2, ../sass/pages/_login.scss */
@@ -2141,84 +2251,88 @@ footer .footer-social .dropdown select {
 .page-registro header .menu-desktop {
   display: none;
 }
-/* line 13, ../sass/pages/_registro.scss */
+/* line 11, ../sass/pages/_registro.scss */
+.page-registro header .main-header {
+  height: auto;
+}
+/* line 15, ../sass/pages/_registro.scss */
 .page-registro header .main-header .header-info .language {
   display: block;
 }
-/* line 17, ../sass/pages/_registro.scss */
+/* line 19, ../sass/pages/_registro.scss */
 .page-registro header .main-header .header-info .search {
   display: none;
 }
-/* line 21, ../sass/pages/_registro.scss */
+/* line 23, ../sass/pages/_registro.scss */
 .page-registro header .main-header .header-info .notifs {
   margin: 0;
 }
-/* line 25, ../sass/pages/_registro.scss */
+/* line 27, ../sass/pages/_registro.scss */
 .page-registro header .main-header .header-info .notifs ul li:nth-of-type(2) {
   display: none;
 }
-/* line 31, ../sass/pages/_registro.scss */
+/* line 33, ../sass/pages/_registro.scss */
 .page-registro header .main-header .header-info .profile {
   display: none;
 }
-/* line 38, ../sass/pages/_registro.scss */
+/* line 40, ../sass/pages/_registro.scss */
 .page-registro .title {
   margin-bottom: 5px;
 }
-/* line 42, ../sass/pages/_registro.scss */
+/* line 44, ../sass/pages/_registro.scss */
 .page-registro p {
   color: #4A4A4A;
 }
-/* line 46, ../sass/pages/_registro.scss */
+/* line 48, ../sass/pages/_registro.scss */
 .page-registro .registro-process {
   margin: 50px 0;
 }
-/* line 49, ../sass/pages/_registro.scss */
+/* line 51, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs {
   width: 100%;
   background: #F4F5F8;
   border: 1px solid #E9E9E9;
 }
-/* line 54, ../sass/pages/_registro.scss */
+/* line 56, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item {
   width: 50%;
   text-align: center;
 }
-/* line 58, ../sass/pages/_registro.scss */
+/* line 60, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item:hover, .page-registro .registro-process .nav-tabs .nav-item:focus, .page-registro .registro-process .nav-tabs .nav-item:visited, .page-registro .registro-process .nav-tabs .nav-item:active {
   border: none;
   outline: none;
 }
-/* line 63, ../sass/pages/_registro.scss */
+/* line 65, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link {
   border: none;
   padding: 15px 0;
   transition: none;
 }
-/* line 68, ../sass/pages/_registro.scss */
+/* line 70, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link:hover, .page-registro .registro-process .nav-tabs .nav-item .nav-link:focus, .page-registro .registro-process .nav-tabs .nav-item .nav-link:visited, .page-registro .registro-process .nav-tabs .nav-item .nav-link:active {
   border: none;
   outline: none;
 }
-/* line 73, ../sass/pages/_registro.scss */
+/* line 75, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link p {
   font-size: 14px;
   color: #9B9B9B;
   margin: 0;
 }
 @media (min-width: 768px) {
-  /* line 73, ../sass/pages/_registro.scss */
+  /* line 75, ../sass/pages/_registro.scss */
   .page-registro .registro-process .nav-tabs .nav-item .nav-link p {
     font-size: 18px;
   }
 }
-/* line 83, ../sass/pages/_registro.scss */
+/* line 85, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link.active {
   background: none;
   border: none;
   position: relative;
 }
-/* line 88, ../sass/pages/_registro.scss */
+/* line 90, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link.active:after {
   content: "";
   position: absolute;
@@ -2228,17 +2342,17 @@ footer .footer-social .dropdown select {
   left: 0;
   background: #2283CE;
 }
-/* line 99, ../sass/pages/_registro.scss */
+/* line 101, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link.active p {
   font-weight: 600;
   color: #4A4A4A;
 }
-/* line 106, ../sass/pages/_registro.scss */
+/* line 108, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link.completed p {
   font-weight: 600;
   color: #4A4A4A;
 }
-/* line 110, ../sass/pages/_registro.scss */
+/* line 112, ../sass/pages/_registro.scss */
 .page-registro .registro-process .nav-tabs .nav-item .nav-link.completed p:after {
   content: "";
   display: inline-block;
@@ -2251,48 +2365,48 @@ footer .footer-social .dropdown select {
   margin-top: -4px;
   margin-left: 10px;
 }
-/* line 128, ../sass/pages/_registro.scss */
+/* line 130, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content {
   padding: 30px;
   border: 1px solid #E9E9E9;
   margin-top: -1px;
 }
 @media (min-width: 990px) {
-  /* line 128, ../sass/pages/_registro.scss */
+  /* line 130, ../sass/pages/_registro.scss */
   .page-registro .registro-process .tab-content {
     padding: 50px;
   }
 }
 @media (min-width: 990px) {
-  /* line 138, ../sass/pages/_registro.scss */
+  /* line 140, ../sass/pages/_registro.scss */
   .page-registro .registro-process .tab-content .tab-pane form {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
   }
-  /* line 145, ../sass/pages/_registro.scss */
+  /* line 147, ../sass/pages/_registro.scss */
   .page-registro .registro-process .tab-content .tab-pane form .half {
     min-width: 46%;
     max-width: 46%;
   }
 }
 @media (min-width: 990px) {
-  /* line 152, ../sass/pages/_registro.scss */
+  /* line 154, ../sass/pages/_registro.scss */
   .page-registro .registro-process .tab-content .tab-pane form input[type='text'], .page-registro .registro-process .tab-content .tab-pane form input[type='password'], .page-registro .registro-process .tab-content .tab-pane form input[type='number'], .page-registro .registro-process .tab-content .tab-pane form input[type='email'], .page-registro .registro-process .tab-content .tab-pane form input[type='tel'], .page-registro .registro-process .tab-content .tab-pane form textarea, .page-registro .registro-process .tab-content .tab-pane form select {
     min-width: 290px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 152, ../sass/pages/_registro.scss */
+  /* line 154, ../sass/pages/_registro.scss */
   .page-registro .registro-process .tab-content .tab-pane form input[type='text'], .page-registro .registro-process .tab-content .tab-pane form input[type='password'], .page-registro .registro-process .tab-content .tab-pane form input[type='number'], .page-registro .registro-process .tab-content .tab-pane form input[type='email'], .page-registro .registro-process .tab-content .tab-pane form input[type='tel'], .page-registro .registro-process .tab-content .tab-pane form textarea, .page-registro .registro-process .tab-content .tab-pane form select {
     min-width: 360px;
   }
 }
-/* line 163, ../sass/pages/_registro.scss */
+/* line 165, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form .upload-image {
   margin-bottom: 50px;
 }
-/* line 166, ../sass/pages/_registro.scss */
+/* line 168, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form .upload-image .photo {
   width: 88px;
   height: 88px;
@@ -2305,7 +2419,7 @@ footer .footer-social .dropdown select {
   padding-top: 10px;
   margin: 0 auto;
 }
-/* line 179, ../sass/pages/_registro.scss */
+/* line 181, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form .upload-image .subir {
   color: #9B9B9B;
   font-size: 12px;
@@ -2314,11 +2428,11 @@ footer .footer-social .dropdown select {
   margin: 10px 0;
   text-decoration: underline;
 }
-/* line 189, ../sass/pages/_registro.scss */
+/* line 191, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form .dropdown {
   width: 100%;
 }
-/* line 193, ../sass/pages/_registro.scss */
+/* line 195, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form input[type="radio"] {
   margin-left: 25px;
   margin-right: 7px;
@@ -2333,7 +2447,7 @@ footer .footer-social .dropdown select {
   display: inline-block;
   vertical-align: top;
 }
-/* line 208, ../sass/pages/_registro.scss */
+/* line 210, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form input[type="radio"]:checked:before {
   content: "";
   position: absolute;
@@ -2344,26 +2458,26 @@ footer .footer-social .dropdown select {
   top: 3px;
   left: 3px;
 }
-/* line 220, ../sass/pages/_registro.scss */
+/* line 222, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form input[type="radio"]:first-of-type {
   margin-left: 10px;
 }
-/* line 225, ../sass/pages/_registro.scss */
+/* line 227, ../sass/pages/_registro.scss */
 .page-registro .registro-process .tab-content .tab-pane form .btn-full {
   width: 195px;
 }
 @media (min-width: 990px) {
-  /* line 225, ../sass/pages/_registro.scss */
+  /* line 227, ../sass/pages/_registro.scss */
   .page-registro .registro-process .tab-content .tab-pane form .btn-full {
     float: right;
   }
 }
-/* line 237, ../sass/pages/_registro.scss */
+/* line 239, ../sass/pages/_registro.scss */
 .page-registro footer {
   background: #FFFFFF;
   border-top: 1px solid #E9E9E9;
 }
-/* line 241, ../sass/pages/_registro.scss */
+/* line 243, ../sass/pages/_registro.scss */
 .page-registro footer .footer-social {
   display: none;
 }

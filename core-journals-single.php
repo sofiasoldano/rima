@@ -2,7 +2,9 @@
 <?php $nofilter = true ?>
 <?php include('core-journals-submenu.php'); ?>
 
+
 <section class="single">
+    <?php include('indice.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">

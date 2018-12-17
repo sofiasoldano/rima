@@ -1,4 +1,13 @@
 .single{
+    
+    .indice{
+        transform: translateX(calc(-100% + 45px));
+
+        &.open{
+            transform: translateX(0);
+        }
+    }
+    
     .single-title{
         border-bottom: 1px solid #E9E9E9;
         padding: 10px 0;

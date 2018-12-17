@@ -1,0 +1,102 @@
+.indice{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transform: translateX(calc(-100% + 45px));
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    
+    .bg-cerrar{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    
+    .content{
+        position: absolute;
+        z-index: 1;
+        background: $white;
+        width: 100%;
+        height: 100%;
+        
+        &.transition{
+            transition-delay: 0.5s;
+        }
+        
+        .indice-header{
+            background: #f3f3f3;
+            padding: 10px;
+            position: relative;
+            height: 45px;
+            position: sticky;
+            top: 0;
+            
+            p{
+                margin: 0;
+                font-size: 14px;
+                font-weight: $semi-bold;
+                
+                span{
+                    font-size: 12px;
+                    font-weight: $regular;
+                }
+            }
+            
+            
+            .btn-cerrar{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 45px;
+                background: rgba(216, 216, 216, 0.3);
+                height: 45px;
+                float: right;
+                text-align: center;
+                padding-top: 8px;
+            }
+        }
+        
+        .item{
+            padding: 20px 10px;
+            border-top: 1px solid #E9E9E9;
+            border-bottom: 1px solid #E9E9E9;
+            margin-top: -1px;
+            
+            .author, .pages{
+                font-size: 12px;
+                color: $gray;
+            }
+            
+            .btn-list{
+                margin-top: 10px;
+                
+                li{
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    
+    &.open{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+        transition: transform 0.5s;
+        
+        .bg-cerrar{
+            display: block;
+        }
+        
+        .content{
+            width: 70%;
+            overflow-y: scroll;
+            
+        }
+    }
+}

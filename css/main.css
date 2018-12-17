@@ -203,7 +203,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 /* line 6, ../sass/modules/_forms.scss */
-input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select {
+input[type='text'], input[type='password'], input[type='number'], input[type='email'], input[type='tel'], textarea, select {
   -webkit-appearance: none;
   background: none;
   border-radius: 0;
@@ -217,12 +217,12 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 @media (min-width: 768px) {
   /* line 6, ../sass/modules/_forms.scss */
-  input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select {
+  input[type='text'], input[type='password'], input[type='number'], input[type='email'], input[type='tel'], textarea, select {
     font-size: 16px;
   }
 }
 /* line 22, ../sass/modules/_forms.scss */
-input[type='text']::placeholder, input[type='password']::placeholder, input[type='number']::placeholder, input[type='email']::placeholder, textarea::placeholder, select::placeholder {
+input[type='text']::placeholder, input[type='password']::placeholder, input[type='number']::placeholder, input[type='email']::placeholder, input[type='tel']::placeholder, textarea::placeholder, select::placeholder {
   color: #000000;
 }
 
@@ -734,35 +734,55 @@ header .main-header .header-info {
     max-width: fit-content;
   }
 }
-/* line 84, ../sass/partials/_header.scss */
+/* line 83, ../sass/partials/_header.scss */
+header .main-header .header-info .language {
+  margin-top: 8px;
+  display: none;
+}
+/* line 87, ../sass/partials/_header.scss */
+header .main-header .header-info .language .dropdown {
+  width: 65px;
+  margin: 0;
+}
+/* line 91, ../sass/partials/_header.scss */
+header .main-header .header-info .language .dropdown select {
+  font-size: 14px;
+  margin: 0;
+  border: none;
+}
+/* line 97, ../sass/partials/_header.scss */
+header .main-header .header-info .language .dropdown:after {
+  top: 7px;
+}
+/* line 104, ../sass/partials/_header.scss */
 header .main-header .header-info .notifs {
   margin: 0px 30px;
   display: none;
 }
 @media (min-width: 990px) {
-  /* line 84, ../sass/partials/_header.scss */
+  /* line 104, ../sass/partials/_header.scss */
   header .main-header .header-info .notifs {
     display: block;
   }
 }
 @media (min-width: 1200px) {
-  /* line 84, ../sass/partials/_header.scss */
+  /* line 104, ../sass/partials/_header.scss */
   header .main-header .header-info .notifs {
     margin: 0px 50px;
   }
 }
-/* line 97, ../sass/partials/_header.scss */
+/* line 117, ../sass/partials/_header.scss */
 header .main-header .header-info .notifs ul li {
   display: inline-block;
   margin: 0 10px;
 }
 @media (min-width: 1200px) {
-  /* line 97, ../sass/partials/_header.scss */
+  /* line 117, ../sass/partials/_header.scss */
   header .main-header .header-info .notifs ul li {
     margin: 0 18px;
   }
 }
-/* line 109, ../sass/partials/_header.scss */
+/* line 129, ../sass/partials/_header.scss */
 header .main-header .header-info .profile .picture {
   border-radius: 40%;
   overflow: hidden;
@@ -770,13 +790,13 @@ header .main-header .header-info .profile .picture {
   width: 30px;
 }
 @media (min-width: 990px) {
-  /* line 109, ../sass/partials/_header.scss */
+  /* line 129, ../sass/partials/_header.scss */
   header .main-header .header-info .profile .picture {
     margin-right: 12px;
     width: auto;
   }
 }
-/* line 122, ../sass/partials/_header.scss */
+/* line 142, ../sass/partials/_header.scss */
 header .main-header .header-info .profile .data .name {
   margin: 0;
   font-size: 14px;
@@ -785,12 +805,12 @@ header .main-header .header-info .profile .data .name {
   margin-top: 2px;
 }
 @media (min-width: 990px) {
-  /* line 122, ../sass/partials/_header.scss */
+  /* line 142, ../sass/partials/_header.scss */
   header .main-header .header-info .profile .data .name {
     font-size: 16px;
   }
 }
-/* line 133, ../sass/partials/_header.scss */
+/* line 153, ../sass/partials/_header.scss */
 header .main-header .header-info .profile .data .medal {
   margin: 0;
   font-size: 10px;
@@ -798,17 +818,17 @@ header .main-header .header-info .profile .data .medal {
   letter-spacing: -0.2px;
 }
 @media (min-width: 990px) {
-  /* line 133, ../sass/partials/_header.scss */
+  /* line 153, ../sass/partials/_header.scss */
   header .main-header .header-info .profile .data .medal {
     font-size: 12px;
     letter-spacing: 0;
   }
 }
-/* line 144, ../sass/partials/_header.scss */
+/* line 164, ../sass/partials/_header.scss */
 header .main-header .header-info .profile .data .credits {
   font-weight: 400;
 }
-/* line 153, ../sass/partials/_header.scss */
+/* line 173, ../sass/partials/_header.scss */
 header .menu-desktop .top {
   border-top: 1px solid #E9E9E9;
   padding: 20px 0;
@@ -816,40 +836,40 @@ header .menu-desktop .top {
   display: none;
 }
 @media (min-width: 990px) {
-  /* line 153, ../sass/partials/_header.scss */
+  /* line 173, ../sass/partials/_header.scss */
   header .menu-desktop .top {
     display: block;
   }
 }
-/* line 164, ../sass/partials/_header.scss */
+/* line 184, ../sass/partials/_header.scss */
 header .menu-desktop .top ul li {
   display: inline-block;
   width: 115px;
   margin-left: 35px;
 }
-/* line 169, ../sass/partials/_header.scss */
+/* line 189, ../sass/partials/_header.scss */
 header .menu-desktop .top ul li img {
   float: left;
   margin-right: 10px;
 }
-/* line 174, ../sass/partials/_header.scss */
+/* line 194, ../sass/partials/_header.scss */
 header .menu-desktop .top ul li p {
   font-size: 14px;
   margin: 0;
 }
-/* line 182, ../sass/partials/_header.scss */
+/* line 202, ../sass/partials/_header.scss */
 header .menu-desktop .bottom {
   position: relative;
   margin-bottom: -20px;
   z-index: 1;
 }
 @media (min-width: 990px) {
-  /* line 182, ../sass/partials/_header.scss */
+  /* line 202, ../sass/partials/_header.scss */
   header .menu-desktop .bottom {
     margin-bottom: -30px;
   }
 }
-/* line 191, ../sass/partials/_header.scss */
+/* line 211, ../sass/partials/_header.scss */
 header .menu-desktop .bottom .header-bg {
   width: 100%;
   height: 20px;
@@ -859,26 +879,26 @@ header .menu-desktop .bottom .header-bg {
   animation: Gradient 15s ease infinite;
 }
 @media (min-width: 990px) {
-  /* line 191, ../sass/partials/_header.scss */
+  /* line 211, ../sass/partials/_header.scss */
   header .menu-desktop .bottom .header-bg {
     height: 50px;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
   }
 }
-/* line 206, ../sass/partials/_header.scss */
+/* line 226, ../sass/partials/_header.scss */
 header .menu-desktop .bottom .world-menu {
   border: 1px solid #E9E9E9;
   display: none;
   padding-top: 8px;
 }
 @media (min-width: 990px) {
-  /* line 206, ../sass/partials/_header.scss */
+  /* line 226, ../sass/partials/_header.scss */
   header .menu-desktop .bottom .world-menu {
     display: block;
   }
 }
-/* line 218, ../sass/partials/_header.scss */
+/* line 238, ../sass/partials/_header.scss */
 header .menu-mobile {
   position: fixed;
   width: 100%;
@@ -887,12 +907,12 @@ header .menu-mobile {
   background: #FFFFFF;
 }
 @media (min-width: 990px) {
-  /* line 218, ../sass/partials/_header.scss */
+  /* line 238, ../sass/partials/_header.scss */
   header .menu-mobile {
     display: none;
   }
 }
-/* line 230, ../sass/partials/_header.scss */
+/* line 250, ../sass/partials/_header.scss */
 header .menu-mobile ul li {
   width: calc(20% - 3px);
   height: 50px;
@@ -902,39 +922,7 @@ header .menu-mobile ul li {
   align-items: center;
   justify-content: center;
 }
-/* line 239, ../sass/partials/_header.scss */
-header .menu-mobile ul li .menu-icon {
-  width: 22px;
-  height: 18px;
-  display: block;
-  position: relative;
-  cursor: pointer;
-}
-/* line 246, ../sass/partials/_header.scss */
-header .menu-mobile ul li .menu-icon .line {
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  border-radius: 50px;
-  background-color: #4A4A4A;
-  right: 0;
-}
-/* line 254, ../sass/partials/_header.scss */
-header .menu-mobile ul li .menu-icon .line:nth-of-type(1) {
-  top: 0;
-  transition: all 0.5s;
-}
 /* line 259, ../sass/partials/_header.scss */
-header .menu-mobile ul li .menu-icon .line:nth-of-type(2) {
-  top: calc(50% - 1px);
-  transition: all 0.5s 0.1s;
-}
-/* line 264, ../sass/partials/_header.scss */
-header .menu-mobile ul li .menu-icon .line:nth-of-type(3) {
-  bottom: 0;
-  transition: all 0.5s 0.1s;
-}
-/* line 271, ../sass/partials/_header.scss */
 header .menu-mobile ul li .world-menu {
   width: 75px;
   height: 75px;
@@ -2141,6 +2129,243 @@ footer .footer-social .dropdown select {
 /* line 258, ../sass/pages/_login.scss */
 .page-login footer .col-md-4 .right {
   float: none;
+}
+
+/* line 2, ../sass/pages/_registro.scss */
+.page-registro header {
+  border-bottom: 1px solid #E9E9E9;
+  margin-bottom: 50px;
+  height: auto;
+}
+/* line 7, ../sass/pages/_registro.scss */
+.page-registro header .menu-desktop {
+  display: none;
+}
+/* line 13, ../sass/pages/_registro.scss */
+.page-registro header .main-header .header-info .language {
+  display: block;
+}
+/* line 17, ../sass/pages/_registro.scss */
+.page-registro header .main-header .header-info .search {
+  display: none;
+}
+/* line 21, ../sass/pages/_registro.scss */
+.page-registro header .main-header .header-info .notifs {
+  margin: 0;
+}
+/* line 25, ../sass/pages/_registro.scss */
+.page-registro header .main-header .header-info .notifs ul li:nth-of-type(2) {
+  display: none;
+}
+/* line 31, ../sass/pages/_registro.scss */
+.page-registro header .main-header .header-info .profile {
+  display: none;
+}
+/* line 38, ../sass/pages/_registro.scss */
+.page-registro .title {
+  margin-bottom: 5px;
+}
+/* line 42, ../sass/pages/_registro.scss */
+.page-registro p {
+  color: #4A4A4A;
+}
+/* line 46, ../sass/pages/_registro.scss */
+.page-registro .registro-process {
+  margin: 50px 0;
+}
+/* line 49, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs {
+  width: 100%;
+  background: #F4F5F8;
+  border: 1px solid #E9E9E9;
+}
+/* line 54, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item {
+  width: 50%;
+  text-align: center;
+}
+/* line 58, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item:hover, .page-registro .registro-process .nav-tabs .nav-item:focus, .page-registro .registro-process .nav-tabs .nav-item:visited, .page-registro .registro-process .nav-tabs .nav-item:active {
+  border: none;
+  outline: none;
+}
+/* line 63, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link {
+  border: none;
+  padding: 15px 0;
+  transition: none;
+}
+/* line 68, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link:hover, .page-registro .registro-process .nav-tabs .nav-item .nav-link:focus, .page-registro .registro-process .nav-tabs .nav-item .nav-link:visited, .page-registro .registro-process .nav-tabs .nav-item .nav-link:active {
+  border: none;
+  outline: none;
+}
+/* line 73, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link p {
+  font-size: 14px;
+  color: #9B9B9B;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 73, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .nav-tabs .nav-item .nav-link p {
+    font-size: 18px;
+  }
+}
+/* line 83, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link.active {
+  background: none;
+  border: none;
+  position: relative;
+}
+/* line 88, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link.active:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -1px;
+  left: 0;
+  background: #2283CE;
+}
+/* line 99, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link.active p {
+  font-weight: 600;
+  color: #4A4A4A;
+}
+/* line 106, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link.completed p {
+  font-weight: 600;
+  color: #4A4A4A;
+}
+/* line 110, ../sass/pages/_registro.scss */
+.page-registro .registro-process .nav-tabs .nav-item .nav-link.completed p:after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(img/completed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-left: 10px;
+}
+/* line 128, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content {
+  padding: 30px;
+  border: 1px solid #E9E9E9;
+  margin-top: -1px;
+}
+@media (min-width: 990px) {
+  /* line 128, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .tab-content {
+    padding: 50px;
+  }
+}
+@media (min-width: 990px) {
+  /* line 138, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .tab-content .tab-pane form {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  /* line 145, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .tab-content .tab-pane form .half {
+    min-width: 46%;
+    max-width: 46%;
+  }
+}
+@media (min-width: 990px) {
+  /* line 152, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .tab-content .tab-pane form input[type='text'], .page-registro .registro-process .tab-content .tab-pane form input[type='password'], .page-registro .registro-process .tab-content .tab-pane form input[type='number'], .page-registro .registro-process .tab-content .tab-pane form input[type='email'], .page-registro .registro-process .tab-content .tab-pane form input[type='tel'], .page-registro .registro-process .tab-content .tab-pane form textarea, .page-registro .registro-process .tab-content .tab-pane form select {
+    min-width: 290px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 152, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .tab-content .tab-pane form input[type='text'], .page-registro .registro-process .tab-content .tab-pane form input[type='password'], .page-registro .registro-process .tab-content .tab-pane form input[type='number'], .page-registro .registro-process .tab-content .tab-pane form input[type='email'], .page-registro .registro-process .tab-content .tab-pane form input[type='tel'], .page-registro .registro-process .tab-content .tab-pane form textarea, .page-registro .registro-process .tab-content .tab-pane form select {
+    min-width: 360px;
+  }
+}
+/* line 163, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form .upload-image {
+  margin-bottom: 50px;
+}
+/* line 166, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form .upload-image .photo {
+  width: 88px;
+  height: 88px;
+  display: block;
+  border: 2px solid #2283CE;
+  border-radius: calc(70% - 27px);
+  font-size: 40px;
+  text-align: center;
+  color: #2283CE;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+/* line 179, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form .upload-image .subir {
+  color: #9B9B9B;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+/* line 189, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form .dropdown {
+  width: 100%;
+}
+/* line 193, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form input[type="radio"] {
+  margin-left: 25px;
+  margin-right: 7px;
+  margin-bottom: 45px;
+  margin-top: 4px;
+  -webkit-appearance: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50px;
+  border: 1px solid #979797;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 208, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form input[type="radio"]:checked:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: #2283CE;
+  border-radius: 50px;
+  top: 3px;
+  left: 3px;
+}
+/* line 220, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form input[type="radio"]:first-of-type {
+  margin-left: 10px;
+}
+/* line 225, ../sass/pages/_registro.scss */
+.page-registro .registro-process .tab-content .tab-pane form .btn-full {
+  width: 195px;
+}
+@media (min-width: 990px) {
+  /* line 225, ../sass/pages/_registro.scss */
+  .page-registro .registro-process .tab-content .tab-pane form .btn-full {
+    float: right;
+  }
+}
+/* line 237, ../sass/pages/_registro.scss */
+.page-registro footer {
+  background: #FFFFFF;
+  border-top: 1px solid #E9E9E9;
+}
+/* line 241, ../sass/pages/_registro.scss */
+.page-registro footer .footer-social {
+  display: none;
 }
 
 /* line 2, ../sass/pages/_noticias.scss */

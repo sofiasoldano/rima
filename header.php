@@ -21,6 +21,15 @@
                 <img src="img/nestle-logo.png" width="67" class="partner-logo img-responsive">
             </div>
             <div class="header-info right">
+                <div class="language">
+                    <div class="dropdown">
+                        <select name="lan" class="">
+                            <option value="esp">ESP</option>
+                            <option value="esp">ESP</option>
+                            <option value="esp">ESP</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="search">
                     <form>
                         <input type="search" placeholder="Buscar por palabra clave, disciplina, etc..." class="input-search">
@@ -111,11 +120,9 @@
                     </a>
                 </li>
                 <li>
-                    <div class="menu-icon">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
+                    <a href="#">
+                        <img src="img/icons/calendar.png" width="25">
+                    </a>
                 </li>
             </ul>
         </div>

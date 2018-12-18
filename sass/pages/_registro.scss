@@ -8,6 +8,10 @@
             display: none;
         }
         
+        .menu-mobile{
+            display: none;
+        }
+        
         .main-header{
             height: auto;
             
@@ -21,6 +25,7 @@
                 }
 
                 .notifs{
+                    display: block;
                     margin: 0;
 
                     ul{

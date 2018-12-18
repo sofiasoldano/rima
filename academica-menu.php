@@ -16,7 +16,7 @@
             </a>
         </li>
         <li  <?php if ($page_name == "reporte"  ) echo 'class="active"'; ?>>
-            <a href="">
+            <a href="reporte-estrategias.php">
                 <img src="img/icons/core-4.png" class="img-responsive">
             </a>
         </li>

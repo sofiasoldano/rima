@@ -8,7 +8,7 @@
                 
                 <div class="folder-header folder light-blue">
                     <div class="breadcrumbs left">
-                        <a href="core-journals-core.php" class="before">Estrategias</a><span class="arrow"><img src="img/icons/arrow-next-white.png" width="10"></span><a href="#">Cargiología</a>
+                        <a href="reporte-estrategias.php" class="before">Estrategias</a><span class="arrow"><img src="img/icons/arrow-next-white.png" width="10"></span><a href="reporte-estrategia-single.php" class="before">Cargiología</a><span class="arrow"><img src="img/icons/arrow-next-white.png" width="10"></span><a href="#" >Disturbing the Doxa of…</a>
                     </div>
                     <div class="edit right">
                         <a href="#"><img src="img/icons/settings-white.png" width="18"><p>Editar carpeta</p></a>

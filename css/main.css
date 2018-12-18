@@ -652,6 +652,12 @@ input[type='checkbox']:checked {
   margin-right: 20px;
 }
 
+/* line 1, ../sass/modules/_inline-image.scss */
+.inline-image {
+  vertical-align: sub;
+  margin: 0 10px;
+}
+
 /* line 2, ../sass/partials/_header.scss */
 header .world-menu {
   position: absolute;

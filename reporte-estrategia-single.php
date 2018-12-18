@@ -8,7 +8,7 @@
                 
                 <div class="folder-header folder light-blue">
                     <div class="breadcrumbs left">
-                        <a href="core-journals-core.php" class="before">Estrategias</a><span class="arrow"><img src="img/icons/arrow-next-white.png" width="10"></span><a href="#">Cargiología</a>
+                        <a href="reporte-estrategias.php" class="before">Estrategias</a><span class="arrow"><img src="img/icons/arrow-next-white.png" width="10"></span><a href="#">Cargiología</a>
                     </div>
                     <div class="edit right">
                         <a href="#"><img src="img/icons/settings-white.png" width="18"><p>Editar carpeta</p></a>
@@ -63,7 +63,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/share2.png" width="18"></a></li>
                             <li><a href="#"><img src="img/icons/trash.png" width="16"></a></li>
-                            <li><a href="#" class="border-btn small orange"><p>Ver resumen</p></a></li>
+                            <li><a href="reporte-single.php" class="border-btn small orange"><p>Ver resumen</p></a></li>
                         </ul>
                     </div>
                 </div>

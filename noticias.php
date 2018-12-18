@@ -7,7 +7,7 @@
             <div class="col-md-12">
                 <div class="main-title">Noticias <span class="hidden-xs">y novedades</span></div>
                 <div class="main-new">
-                    <a href="#">
+                    <a href="noticias-single.php">
                     <img src="img/main-new.png" class="feature-image img-responsive">
                     <div class="info">
                         <p class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></p>
@@ -19,7 +19,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-               <a href="#">
+               <a href="noticias-single.php">
                 <div class="small-new large"> 
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 </a>
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new large">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">American Journal of Obstetrics and…</span></div>
@@ -66,7 +66,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="medium-new">
-                    <a href="#">
+                    <a href="noticias-single.php">
                     <div class="feature-image">
                         <img src="img/medium-new.png">
                     </div>
@@ -79,7 +79,7 @@
             </div>
             <div class="col-md-4 hidden-xs">
                 <div class="medium-new">
-                    <a href="#">
+                    <a href="noticias-single.php">
                     <div class="feature-image">
                         <img src="img/medium-new.png">
                     </div>
@@ -92,7 +92,7 @@
             </div>
             <div class="col-md-4 hidden-xs">
                 <div class="medium-new">
-                    <a href="#">
+                    <a href="noticias-single.php">
                     <div class="feature-image">
                         <img src="img/medium-new.png">
                     </div>
@@ -106,7 +106,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 </a>
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 </a>
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -141,7 +141,7 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -152,7 +152,7 @@
                     </div>
                 </div>
                 </a>
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
                 </a>
-                <a href="#">
+                <a href="noticias-single.php">
                 <div class="small-new">
                     <div class="info">
                         <div class="date">01/08/2018 - <span class="publish">REVISTA HEART</span></div>
@@ -188,75 +188,91 @@
                 <div class="title">Lo último en tecnología</div>
             </div>
             <div class="col-md-6">
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app1.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app2.png"></div>
                     <div class="info">
                         <div class="name">CLOTS App</div>
                         <div class="author">By Peter MacCallum Cancer Institute</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app3.png"></div>
                     <div class="info">
                         <div class="name">ArthritisPower</div>
                         <div class="author">By Global Healthy Living Foundation, Inc.</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app4.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-md-6">
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app1.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app2.png"></div>
                     <div class="info">
                         <div class="name">CLOTS App</div>
                         <div class="author">By Peter MacCallum Cancer Institute</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app3.png"></div>
                     <div class="info">
                         <div class="name">ArthritisPower</div>
                         <div class="author">By Global Healthy Living Foundation, Inc.</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
+                <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"></div>
+                    <div class="feature-image blue-bg"><img src="img/app4.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
-                        <div class="available">Disponible para: <a href="#"><img src="img/icons/android-logo.png" width="17"></a> <a href="#"><img src="img/icons/apple-logo.png" width="17"></a></div>
+                        <div class="available">Disponible para: <img src="img/icons/android-logo.png" width="17"><img src="img/icons/apple-logo.png" width="17"></div>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-md-12">
-                <a href="#" class="border-btn blue"><p>Ver todas las aplicaciones</p></a>
+                <a href="noticias-apps.php" class="border-btn blue"><p>Ver todas las aplicaciones</p></a>
             </div>
         </div>
     </div>

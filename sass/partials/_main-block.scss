@@ -92,6 +92,12 @@
         justify-content: center;
         color: $white;
         
+        .btn-list{
+            li:last-of-type{
+                margin: 0;
+            }
+        }
+        
         
         p{
             color: $white;

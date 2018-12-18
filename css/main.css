@@ -2954,33 +2954,35 @@ footer .footer-social .dropdown select {
 .page-noticias .apps-all .heading .btn-list {
   display: block;
   margin-bottom: 20px;
+  clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 990px) {
   /* line 264, ../sass/pages/_noticias.scss */
   .page-noticias .apps-all .heading .btn-list {
     margin: 0;
     float: right;
+    clear: none;
   }
 }
-/* line 273, ../sass/pages/_noticias.scss */
+/* line 275, ../sass/pages/_noticias.scss */
 .page-noticias .apps-all .heading .btn-list .border-btn {
   width: auto;
   margin: 0;
   padding: 8px 13px;
 }
-/* line 282, ../sass/pages/_noticias.scss */
+/* line 284, ../sass/pages/_noticias.scss */
 .page-noticias .apps-all .main-block .feature-image.app-image {
   background: #F4F5F8;
 }
-/* line 286, ../sass/pages/_noticias.scss */
+/* line 288, ../sass/pages/_noticias.scss */
 .page-noticias .apps-all .main-block .author {
   margin: 0;
 }
-/* line 291, ../sass/pages/_noticias.scss */
+/* line 293, ../sass/pages/_noticias.scss */
 .page-noticias .apps-all .main-block .visible-hover a {
   display: inline-block;
 }
-/* line 295, ../sass/pages/_noticias.scss */
+/* line 297, ../sass/pages/_noticias.scss */
 .page-noticias .apps-all .main-block .visible-hover .underline {
   display: inline-block;
   font-size: 14px;

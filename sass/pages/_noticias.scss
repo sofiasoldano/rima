@@ -264,10 +264,12 @@
             .btn-list{
                 display: block;
                 margin-bottom: 20px;
+                clear: both;
                 
-                @include respond-to('small'){
+                @include respond-to('medium'){
                     margin: 0;
                     float: right;
+                    clear: none;
                 }
 
                 .border-btn{

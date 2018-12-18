@@ -270,7 +270,7 @@
                 </a>
             </div>
             <div class="col-md-12">
-                <a href="noticias-apps.php" class="border-btn blue"><p>Ver todas las aplicaciones</p></a>
+                <a href="noticias-app.php" class="border-btn blue"><p>Ver todas las aplicaciones</p></a>
             </div>
         </div>
     </div>

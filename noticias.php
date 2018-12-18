@@ -177,8 +177,6 @@
             </div>
         </div>
     </div>
-    
-    
 </section>
 
 <section class="apps">
@@ -190,7 +188,7 @@
             <div class="col-md-6">
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app1.png"></div>
+                    <div class="feature-image app-image"><img src="img/app1.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
@@ -200,7 +198,7 @@
                 </a>
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app2.png"></div>
+                    <div class="feature-image app-image"><img src="img/app2.png"></div>
                     <div class="info">
                         <div class="name">CLOTS App</div>
                         <div class="author">By Peter MacCallum Cancer Institute</div>
@@ -210,7 +208,7 @@
                 </a>
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app3.png"></div>
+                    <div class="feature-image app-image"><img src="img/app3.png"></div>
                     <div class="info">
                         <div class="name">ArthritisPower</div>
                         <div class="author">By Global Healthy Living Foundation, Inc.</div>
@@ -220,7 +218,7 @@
                 </a>
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app4.png"></div>
+                    <div class="feature-image app-image"><img src="img/app4.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
@@ -232,7 +230,7 @@
             <div class="col-md-6">
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app1.png"></div>
+                    <div class="feature-image app-image"><img src="img/app1.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>
@@ -242,7 +240,7 @@
                 </a>
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app2.png"></div>
+                    <div class="feature-image app-image"><img src="img/app2.png"></div>
                     <div class="info">
                         <div class="name">CLOTS App</div>
                         <div class="author">By Peter MacCallum Cancer Institute</div>
@@ -252,7 +250,7 @@
                 </a>
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app3.png"></div>
+                    <div class="feature-image app-image"><img src="img/app3.png"></div>
                     <div class="info">
                         <div class="name">ArthritisPower</div>
                         <div class="author">By Global Healthy Living Foundation, Inc.</div>
@@ -262,7 +260,7 @@
                 </a>
                 <a href="noticias-app-single.php">
                 <div class="small-block">
-                    <div class="feature-image blue-bg"><img src="img/app4.png"></div>
+                    <div class="feature-image app-image"><img src="img/app4.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
                         <div class="author">By Genomic Health, Inc.</div>

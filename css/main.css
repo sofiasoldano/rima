@@ -396,14 +396,15 @@ input[type='checkbox']:checked {
 }
 /* line 38, ../sass/modules/_buttons.scss */
 .border-btn:hover {
+  color: #FFFFFF !important;
   transition: all 0.5s;
 }
-/* line 41, ../sass/modules/_buttons.scss */
+/* line 42, ../sass/modules/_buttons.scss */
 .border-btn:hover p {
   color: #FFFFFF !important;
   transition: all 0.5s;
 }
-/* line 47, ../sass/modules/_buttons.scss */
+/* line 48, ../sass/modules/_buttons.scss */
 .border-btn.small {
   width: max-content;
   padding: 8px 42px;
@@ -2936,6 +2937,55 @@ footer .footer-social .dropdown select {
   background: #F4F5F8;
   padding-top: 30px;
   margin-bottom: 50px;
+}
+/* line 250, ../sass/pages/_noticias.scss */
+.page-noticias .feature-image.app-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+}
+/* line 256, ../sass/pages/_noticias.scss */
+.page-noticias .feature-image.app-image img {
+  width: 80%;
+  height: 80%;
+}
+/* line 264, ../sass/pages/_noticias.scss */
+.page-noticias .apps-all .heading .btn-list {
+  display: block;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 264, ../sass/pages/_noticias.scss */
+  .page-noticias .apps-all .heading .btn-list {
+    margin: 0;
+    float: right;
+  }
+}
+/* line 273, ../sass/pages/_noticias.scss */
+.page-noticias .apps-all .heading .btn-list .border-btn {
+  width: auto;
+  margin: 0;
+  padding: 8px 13px;
+}
+/* line 282, ../sass/pages/_noticias.scss */
+.page-noticias .apps-all .main-block .feature-image.app-image {
+  background: #F4F5F8;
+}
+/* line 286, ../sass/pages/_noticias.scss */
+.page-noticias .apps-all .main-block .author {
+  margin: 0;
+}
+/* line 291, ../sass/pages/_noticias.scss */
+.page-noticias .apps-all .main-block .visible-hover a {
+  display: inline-block;
+}
+/* line 295, ../sass/pages/_noticias.scss */
+.page-noticias .apps-all .main-block .visible-hover .underline {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 20px;
 }
 
 /* line 2, ../sass/pages/_core-journals.scss */

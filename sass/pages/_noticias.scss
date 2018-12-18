@@ -246,4 +246,60 @@
         padding-top: 30px;
         margin-bottom: 50px;
     }
+    
+    .feature-image.app-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $white;
+
+        img{
+            width: 80%;
+            height: 80%;
+        }
+    }
+    
+    .apps-all{
+        .heading{
+            .btn-list{
+                display: block;
+                margin-bottom: 20px;
+                
+                @include respond-to('small'){
+                    margin: 0;
+                    float: right;
+                }
+
+                .border-btn{
+                    width: auto;
+                    margin: 0;
+                    padding: 8px 13px;
+                }
+            }
+        }
+        
+        .main-block{
+            .feature-image.app-image{
+                background: #F4F5F8;
+            }
+            
+            .author{
+                margin: 0;
+            }
+            
+            .visible-hover{
+                a{
+                    display: inline-block;
+                }
+                
+                .underline{
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: $medium;
+                    margin-right: 20px;
+                }
+
+            }
+        }
+    }
 }

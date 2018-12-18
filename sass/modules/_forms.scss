@@ -40,6 +40,7 @@ input[type='checkbox']{
     border: 1px solid #9B9B9B;
     -webkit-appearance: none;
     margin: 0 10px;
+    background: $white;
     
     &:checked{
         background: #9B9B9B;

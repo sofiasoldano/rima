@@ -248,30 +248,31 @@ input[type='checkbox'] {
   border: 1px solid #9B9B9B;
   -webkit-appearance: none;
   margin: 0 10px;
+  background: #FFFFFF;
 }
-/* line 44, ../sass/modules/_forms.scss */
+/* line 45, ../sass/modules/_forms.scss */
 input[type='checkbox']:checked {
   background: #9B9B9B;
 }
 
-/* line 48, ../sass/modules/_forms.scss */
+/* line 49, ../sass/modules/_forms.scss */
 .dropdown {
   width: 45%;
   position: relative;
   margin-right: 10%;
 }
-/* line 53, ../sass/modules/_forms.scss */
+/* line 54, ../sass/modules/_forms.scss */
 .dropdown.no-m {
   margin-right: 0;
 }
 @media (min-width: 990px) {
-  /* line 48, ../sass/modules/_forms.scss */
+  /* line 49, ../sass/modules/_forms.scss */
   .dropdown {
     width: 160px;
     margin-right: 30px;
   }
 }
-/* line 62, ../sass/modules/_forms.scss */
+/* line 63, ../sass/modules/_forms.scss */
 .dropdown:after {
   content: "";
   position: absolute;
@@ -284,14 +285,14 @@ input[type='checkbox']:checked {
   top: 13px;
 }
 
-/* line 75, ../sass/modules/_forms.scss */
+/* line 76, ../sass/modules/_forms.scss */
 .caption {
   font-size: 12px;
   color: #4A4A4A;
   margin-top: -35px;
 }
 @media (min-width: 768px) {
-  /* line 75, ../sass/modules/_forms.scss */
+  /* line 76, ../sass/modules/_forms.scss */
   .caption {
     font-size: 14px;
   }
@@ -390,7 +391,7 @@ input[type='checkbox']:checked {
 .border-btn p {
   color: #000000;
   font-size: 14px;
-  margin: 0;
+  margin: 0 !important;
   transition: all 0.5s;
 }
 /* line 38, ../sass/modules/_buttons.scss */
@@ -3000,4 +3001,8 @@ footer .footer-social .dropdown select {
 /* line 6, ../sass/pages/_reporte.scss */
 .page-reporte .folder-single .main-block {
   min-height: 110px;
+}
+/* line 10, ../sass/pages/_reporte.scss */
+.page-reporte .single .borders.caption {
+  margin-bottom: 30px;
 }

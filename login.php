@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="login-box">
-                    <div class="dropdown">
+                    <div class="dropdown select-language">
                         <select name="lan">
                             <option value="esp">ESP</option>
                             <option value="esp">ESP</option>
@@ -29,9 +29,34 @@
                             <a class="btn-full blue-bg"><img src="img/icons/arrow-next-white.png" width="10"></a>
                         </div>
                         <div class="access">
-                            <p class="left">Me interesa postularme para poder acceder al portal RIMA</p><a href="#" class="right blue underline">Solicitar acceso</a>
+                            <p class="left">Me interesa postularme para poder acceder al portal RIMA</p><a href="#" class="right blue underline js-open-register">Solicitar acceso</a>
                         </div>
                     </div>
+                </div>
+                <div class="register-box hidden">
+                    <a href="#" class="btn-full blue-bg back-btn js-open-login"><img src="img/icons/arrow-back-white.png" width="12"></a>
+                    <div class="dropdown select-language">
+                        <select name="lan">
+                            <option value="esp">ESP</option>
+                            <option value="esp">ESP</option>
+                            <option value="esp">ESP</option>
+                        </select>
+                    </div>
+                    <img src="img/logo-large.png" width="217">
+                    <div class="login-title">Ingresa tus datos para comenzar el registro </div>
+                    <form>
+                        <div class="dropdown">
+                            <select name="tratamiento">
+                                <option value="tratamiento" disabled selected hidden>Tratamiento</option>
+                                <option value="tratamiento">Tratamiento</option>
+                                <option value="tratamiento">Tratamiento</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Apellido">
+                        <input type="text" placeholder="Nombre">
+                        <input type="email" placeholder="Dirección de e-mail">
+                        <input type="submit" value="Registrarme" class="btn-full blue-bg"> 
+                    </form>
                 </div>
             </div>
         </div>

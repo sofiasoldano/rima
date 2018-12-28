@@ -40,12 +40,17 @@
                 margin: 70px auto;
             }
             
-            .dropdown{
+            .dropdown.select-language{
                 width: 65px;
                 margin: 0;
                 position: absolute;
                 top: 10px;
                 right: 0px;
+                display: none;
+                
+                @include respond-to("small"){
+                    display: block;
+                }
                 
                 select{
                     font-size: 14px;
@@ -74,6 +79,29 @@
             
             p{
                 font-size: 15px;
+            }
+            
+            form{
+                .dropdown{
+                    width: 100%;
+                    
+                    select{
+                        color: #a1a1a1;
+                        margin-top: 40px;
+                    }
+                }
+            }
+            
+            .back-btn{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                padding: 0;
+                padding-top: 2px;
+                padding-right: 2px;
+                top: 12px;
+                left: 12px;
+                margin: 0;
             }
             
             .bottom-info{
@@ -166,6 +194,14 @@
                 
                 
             }
+        }
+    }
+    
+    .register-box{
+        @extend .login-box;
+        
+        input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select{
+            margin-bottom: 40px;
         }
     }
     

@@ -49,7 +49,9 @@ ul{
 .underline{
     text-decoration: underline;
 }
-
+.hidden{
+    display: none;
+}
 .hidden-xs{
     @include respond-to('xsmall'){
         display: none;

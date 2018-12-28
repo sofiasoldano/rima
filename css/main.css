@@ -157,19 +157,24 @@ ul {
   text-decoration: underline;
 }
 
+/* line 52, ../sass/base/_reset.scss */
+.hidden {
+  display: none;
+}
+
 @media (max-width: 768px) {
-  /* line 53, ../sass/base/_reset.scss */
+  /* line 55, ../sass/base/_reset.scss */
   .hidden-xs {
     display: none;
   }
 }
 
-/* line 59, ../sass/base/_reset.scss */
+/* line 61, ../sass/base/_reset.scss */
 .hidden-md {
   display: none;
 }
 @media (min-width: 990px) {
-  /* line 59, ../sass/base/_reset.scss */
+  /* line 61, ../sass/base/_reset.scss */
   .hidden-md {
     display: block;
   }
@@ -2170,7 +2175,7 @@ footer .footer-social .dropdown select {
   color: #9B9B9B;
 }
 /* line 23, ../sass/pages/_login.scss */
-.page-login .hero .login-box {
+.page-login .hero .login-box, .page-login .hero .register-box {
   position: relative;
   width: 100%;
   height: 570px;
@@ -2183,82 +2188,110 @@ footer .footer-social .dropdown select {
 }
 @media (min-width: 768px) {
   /* line 23, ../sass/pages/_login.scss */
-  .page-login .hero .login-box {
+  .page-login .hero .login-box, .page-login .hero .register-box {
     padding: 30px 50px;
   }
 }
 @media (min-width: 990px) {
   /* line 23, ../sass/pages/_login.scss */
-  .page-login .hero .login-box {
+  .page-login .hero .login-box, .page-login .hero .register-box {
     width: 50%;
     margin: 70px auto;
   }
 }
 /* line 43, ../sass/pages/_login.scss */
-.page-login .hero .login-box .dropdown {
+.page-login .hero .login-box .dropdown.select-language, .page-login .hero .register-box .dropdown.select-language {
   width: 65px;
   margin: 0;
   position: absolute;
   top: 10px;
   right: 0px;
+  display: none;
 }
-/* line 50, ../sass/pages/_login.scss */
-.page-login .hero .login-box .dropdown select {
+@media (min-width: 768px) {
+  /* line 43, ../sass/pages/_login.scss */
+  .page-login .hero .login-box .dropdown.select-language, .page-login .hero .register-box .dropdown.select-language {
+    display: block;
+  }
+}
+/* line 55, ../sass/pages/_login.scss */
+.page-login .hero .login-box .dropdown.select-language select, .page-login .hero .register-box .dropdown.select-language select {
   font-size: 14px;
   margin: 0;
   border: none;
 }
-/* line 56, ../sass/pages/_login.scss */
-.page-login .hero .login-box .dropdown:after {
+/* line 61, ../sass/pages/_login.scss */
+.page-login .hero .login-box .dropdown.select-language:after, .page-login .hero .register-box .dropdown.select-language:after {
   top: 7px;
 }
-/* line 61, ../sass/pages/_login.scss */
-.page-login .hero .login-box .login-title {
+/* line 66, ../sass/pages/_login.scss */
+.page-login .hero .login-box .login-title, .page-login .hero .register-box .login-title {
   font-size: 18px;
   color: #000000;
   font-weight: 500;
   margin: 20px 0;
 }
-/* line 68, ../sass/pages/_login.scss */
-.page-login .hero .login-box .forgot-pass {
+/* line 73, ../sass/pages/_login.scss */
+.page-login .hero .login-box .forgot-pass, .page-login .hero .register-box .forgot-pass {
   display: block;
   margin-top: -25px;
   font-size: 12px;
   text-align: left;
 }
-/* line 75, ../sass/pages/_login.scss */
-.page-login .hero .login-box p {
+/* line 80, ../sass/pages/_login.scss */
+.page-login .hero .login-box p, .page-login .hero .register-box p {
   font-size: 15px;
 }
-/* line 79, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info {
+/* line 85, ../sass/pages/_login.scss */
+.page-login .hero .login-box form .dropdown, .page-login .hero .register-box form .dropdown {
+  width: 100%;
+}
+/* line 88, ../sass/pages/_login.scss */
+.page-login .hero .login-box form .dropdown select, .page-login .hero .register-box form .dropdown select {
+  color: #a1a1a1;
+  margin-top: 40px;
+}
+/* line 95, ../sass/pages/_login.scss */
+.page-login .hero .login-box .back-btn, .page-login .hero .register-box .back-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  padding-top: 2px;
+  padding-right: 2px;
+  top: 12px;
+  left: 12px;
+  margin: 0;
+}
+/* line 107, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info, .page-login .hero .register-box .bottom-info {
   position: absolute;
   width: 100%;
   left: 0;
   bottom: 0;
   font-size: 14px;
 }
-/* line 86, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .code {
+/* line 114, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .code, .page-login .hero .register-box .bottom-info .code {
   overflow: hidden;
   background: #F4F5F8;
   padding: 10px;
 }
 @media (min-width: 990px) {
-  /* line 86, ../sass/pages/_login.scss */
-  .page-login .hero .login-box .bottom-info .code {
+  /* line 114, ../sass/pages/_login.scss */
+  .page-login .hero .login-box .bottom-info .code, .page-login .hero .register-box .bottom-info .code {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px;
   }
 }
-/* line 98, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .code span {
+/* line 126, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .code span, .page-login .hero .register-box .bottom-info .code span {
   font-weight: 600;
 }
-/* line 102, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .code input {
+/* line 130, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .code input, .page-login .hero .register-box .bottom-info .code input {
   border: 1px solid #E9E9E9;
   border-radius: 8px;
   padding: 10px 20px;
@@ -2266,12 +2299,12 @@ footer .footer-social .dropdown select {
   display: inline-block;
   margin: 10px;
 }
-/* line 110, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .code input::placeholder {
+/* line 138, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .code input::placeholder, .page-login .hero .register-box .bottom-info .code input::placeholder {
   font-size: 14px;
 }
-/* line 115, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .code .btn-full {
+/* line 143, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .code .btn-full, .page-login .hero .register-box .bottom-info .code .btn-full {
   width: 40px;
   min-width: 40px;
   height: 40px;
@@ -2281,8 +2314,8 @@ footer .footer-social .dropdown select {
   display: inline-block;
   margin: 0;
 }
-/* line 127, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .access {
+/* line 155, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .access, .page-login .hero .register-box .bottom-info .access {
   display: flex;
   text-align: left;
   align-items: center;
@@ -2291,64 +2324,68 @@ footer .footer-social .dropdown select {
   background: #E2E4E8;
   border-radius: 0 0 10px 10px;
 }
-/* line 136, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .access .left {
+/* line 164, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .access .left, .page-login .hero .register-box .bottom-info .access .left {
   max-width: 65%;
 }
-/* line 140, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .access .right {
+/* line 168, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .access .right, .page-login .hero .register-box .bottom-info .access .right {
   max-width: 35%;
   margin-left: auto;
 }
 @media (min-width: 768px) {
-  /* line 127, ../sass/pages/_login.scss */
-  .page-login .hero .login-box .bottom-info .access {
+  /* line 155, ../sass/pages/_login.scss */
+  .page-login .hero .login-box .bottom-info .access, .page-login .hero .register-box .bottom-info .access {
     padding: 25px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 127, ../sass/pages/_login.scss */
-  .page-login .hero .login-box .bottom-info .access {
+  /* line 155, ../sass/pages/_login.scss */
+  .page-login .hero .login-box .bottom-info .access, .page-login .hero .register-box .bottom-info .access {
     display: block;
   }
-  /* line 152, ../sass/pages/_login.scss */
-  .page-login .hero .login-box .bottom-info .access .left, .page-login .hero .login-box .bottom-info .access .right {
+  /* line 180, ../sass/pages/_login.scss */
+  .page-login .hero .login-box .bottom-info .access .left, .page-login .hero .register-box .bottom-info .access .left, .page-login .hero .login-box .bottom-info .access .right, .page-login .hero .register-box .bottom-info .access .right {
     max-width: 100%;
   }
 }
-/* line 157, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info .access a {
+/* line 185, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info .access a, .page-login .hero .register-box .bottom-info .access a {
   font-weight: 600;
 }
-/* line 162, ../sass/pages/_login.scss */
-.page-login .hero .login-box .bottom-info p {
+/* line 190, ../sass/pages/_login.scss */
+.page-login .hero .login-box .bottom-info p, .page-login .hero .register-box .bottom-info p {
   margin: 0;
   font-size: 14px;
 }
-/* line 172, ../sass/pages/_login.scss */
+/* line 203, ../sass/pages/_login.scss */
+.page-login .register-box input[type='text'], .page-login .register-box input[type='password'], .page-login .register-box input[type='number'], .page-login .register-box input[type='email'], .page-login .register-box textarea, .page-login .register-box select {
+  margin-bottom: 40px;
+}
+/* line 208, ../sass/pages/_login.scss */
 .page-login .info {
   position: relative;
 }
-/* line 175, ../sass/pages/_login.scss */
+/* line 211, ../sass/pages/_login.scss */
 .page-login .info p {
   width: 92%;
   color: #4A4A4A;
   margin-bottom: 25px;
 }
-/* line 181, ../sass/pages/_login.scss */
+/* line 217, ../sass/pages/_login.scss */
 .page-login .info .btn-full {
   width: 230px;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  /* line 181, ../sass/pages/_login.scss */
+  /* line 217, ../sass/pages/_login.scss */
   .page-login .info .btn-full {
     border-radius: 5px;
     margin: -15px 0 0;
     float: right;
   }
 }
-/* line 192, ../sass/pages/_login.scss */
+/* line 228, ../sass/pages/_login.scss */
 .page-login .info:before, .page-login .info .container:before {
   content: "";
   position: absolute;
@@ -2359,312 +2396,66 @@ footer .footer-social .dropdown select {
   left: -10%;
 }
 @media (min-width: 990px) {
-  /* line 192, ../sass/pages/_login.scss */
+  /* line 228, ../sass/pages/_login.scss */
   .page-login .info:before, .page-login .info .container:before {
     border-radius: 50%;
   }
 }
-/* line 206, ../sass/pages/_login.scss */
+/* line 242, ../sass/pages/_login.scss */
 .page-login .info:before {
   top: initial;
   bottom: -115px;
 }
-/* line 213, ../sass/pages/_login.scss */
+/* line 249, ../sass/pages/_login.scss */
 .page-login .partners {
   padding-top: 165px;
   padding-bottom: 30px;
   background: #F4F5F8;
 }
-/* line 218, ../sass/pages/_login.scss */
+/* line 254, ../sass/pages/_login.scss */
 .page-login .partners .box-logos {
   padding: 30px 0;
   background: #FFFFFF;
   border-radius: 5px;
   text-align: center;
 }
-/* line 225, ../sass/pages/_login.scss */
+/* line 261, ../sass/pages/_login.scss */
 .page-login .partners .box-logos ul li {
   display: inline-block;
   margin: 0 10px;
   width: 17%;
 }
 @media (min-width: 990px) {
-  /* line 225, ../sass/pages/_login.scss */
+  /* line 261, ../sass/pages/_login.scss */
   .page-login .partners .box-logos ul li {
     width: auto;
   }
 }
-/* line 234, ../sass/pages/_login.scss */
+/* line 270, ../sass/pages/_login.scss */
 .page-login .partners .box-logos ul li img {
   width: 94px;
   height: 54px;
   object-fit: contain;
   object-position: center;
 }
-/* line 245, ../sass/pages/_login.scss */
+/* line 281, ../sass/pages/_login.scss */
 .page-login footer {
   margin: 0;
   visibility: visible;
   opacity: 1;
 }
-/* line 250, ../sass/pages/_login.scss */
+/* line 286, ../sass/pages/_login.scss */
 .page-login footer .footer-social {
   display: none;
 }
-/* line 254, ../sass/pages/_login.scss */
+/* line 290, ../sass/pages/_login.scss */
 .page-login footer .col-md-4 {
   text-align: center;
   padding: 30px;
 }
-/* line 258, ../sass/pages/_login.scss */
+/* line 294, ../sass/pages/_login.scss */
 .page-login footer .col-md-4 .right {
   float: none;
-}
-
-/* line 2, ../sass/pages/_registro.scss */
-.page-registro header {
-  border-bottom: 1px solid #E9E9E9;
-  margin-bottom: 50px;
-  height: auto;
-}
-/* line 7, ../sass/pages/_registro.scss */
-.page-registro header .menu-desktop {
-  display: none;
-}
-/* line 11, ../sass/pages/_registro.scss */
-.page-registro header .menu-mobile {
-  display: none;
-}
-/* line 15, ../sass/pages/_registro.scss */
-.page-registro header .main-header {
-  height: auto;
-}
-/* line 19, ../sass/pages/_registro.scss */
-.page-registro header .main-header .header-info .language {
-  display: block;
-}
-/* line 23, ../sass/pages/_registro.scss */
-.page-registro header .main-header .header-info .search {
-  display: none;
-}
-/* line 27, ../sass/pages/_registro.scss */
-.page-registro header .main-header .header-info .notifs {
-  display: block;
-  margin: 0;
-}
-/* line 32, ../sass/pages/_registro.scss */
-.page-registro header .main-header .header-info .notifs ul li:nth-of-type(2) {
-  display: none;
-}
-/* line 38, ../sass/pages/_registro.scss */
-.page-registro header .main-header .header-info .profile {
-  display: none;
-}
-/* line 45, ../sass/pages/_registro.scss */
-.page-registro .title {
-  margin-bottom: 5px;
-}
-/* line 49, ../sass/pages/_registro.scss */
-.page-registro p {
-  color: #4A4A4A;
-}
-/* line 53, ../sass/pages/_registro.scss */
-.page-registro .registro-process {
-  margin: 50px 0;
-}
-/* line 56, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs {
-  width: 100%;
-  background: #F4F5F8;
-  border: 1px solid #E9E9E9;
-}
-/* line 61, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item {
-  width: 50%;
-  text-align: center;
-}
-/* line 65, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item:hover, .page-registro .registro-process .nav-tabs .nav-item:focus, .page-registro .registro-process .nav-tabs .nav-item:visited, .page-registro .registro-process .nav-tabs .nav-item:active {
-  border: none;
-  outline: none;
-}
-/* line 70, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link {
-  border: none;
-  padding: 15px 0;
-  transition: none;
-}
-/* line 75, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link:hover, .page-registro .registro-process .nav-tabs .nav-item .nav-link:focus, .page-registro .registro-process .nav-tabs .nav-item .nav-link:visited, .page-registro .registro-process .nav-tabs .nav-item .nav-link:active {
-  border: none;
-  outline: none;
-}
-/* line 80, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link p {
-  font-size: 14px;
-  color: #9B9B9B;
-  margin: 0;
-}
-@media (min-width: 768px) {
-  /* line 80, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .nav-tabs .nav-item .nav-link p {
-    font-size: 18px;
-  }
-}
-/* line 90, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link.active {
-  background: none;
-  border: none;
-  position: relative;
-}
-/* line 95, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link.active:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: -1px;
-  left: 0;
-  background: #2283CE;
-}
-/* line 106, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link.active p {
-  font-weight: 600;
-  color: #4A4A4A;
-}
-/* line 113, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link.completed p {
-  font-weight: 600;
-  color: #4A4A4A;
-}
-/* line 117, ../sass/pages/_registro.scss */
-.page-registro .registro-process .nav-tabs .nav-item .nav-link.completed p:after {
-  content: "";
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-image: url(img/completed.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  margin-top: -4px;
-  margin-left: 10px;
-}
-/* line 135, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content {
-  padding: 30px;
-  border: 1px solid #E9E9E9;
-  margin-top: -1px;
-}
-@media (min-width: 990px) {
-  /* line 135, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .tab-content {
-    padding: 50px;
-  }
-}
-@media (min-width: 990px) {
-  /* line 145, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .tab-content .tab-pane form {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-  }
-  /* line 152, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .tab-content .tab-pane form .half {
-    min-width: 46%;
-    max-width: 46%;
-  }
-}
-@media (min-width: 990px) {
-  /* line 159, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .tab-content .tab-pane form input[type='text'], .page-registro .registro-process .tab-content .tab-pane form input[type='password'], .page-registro .registro-process .tab-content .tab-pane form input[type='number'], .page-registro .registro-process .tab-content .tab-pane form input[type='email'], .page-registro .registro-process .tab-content .tab-pane form input[type='tel'], .page-registro .registro-process .tab-content .tab-pane form textarea, .page-registro .registro-process .tab-content .tab-pane form select {
-    min-width: 290px;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 159, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .tab-content .tab-pane form input[type='text'], .page-registro .registro-process .tab-content .tab-pane form input[type='password'], .page-registro .registro-process .tab-content .tab-pane form input[type='number'], .page-registro .registro-process .tab-content .tab-pane form input[type='email'], .page-registro .registro-process .tab-content .tab-pane form input[type='tel'], .page-registro .registro-process .tab-content .tab-pane form textarea, .page-registro .registro-process .tab-content .tab-pane form select {
-    min-width: 360px;
-  }
-}
-/* line 170, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form .upload-image {
-  margin-bottom: 50px;
-}
-/* line 173, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form .upload-image .photo {
-  width: 88px;
-  height: 88px;
-  display: block;
-  border: 2px solid #2283CE;
-  border-radius: calc(70% - 27px);
-  font-size: 40px;
-  text-align: center;
-  color: #2283CE;
-  padding-top: 10px;
-  margin: 0 auto;
-}
-/* line 186, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form .upload-image .subir {
-  color: #9B9B9B;
-  font-size: 12px;
-  text-align: center;
-  display: block;
-  margin: 10px 0;
-  text-decoration: underline;
-}
-/* line 196, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form .dropdown {
-  width: 100%;
-}
-/* line 200, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form input[type="radio"] {
-  margin-left: 25px;
-  margin-right: 7px;
-  margin-bottom: 45px;
-  margin-top: 4px;
-  -webkit-appearance: none;
-  width: 17px;
-  height: 17px;
-  border-radius: 50px;
-  border: 1px solid #979797;
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-}
-/* line 215, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form input[type="radio"]:checked:before {
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  background: #2283CE;
-  border-radius: 50px;
-  top: 3px;
-  left: 3px;
-}
-/* line 227, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form input[type="radio"]:first-of-type {
-  margin-left: 10px;
-}
-/* line 232, ../sass/pages/_registro.scss */
-.page-registro .registro-process .tab-content .tab-pane form .btn-full {
-  width: 195px;
-}
-@media (min-width: 990px) {
-  /* line 232, ../sass/pages/_registro.scss */
-  .page-registro .registro-process .tab-content .tab-pane form .btn-full {
-    float: right;
-  }
-}
-/* line 244, ../sass/pages/_registro.scss */
-.page-registro footer {
-  background: #FFFFFF;
-  border-top: 1px solid #E9E9E9;
-}
-/* line 248, ../sass/pages/_registro.scss */
-.page-registro footer .footer-social {
-  display: none;
 }
 
 /* line 2, ../sass/pages/_noticias.scss */

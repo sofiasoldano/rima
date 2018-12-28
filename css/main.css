@@ -180,6 +180,13 @@ ul {
   }
 }
 
+/* line 69, ../sass/base/_reset.scss */
+.undefined {
+  width: 100%;
+  height: 1000px;
+  background: #D8D8D8;
+}
+
 /*@import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:600');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300');

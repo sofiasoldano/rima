@@ -11,11 +11,11 @@
                         <img src="img/icons/add-folder.png" width="40">
                         <p>Nueva estrategia</p>
                     </a>
-                    <a href="reporte-estrategia-single.php" class="folder pink">
+                    <a href="#" class="folder pink">
                         <img src="img/icons/folder.png" width="47">
                         <p>Pediatría <span class="quantity">8 artículos</span></p>
                     </a>
-                    <a href="reporte-estrategia-single.php" class="folder green">
+                    <a href="#" class="folder green">
                         <img src="img/icons/folder.png" width="47">
                         <p>Sin título <span class="quantity">18 artículos</span></p>
                     </a>
@@ -23,7 +23,7 @@
                         <img src="img/icons/folder.png" width="47">
                         <p>Cardiología <span class="quantity">18 artículos</span></p>
                     </a>
-                    <a href="reporte-estrategia-single.php" class="folder purple">
+                    <a href="#" class="folder purple">
                         <img src="img/icons/folder.png" width="47">
                         <p>Temas varios <span class="quantity">18 artículos</span></p>
                     </a>

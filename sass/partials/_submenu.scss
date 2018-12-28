@@ -18,53 +18,7 @@
             max-width: 1140px;
         }
     }
-    
-    .academica-menu{
-        margin-bottom: 20px;
-        margin-left: -15px;
-        width: calc(100% + 30px);
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-          &::-webkit-scrollbar {
-            display: none;
-          }
-        
-        @include respond-to('small'){
-            text-align: center;
-            margin-left: 0;
-            width: auto; 
-        }
-        
-        ul{
-            width: max-content;
-            padding-left: 5px;
-            
-            @include respond-to('small'){
-                width: auto;
-                padding: 0;
-            }
 
-            li{
-                display: inline-block;
-                width: 40px;
-                margin: 0 10px;
-
-                @include respond-to('medium'){
-                    width: 45px;
-                    margin: 0 23px;
-                }
-
-                &.active{
-                    width: 50px;
-
-                    @include respond-to('medium'){
-                        width: 55px;
-                    }
-                }
-            }
-        }
-    }
-    
     .submenu-tabs{
         margin-left: -15px;
         width: calc(100% + 30px);
@@ -155,6 +109,52 @@
             
             &:focus{
                 outline: none;
+            }
+        }
+    }
+}
+
+ .academica-menu{
+    margin-bottom: 20px;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+    @include respond-to('small'){
+        text-align: center;
+        margin-left: 0;
+        width: auto; 
+    }
+
+    ul{
+        width: max-content;
+        padding-left: 5px;
+
+        @include respond-to('small'){
+            width: auto;
+            padding: 0;
+        }
+
+        li{
+            display: inline-block;
+            width: 40px;
+            margin: 0 10px;
+
+            @include respond-to('medium'){
+                width: 45px;
+                margin: 0 23px;
+            }
+
+            &.active{
+                width: 50px;
+
+                @include respond-to('medium'){
+                    width: 55px;
+                }
             }
         }
     }

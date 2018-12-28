@@ -1,0 +1,15 @@
+.new{
+    position: relative;
+
+    &:after{
+        content: "12";
+        position: absolute;
+        background: $blue;
+        color: $white;
+        top: -5px;
+        right: -20px;
+        border-radius: 50px;
+        font-size: 10px;
+        padding: 0 5px;
+    }
+}

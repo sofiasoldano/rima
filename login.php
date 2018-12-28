@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="register-box hidden">
-                    <a href="#" class="btn-full blue-bg back-btn js-open-login"><img src="img/icons/arrow-back-white.png" width="12"></a>
+                    <a href="#" class="btn-full blue-bg back-btn js-open-login"><img src="img/icons/arrow-back-white.png" width="10"></a>
                     <div class="dropdown select-language">
                         <select name="lan">
                             <option value="esp">ESP</option>

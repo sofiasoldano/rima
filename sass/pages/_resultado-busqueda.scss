@@ -1,0 +1,121 @@
+.page-resultado-busqueda{
+    
+    .filter{
+        border-top: 1px solid #E9E9E9;
+        border-bottom: 1px solid #E9E9E9;
+        padding: 20px 0;
+        
+        @include respond-to("medium"){
+            display: flex;
+            align-items: center;
+        }
+        
+        p{
+            margin: 0;
+            font-size: 14px;
+            color: $gray;
+        }
+        
+        .ver-todo{
+            font-size: 14px;
+            margin: 0 30px;
+        }
+        
+        .academica-menu{ 
+            margin: 20px 0 0 -16px;
+            
+            @include respond-to("medium"){
+                margin: 0 30px;
+                
+                
+                
+            }
+            
+            ul li {
+                width: 40px;
+                margin: 0 10px;
+                
+                @include respond-to("large"){
+                    width: 45px;
+                    margin: 0 18px;
+                }
+            }
+            
+            .bw{
+                pointer-events: none;
+            }
+        }
+    }
+    
+    .subfilter{
+        overflow: hidden;
+        margin: 15px 0;
+        
+        p{
+            margin: 0;
+            font-size: 14px;
+            color: $gray;
+            padding-top: 2px;
+        }
+        
+        .btn-list{
+            margin: 0;
+            
+            .active{
+                position: relative;
+                
+                &:after{
+                    content: "";
+                    position: absolute;
+                    background: $blue;
+                    color: #FFFFFF;
+                    width: 9px;
+                    height: 9px;
+                    top: -1px;
+                    right: -3px;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    
+    .header-bg{
+        background: $blue;
+        margin-bottom: 50px;
+    }
+    
+    .main-block{
+        padding: 15px;
+        
+        .author{
+            display: none;
+            
+            @include respond-to("small"){
+                display: block;
+            }
+        }
+        
+        @include respond-to("xsmall"){
+            border: none;
+            position: relative;
+            overflow: visible;
+            margin-bottom: 0;
+            padding-left: 0;
+            
+            &:after{
+                content: "";
+                height: 1px;
+                width: calc(100% + 16px);
+                position: absolute;
+                bottom: 0;
+                background: #E9E9E9;
+            }
+            
+            &:hover{
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+}

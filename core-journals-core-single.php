@@ -157,7 +157,7 @@
 <div id="edit-carpeta" class="modal">
     <div class="modal-bg js-close-modal"></div>
     <div class="modal-body">
-        <p><a href="#"><img src="img/icons/share2.png" width="18">Cambiar color de la carpeta</a></p>
+        <p><a href="#"><img src="img/icons/palette.png" width="18">Cambiar color de la carpeta</a></p>
         <ul class="colors">
             <li><a class="color orange" href="#"></a></li>
             <li><a class="color red" href="#"></a></li>

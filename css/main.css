@@ -1625,44 +1625,77 @@ footer .footer-social .dropdown select {
 /* line 42, ../sass/partials/_folders.scss */
 .folder {
   background: #979797;
+  transition: all 0.5s;
 }
-/* line 45, ../sass/partials/_folders.scss */
+/* line 46, ../sass/partials/_folders.scss */
+.folder:hover {
+  transition: all 0.5s;
+}
+/* line 50, ../sass/partials/_folders.scss */
 .folder p {
   color: #FFFFFF;
   font-size: 18px;
 }
-/* line 49, ../sass/partials/_folders.scss */
+/* line 54, ../sass/partials/_folders.scss */
 .folder p .quantity {
   display: block;
   font-size: 12px;
 }
-/* line 55, ../sass/partials/_folders.scss */
+/* line 60, ../sass/partials/_folders.scss */
 .folder.pink {
   background: #EA4E9D;
 }
-/* line 58, ../sass/partials/_folders.scss */
+/* line 63, ../sass/partials/_folders.scss */
+.folder.pink:hover {
+  background: #d43f8a;
+}
+/* line 67, ../sass/partials/_folders.scss */
 .folder.green {
   background: #63D26F;
 }
-/* line 61, ../sass/partials/_folders.scss */
+/* line 70, ../sass/partials/_folders.scss */
+.folder.green:hover {
+  background: #4fa959;
+}
+/* line 74, ../sass/partials/_folders.scss */
 .folder.light-blue {
   background: #1FAAEA;
 }
-/* line 64, ../sass/partials/_folders.scss */
+/* line 77, ../sass/partials/_folders.scss */
+.folder.light-blue:hover {
+  background: #1893cc;
+}
+/* line 81, ../sass/partials/_folders.scss */
 .folder.purple {
   background: #7A6FF0;
 }
-/* line 67, ../sass/partials/_folders.scss */
+/* line 84, ../sass/partials/_folders.scss */
+.folder.purple:hover {
+  background: #675fc1;
+}
+/* line 88, ../sass/partials/_folders.scss */
 .folder.red {
   background: #E8384F;
 }
-/* line 70, ../sass/partials/_folders.scss */
+/* line 91, ../sass/partials/_folders.scss */
+.folder.red:hover {
+  background: #ad3041;
+}
+/* line 95, ../sass/partials/_folders.scss */
 .folder.light-gray {
   background: #B6BFC6;
 }
-/* line 73, ../sass/partials/_folders.scss */
+/* line 98, ../sass/partials/_folders.scss */
+.folder.light-gray:hover {
+  background: #9a9fa2;
+}
+/* line 102, ../sass/partials/_folders.scss */
 .folder.orange {
   background: #FD9B00;
+}
+/* line 105, ../sass/partials/_folders.scss */
+.folder.orange:hover {
+  background: #c5851f;
 }
 
 /* line 3, ../sass/partials/_single.scss */

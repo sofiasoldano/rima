@@ -16,12 +16,12 @@
                         <div class="left">
                             <li><a href="#"><img src="img/icons/language.png" width="20"></a></li>
                             <li><a href="#"><img src="img/icons/headphones.png" width="21"></a></li>
-                            <li><a href="#"><img src="img/icons/font-size.png" width="27"></a></li>
+                            <li><a href="#edit-type" class="js-open-modal type-btn"><img src="img/icons/font-size.png" width="27"></a></li>
                         </div>
                         <div class="right">
                             <li><a href="#"><img src="img/icons/share.png" width="16"></a></li>
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="#"><img src="img/icons/bookmark.png" width="14"></a></li>
+                            <li><a href="#guardar-articulo" class="js-open-modal"><img src="img/icons/bookmark.png" width="14"></a></li>
                         </div>
                     </ul>
                 </div>
@@ -92,5 +92,53 @@
         </div>
     </div>
 </section>
+
+<div id="guardar-articulo" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-container">
+        <div class="modal-body text-center">
+            <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
+            <div class="title">Guardar artículo en la biblioteca</div>
+            <p>Seleccionar carpeta</p>
+            <div class="dropdown">
+                <select name="carpeta">
+                    <option value="temas-varios">Temas varios</option>
+                    <option value="temas-varios">Temas varios</option>
+                    <option value="temas-varios">Temas varios</option>
+                    <option value="temas-varios">Temas varios</option>
+                    <option value="temas-varios">Temas varios</option>
+                    <option value="temas-varios">Temas varios</option>
+                </select>
+            </div>
+
+            <a href="#" class="btn-full orange-bg">Guardar</a>
+        </div>
+    </div>
+</div>
+
+<div id="edit-type" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+
+    <div class="modal-body text-center">
+        <div class="size">
+            <a href="#"><img src="img/icons/change-font-size.png" width="13"></a>
+            <a href="#"><img src="img/icons/change-font-size.png" width="19"></a>
+        </div>
+        <div class="brightness">
+            <img src="img/icons/sun.png" width="18">
+            <input class="slider-range" type="range" min="-10" max="10">
+            <img src="img/icons/sun.png" width="23">
+        </div>
+        <div class="bg-color">
+            <ul>
+                <li><a href="#" class="white">Aa</a></li>
+                <li><a href="#" class="beige">Aa</a></li>
+                <li><a href="#" class="gray">Aa</a></li>
+                <li><a href="#" class="black">Aa</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
 
 <?php include('footer.php'); ?>

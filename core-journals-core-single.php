@@ -12,7 +12,7 @@
                         <a href="core-journals-core.php" class="before">Mi Core</a><span class="arrow"><img src="img/icons/arrow-next-white.png" width="10"></span><a href="#">Para compartir</a>
                     </div>
                     <div class="edit right">
-                        <a href="#"><img src="img/icons/settings-white.png" width="18"><p>Editar carpeta</p></a>
+                        <a href="#edit-carpeta" class="js-open-modal"><img src="img/icons/settings-white.png" width="18"><p>Editar carpeta</p></a>
                     </div>
                 </div>
                 
@@ -153,5 +153,24 @@
         </div>
     </div>
 </div>
+
+<div id="edit-carpeta" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-body">
+        <p><a href="#"><img src="img/icons/share2.png" width="18">Cambiar color de la carpeta</a></p>
+        <ul class="colors">
+            <li><a class="color orange" href="#"></a></li>
+            <li><a class="color red" href="#"></a></li>
+            <li><a class="color pink" href="#"></a></li>
+            <li><a class="color green" href="#"></a></li>
+            <li><a class="color light-blue" href="#"></a></li>
+            <li><a class="color purple" href="#"></a></li>
+        </ul>
+        <p><a href="#"><img src="img/icons/share2.png" width="18">Compartir</a></p>
+        <p><a href="#"><img src="img/icons/trash.png" width="18">Eliminar</a></p>
+    </div>
+</div>
+
+
 
 <?php include('footer.php'); ?>

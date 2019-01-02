@@ -34,10 +34,23 @@
                         </div>
                         <input type="text" placeholder="Título del artículo">
                         <div class="caption">Si no conoce el nombre de la revista y los datos catalográficos, ingrese aquí el nombre del artículo.</div>
-                        <input type="submit" value="Enviar pedido" class="btn-full orange-bg"> 
+                        <input type="submit" href="#confirm" value="Enviar pedido" class="btn-full orange-bg js-open-modal"> 
                     </form>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div id="confirm" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-container">
+        <div class="modal-body text-center">
+            <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
+            <img class="icon-checked" src="img/icons/checked-orange.png" width="81">
+            <div class="title">¡Bien hecho!</div>
+            <div class="subtitle">Su pedido ha sido registrado con éxito</div>
+            <a href="#" class="btn-full orange-bg js-close-modal">Entendido</a>
         </div>
     </div>
 </div>

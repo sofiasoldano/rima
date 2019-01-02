@@ -77,7 +77,7 @@
                     </div>
            
                 </div>
-                <a href="#" class="border-btn dark-green"><p>Ver texto completo</p></a>
+                <a href="#ver-texto" class="border-btn dark-green js-open-modal"><p>Ver texto completo</p></a>
             </div>
         </div>
         <div class="comments">
@@ -123,5 +123,37 @@
         </div>
     </div>
 </section>
+
+<div id="ver-texto" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-container">
+        <div class="modal-body text-center">
+            <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
+            <div class="title">Seleccione una de las siguientes opciones</div>
+            <div class="main-block">
+                <img class="icon" src="img/icons/pdf.png" width="30">
+                <div class="info">
+                    <div class="subtitle">Visualizar el artículo original</div>
+                </div>
+                <div class="visible-hover right">
+                    <ul class="btn-list">
+                        <li><a href="#" class="border-btn small dark-green"><p>Descargar PDF</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-block">
+                <img class="icon" src="img/icons/translate.png" width="40">
+                <div class="info">
+                    <div class="subtitle">Traducir el artículo </div>
+                </div>
+                <div class="visible-hover right">
+                    <ul class="btn-list">
+                        <li><a href="#" class="border-btn small dark-green"><p>Ver traducción</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php include('footer.php'); ?>

@@ -8,7 +8,7 @@
                 <div class="title">Mi core</div>
                 
                 <div class="folders-container">
-                    <a href="#" class="add-folder">
+                    <a href="#crear-carpeta" class="add-folder js-open-modal">
                         <img src="img/icons/add-folder.png" width="40">
                         <p>Nueva carpeta</p>
                     </a>
@@ -45,5 +45,28 @@
         </div>
     </div>
 </div>
+
+
+<div id="crear-carpeta" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-container">
+        <div class="modal-body text-center">
+            <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
+            <div class="title">Creá una nueva carpeta</div>
+            <input type="text" placeholder="Ingrese un nombre">
+            <p>Asignale un color</p>
+            <ul class="colors">
+                <li><a class="color orange" href="#"></a></li>
+                <li><a class="color red" href="#"></a></li>
+                <li><a class="color pink" href="#"></a></li>
+                <li><a class="color green" href="#"></a></li>
+                <li><a class="color light-blue" href="#"></a></li>
+                <li><a class="color purple" href="#"></a></li>
+            </ul>
+            <a href="#" class="btn-full orange-bg">Crear carpeta</a>
+        </div>
+    </div>
+</div>
+
 
 <?php include('footer.php'); ?>

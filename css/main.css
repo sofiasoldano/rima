@@ -98,89 +98,85 @@ html, body {
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
-}
-
-/* line 10, ../sass/base/_reset.scss */
-body {
   overflow-x: hidden;
 }
 
-/* line 14, ../sass/base/_reset.scss */
+/* line 11, ../sass/base/_reset.scss */
 p {
   margin-bottom: 10px;
 }
 
-/* line 17, ../sass/base/_reset.scss */
+/* line 14, ../sass/base/_reset.scss */
 a {
   color: #000000;
   text-decoration: none;
   transition: all 0.5s;
 }
-/* line 22, ../sass/base/_reset.scss */
+/* line 19, ../sass/base/_reset.scss */
 a:hover {
   color: #000000;
   text-decoration: none;
 }
-/* line 27, ../sass/base/_reset.scss */
+/* line 24, ../sass/base/_reset.scss */
 a:focus {
   text-decoration: none;
 }
-/* line 31, ../sass/base/_reset.scss */
+/* line 28, ../sass/base/_reset.scss */
 a:visited {
   text-decoration: none;
 }
 
-/* line 35, ../sass/base/_reset.scss */
+/* line 32, ../sass/base/_reset.scss */
 .img-responsive {
   max-width: 100%;
 }
 
-/* line 38, ../sass/base/_reset.scss */
+/* line 35, ../sass/base/_reset.scss */
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 43, ../sass/base/_reset.scss */
+/* line 40, ../sass/base/_reset.scss */
 .left {
   float: left;
 }
 
-/* line 46, ../sass/base/_reset.scss */
+/* line 43, ../sass/base/_reset.scss */
 .right {
   float: right;
 }
 
-/* line 49, ../sass/base/_reset.scss */
+/* line 46, ../sass/base/_reset.scss */
 .underline {
   text-decoration: underline;
 }
 
-/* line 52, ../sass/base/_reset.scss */
+/* line 49, ../sass/base/_reset.scss */
 .hidden {
   display: none;
 }
 
 @media (max-width: 768px) {
-  /* line 55, ../sass/base/_reset.scss */
+  /* line 52, ../sass/base/_reset.scss */
   .hidden-xs {
     display: none;
   }
 }
 
-/* line 61, ../sass/base/_reset.scss */
+/* line 58, ../sass/base/_reset.scss */
 .hidden-md {
   display: none;
 }
 @media (min-width: 990px) {
-  /* line 61, ../sass/base/_reset.scss */
+  /* line 58, ../sass/base/_reset.scss */
   .hidden-md {
     display: block;
   }
 }
 
-/* line 69, ../sass/base/_reset.scss */
+/* line 66, ../sass/base/_reset.scss */
 .undefined {
   width: 100%;
   height: 1000px;
@@ -376,7 +372,7 @@ input[type='checkbox']:checked {
   padding: 10px 0;
   border-radius: 50px;
   border: none;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   font-size: 20px;
   text-align: center;
   transition: all 0.5s;
@@ -2173,6 +2169,443 @@ footer .footer-social .dropdown select {
   background-position: center;
   height: 45px;
   z-index: 1;
+}
+
+/* line 1, ../sass/partials/_modals.scss */
+.modal {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+/* line 7, ../sass/partials/_modals.scss */
+.modal.open {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+/* line 13, ../sass/partials/_modals.scss */
+.modal .modal-bg {
+  background: #000000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+}
+/* line 22, ../sass/partials/_modals.scss */
+.modal .modal-container {
+  width: 660px;
+  max-width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+@media (min-width: 990px) {
+  /* line 22, ../sass/partials/_modals.scss */
+  .modal .modal-container {
+    margin-top: 0;
+  }
+}
+/* line 38, ../sass/partials/_modals.scss */
+.modal .modal-body {
+  z-index: 1;
+  background: #FFFFFF;
+  overflow: hidden;
+  height: auto;
+  border-radius: 6px;
+}
+/* line 46, ../sass/partials/_modals.scss */
+.modal .btn-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+/* line 52, ../sass/partials/_modals.scss */
+.modal .js-close-modal {
+  cursor: pointer;
+}
+/* line 56, ../sass/partials/_modals.scss */
+.modal .colors {
+  margin: 10px 0 50px 0;
+}
+/* line 59, ../sass/partials/_modals.scss */
+.modal .colors li {
+  display: inline-block;
+  margin: 0 2px;
+}
+@media (min-width: 768px) {
+  /* line 59, ../sass/partials/_modals.scss */
+  .modal .colors li {
+    margin: 0 10px;
+  }
+}
+/* line 67, ../sass/partials/_modals.scss */
+.modal .colors li .color {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  display: block;
+}
+/* line 73, ../sass/partials/_modals.scss */
+.modal .colors li .color.pink {
+  background: #EA4E9D;
+}
+/* line 76, ../sass/partials/_modals.scss */
+.modal .colors li .color.green {
+  background: #63D26F;
+}
+/* line 79, ../sass/partials/_modals.scss */
+.modal .colors li .color.light-blue {
+  background: #1FAAEA;
+}
+/* line 82, ../sass/partials/_modals.scss */
+.modal .colors li .color.purple {
+  background: #7A6FF0;
+}
+/* line 85, ../sass/partials/_modals.scss */
+.modal .colors li .color.red {
+  background: #E8384F;
+}
+/* line 88, ../sass/partials/_modals.scss */
+.modal .colors li .color.orange {
+  background: #FD9B00;
+}
+
+/* line 97, ../sass/partials/_modals.scss */
+#info .modal-container {
+  width: 800px;
+}
+/* line 101, ../sass/partials/_modals.scss */
+#info .modal-body {
+  padding: 35px 0;
+  padding-top: 10px;
+}
+@media (min-width: 990px) {
+  /* line 101, ../sass/partials/_modals.scss */
+  #info .modal-body {
+    padding: 80px 85px;
+    padding-top: 10px;
+  }
+}
+/* line 110, ../sass/partials/_modals.scss */
+#info .modal-body .academica-icon {
+  margin: 10px 0;
+}
+/* line 114, ../sass/partials/_modals.scss */
+#info .modal-body .title {
+  margin-bottom: 10px;
+}
+/* line 118, ../sass/partials/_modals.scss */
+#info .modal-body p {
+  color: #4A4A4A;
+  line-height: 1.5;
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 990px) {
+  /* line 118, ../sass/partials/_modals.scss */
+  #info .modal-body p {
+    width: auto;
+  }
+}
+/* line 129, ../sass/partials/_modals.scss */
+#info .modal-body .video {
+  margin-top: 35px;
+  position: relative;
+}
+/* line 133, ../sass/partials/_modals.scss */
+#info .modal-body .video .play-btn {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+}
+
+@media (min-width: 768px) {
+  /* line 143, ../sass/partials/_modals.scss */
+  #ver-texto .modal-body {
+    padding: 40px;
+  }
+}
+/* line 148, ../sass/partials/_modals.scss */
+#ver-texto .modal-body .main-block {
+  min-height: auto;
+  padding: 20px;
+  margin-bottom: 23px;
+  background: #F7F7F7;
+}
+@media (max-width: 768px) {
+  /* line 148, ../sass/partials/_modals.scss */
+  #ver-texto .modal-body .main-block {
+    padding-bottom: 76px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* line 160, ../sass/partials/_modals.scss */
+#ver-texto .modal-body .main-block:last-of-type {
+  margin: 0;
+}
+/* line 164, ../sass/partials/_modals.scss */
+#ver-texto .modal-body .main-block .visible-hover {
+  visibility: visible;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  /* line 164, ../sass/partials/_modals.scss */
+  #ver-texto .modal-body .main-block .visible-hover {
+    top: initial;
+    bottom: 20px;
+    height: auto;
+    background: none;
+  }
+  /* line 174, ../sass/partials/_modals.scss */
+  #ver-texto .modal-body .main-block .visible-hover p {
+    color: #000000;
+  }
+}
+/* line 181, ../sass/partials/_modals.scss */
+#ver-texto .modal-body .subtitle {
+  margin-left: 15px;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  /* line 181, ../sass/partials/_modals.scss */
+  #ver-texto .modal-body .subtitle {
+    margin-left: 25px;
+  }
+}
+
+/* line 193, ../sass/partials/_modals.scss */
+#crear-carpeta .modal-container {
+  width: 560px;
+}
+@media (min-width: 768px) {
+  /* line 197, ../sass/partials/_modals.scss */
+  #crear-carpeta .modal-body {
+    padding: 40px 100px;
+  }
+}
+/* line 203, ../sass/partials/_modals.scss */
+#crear-carpeta .modal-body .title {
+  margin-bottom: 40px;
+}
+/* line 207, ../sass/partials/_modals.scss */
+#crear-carpeta .modal-body .btn-full {
+  margin-bottom: 15px;
+}
+
+/* line 214, ../sass/partials/_modals.scss */
+#confirm .icon-checked {
+  margin: 20px;
+}
+/* line 218, ../sass/partials/_modals.scss */
+#confirm .title {
+  margin: 0;
+}
+/* line 222, ../sass/partials/_modals.scss */
+#confirm .btn-full {
+  width: fit-content;
+  padding: 10px 50px;
+}
+
+/* line 229, ../sass/partials/_modals.scss */
+#guardar-articulo .modal-container {
+  width: 560px;
+}
+@media (min-width: 768px) {
+  /* line 233, ../sass/partials/_modals.scss */
+  #guardar-articulo .modal-body {
+    padding: 40px 100px;
+  }
+}
+/* line 239, ../sass/partials/_modals.scss */
+#guardar-articulo .modal-body .title {
+  margin-bottom: 40px;
+}
+/* line 243, ../sass/partials/_modals.scss */
+#guardar-articulo .modal-body p {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* line 249, ../sass/partials/_modals.scss */
+#guardar-articulo .modal-body .dropdown {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+/* line 255, ../sass/partials/_modals.scss */
+#guardar-articulo .modal-body .btn-full {
+  margin-bottom: 0;
+}
+
+/* line 262, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-bg {
+  background: transparent;
+}
+/* line 265, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body {
+  box-shadow: 0 0 50px 0px rgba(57, 95, 121, 0.48);
+  width: 300px;
+  position: absolute;
+}
+/* line 270, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body p {
+  margin-bottom: 15px;
+}
+/* line 273, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body p img {
+  margin-right: 10px;
+}
+/* line 277, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body p:last-of-type {
+  margin-bottom: 0;
+}
+/* line 282, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body .colors {
+  margin: 0;
+  margin-left: 26px;
+  margin-bottom: 10px;
+}
+/* line 287, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body .colors li {
+  margin: 0 3px;
+}
+/* line 290, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body .colors li .color {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 300, ../sass/partials/_modals.scss */
+#edit-type .modal-bg {
+  opacity: 0.2;
+}
+/* line 304, ../sass/partials/_modals.scss */
+#edit-type .modal-body {
+  box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.42);
+  width: 270px;
+  position: absolute;
+  padding: 0;
+  overflow: visible;
+}
+/* line 311, ../sass/partials/_modals.scss */
+#edit-type .modal-body:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  top: 69px;
+  right: -17px;
+  transform: rotate(45deg);
+  box-shadow: 4px -4px 7px 0px rgba(0, 0, 0, 0.13);
+  z-index: -6;
+}
+/* line 326, ../sass/partials/_modals.scss */
+#edit-type .modal-body.mobile:after {
+  top: -16px;
+  right: initial;
+  left: 48px;
+  transform: rotate(-45deg);
+}
+/* line 334, ../sass/partials/_modals.scss */
+#edit-type .modal-body .size {
+  border-bottom: 1px solid #E9E9E9;
+}
+/* line 337, ../sass/partials/_modals.scss */
+#edit-type .modal-body .size a {
+  display: inline-block;
+  width: 49%;
+  font-size: 0;
+  border-right: 1px solid #E9E9E9;
+  padding: 18px;
+  margin: -2px;
+}
+/* line 345, ../sass/partials/_modals.scss */
+#edit-type .modal-body .size a:last-of-type {
+  border: none;
+}
+/* line 351, ../sass/partials/_modals.scss */
+#edit-type .modal-body .brightness {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 20px;
+}
+/* line 355, ../sass/partials/_modals.scss */
+#edit-type .modal-body .brightness .slider-range {
+  -webkit-appearance: none;
+  height: 2px;
+  background: #9B9B9B;
+  outline: none;
+  margin: 0 10px;
+}
+/* line 363, ../sass/partials/_modals.scss */
+#edit-type .modal-body .brightness .slider-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.42);
+}
+/* line 374, ../sass/partials/_modals.scss */
+#edit-type .modal-body .brightness .slider-range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.42);
+}
+/* line 384, ../sass/partials/_modals.scss */
+#edit-type .modal-body .brightness .slider-range::-webkit-range-progress, #edit-type .modal-body .brightness .slider-range::-moz-range-progress, #edit-type .modal-body .brightness .slider-range::-ms-fill-upper {
+  background: #7ED2C9;
+}
+/* line 389, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color {
+  padding: 20px 0;
+}
+/* line 392, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 396, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color li a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 5px;
+}
+/* line 405, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color li a.white {
+  border: 1px solid #979797;
+}
+/* line 408, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color li a.beige {
+  border: 1px solid #D5D5D5;
+  background: #F7F1E3;
+}
+/* line 412, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color li a.gray {
+  background: #2D3135;
+  color: #FFFFFF;
+}
+/* line 416, ../sass/partials/_modals.scss */
+#edit-type .modal-body .bg-color li a.black {
+  background: #000000;
+  color: #FFFFFF;
 }
 
 /* line 2, ../sass/pages/_login.scss */

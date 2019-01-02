@@ -55,13 +55,27 @@
                         <input type="text" placeholder="Apellido">
                         <input type="text" placeholder="Nombre">
                         <input type="email" placeholder="Dirección de e-mail">
-                        <input type="submit" value="Registrarme" class="btn-full blue-bg"> 
+                        <input type="submit" href="#confirm" value="Registrarme" class="btn-full blue-bg js-open-modal"> 
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<div id="confirm" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-container">
+        <div class="modal-body text-center">
+            <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
+            <img class="icon-checked" src="img/icons/checked-blue.png" width="81">
+            <div class="title">¡Bien hecho!</div>
+            <div class="subtitle">El registro se completó con éxito</div>
+            <a href="#" class="btn-full blue-bg">Ingresar</a>
+        </div>
+    </div>
+</div>
+
 
 <section class="info">
     <div class="container">

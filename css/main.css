@@ -1372,18 +1372,24 @@ footer .footer-social .dropdown select {
   margin-top: 10px;
 }
 /* line 58, ../sass/partials/_main-block.scss */
+.main-block .info .author-name {
+  font-size: 14px;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+}
+/* line 64, ../sass/partials/_main-block.scss */
 .main-block .info .category {
   font-size: 14px;
   margin-bottom: 10px;
 }
-/* line 63, ../sass/partials/_main-block.scss */
+/* line 69, ../sass/partials/_main-block.scss */
 .main-block .info .description {
   font-size: 14px;
   color: #4A4A4A;
   font-weight: 500;
   margin: 10px 0;
 }
-/* line 70, ../sass/partials/_main-block.scss */
+/* line 76, ../sass/partials/_main-block.scss */
 .main-block .info .available {
   font-size: 12px;
   color: #4A4A4A;
@@ -1391,11 +1397,11 @@ footer .footer-social .dropdown select {
   display: flex;
   align-items: center;
 }
-/* line 77, ../sass/partials/_main-block.scss */
+/* line 83, ../sass/partials/_main-block.scss */
 .main-block .info .available img {
   margin: 0 0 0 15px;
 }
-/* line 83, ../sass/partials/_main-block.scss */
+/* line 89, ../sass/partials/_main-block.scss */
 .main-block .visible-hover {
   margin-left: auto;
   opacity: 0;
@@ -1413,20 +1419,20 @@ footer .footer-social .dropdown select {
   justify-content: center;
   color: #FFFFFF;
 }
-/* line 101, ../sass/partials/_main-block.scss */
+/* line 107, ../sass/partials/_main-block.scss */
 .main-block .visible-hover .btn-list li:last-of-type {
   margin: 0;
 }
-/* line 107, ../sass/partials/_main-block.scss */
+/* line 113, ../sass/partials/_main-block.scss */
 .main-block .visible-hover p {
   color: #FFFFFF;
 }
-/* line 111, ../sass/partials/_main-block.scss */
+/* line 117, ../sass/partials/_main-block.scss */
 .main-block .visible-hover img {
   -webkit-filter: invert(100%);
 }
 @media (min-width: 990px) {
-  /* line 83, ../sass/partials/_main-block.scss */
+  /* line 89, ../sass/partials/_main-block.scss */
   .main-block .visible-hover {
     position: relative;
     width: auto;
@@ -1437,28 +1443,28 @@ footer .footer-social .dropdown select {
     color: #000000;
     padding-left: 10px;
   }
-  /* line 125, ../sass/partials/_main-block.scss */
+  /* line 131, ../sass/partials/_main-block.scss */
   .main-block .visible-hover p {
     color: #000000;
   }
-  /* line 129, ../sass/partials/_main-block.scss */
+  /* line 135, ../sass/partials/_main-block.scss */
   .main-block .visible-hover img {
     -webkit-filter: none;
   }
 }
-/* line 135, ../sass/partials/_main-block.scss */
+/* line 141, ../sass/partials/_main-block.scss */
 .main-block:hover {
   background: #F7F7F7;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.5s;
 }
-/* line 140, ../sass/partials/_main-block.scss */
+/* line 146, ../sass/partials/_main-block.scss */
 .main-block:hover .visible-hover {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s;
 }
-/* line 147, ../sass/partials/_main-block.scss */
+/* line 153, ../sass/partials/_main-block.scss */
 .main-block .magazine-image {
   overflow: hidden;
   border-radius: 5px;
@@ -3468,4 +3474,13 @@ footer .footer-social .dropdown select {
   .page-resultado-busqueda .main-block:hover:after {
     display: none;
   }
+}
+
+/* line 2, ../sass/pages/_seguridad-paciente.scss */
+.page-seguridad-paciente .header-bg {
+  background-image: radial-gradient(circle at 50% 10px, #ffee7a 4%, #ffd000 60%);
+}
+/* line 6, ../sass/pages/_seguridad-paciente.scss */
+.page-seguridad-paciente .single .borders.caption {
+  margin-bottom: 30px;
 }

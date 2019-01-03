@@ -25,8 +25,8 @@
                 <img src="img/icons/core-5.png" class="img-responsive">
             </a>
         </li>
-        <li  <?php if ($page_name == "seguridad"  ) echo 'class="active"'; ?>>
-            <a href="">
+        <li  <?php if ($page_name == "seguridad-paciente"  ) echo 'class="active"'; ?>>
+            <a href="seguridad-paciente-articulos.php">
                 <img src="img/icons/core-6.png" class="img-responsive">
             </a>
         </li>

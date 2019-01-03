@@ -1,91 +1,109 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans:500,600,700");
-/* line 12, ../sass/base/_variables.scss */
+/* line 13, ../sass/base/_variables.scss */
 .blue {
   color: #2283CE !important;
 }
-/* line 16, ../sass/base/_variables.scss */
+/* line 17, ../sass/base/_variables.scss */
 .blue.border-btn:hover {
   background: #2283CE;
 }
 
-/* line 21, ../sass/base/_variables.scss */
+/* line 22, ../sass/base/_variables.scss */
 .blue-bg {
   background-color: #2283CE;
 }
-/* line 25, ../sass/base/_variables.scss */
+/* line 26, ../sass/base/_variables.scss */
 .blue-bg.btn-full:hover {
   background: #115D98;
 }
 
-/* line 30, ../sass/base/_variables.scss */
+/* line 31, ../sass/base/_variables.scss */
+.light-blue {
+  color: #5AA8CB !important;
+}
+/* line 35, ../sass/base/_variables.scss */
+.light-blue.border-btn:hover {
+  background: #5AA8CB;
+}
+
+/* line 40, ../sass/base/_variables.scss */
+.light-blue-bg {
+  background-color: #5AA8CB;
+}
+/* line 44, ../sass/base/_variables.scss */
+.light-blue-bg.btn-full:hover {
+  background: #115D98;
+}
+
+/* line 49, ../sass/base/_variables.scss */
 .orange {
   color: #F99652 !important;
 }
-/* line 34, ../sass/base/_variables.scss */
+/* line 53, ../sass/base/_variables.scss */
 .orange.border-btn:hover {
   background: #F99652;
 }
 
-/* line 39, ../sass/base/_variables.scss */
+/* line 58, ../sass/base/_variables.scss */
 .orange-bg {
   background-color: #F99652;
 }
-/* line 43, ../sass/base/_variables.scss */
+/* line 62, ../sass/base/_variables.scss */
 .orange-bg.btn-full:hover {
   background-color: #ea7728;
 }
 
-/* line 48, ../sass/base/_variables.scss */
+/* line 67, ../sass/base/_variables.scss */
 .green {
   color: #7ED2C9 !important;
 }
-/* line 52, ../sass/base/_variables.scss */
+/* line 71, ../sass/base/_variables.scss */
 .green.border-btn:hover {
   background: #7ED2C9;
 }
 
-/* line 57, ../sass/base/_variables.scss */
+/* line 76, ../sass/base/_variables.scss */
 .green-bg {
   background-color: #7ED2C9;
 }
-/* line 61, ../sass/base/_variables.scss */
+/* line 80, ../sass/base/_variables.scss */
 .green-bg.btn-full:hover {
   background-color: #64ada5;
 }
 
-/* line 66, ../sass/base/_variables.scss */
+/* line 85, ../sass/base/_variables.scss */
 .purple {
   color: #8765CB !important;
 }
-/* line 70, ../sass/base/_variables.scss */
+/* line 89, ../sass/base/_variables.scss */
 .purple.border-btn:hover {
   background: #8765CB;
 }
 
-/* line 75, ../sass/base/_variables.scss */
+/* line 94, ../sass/base/_variables.scss */
 .purple-bg {
   background-color: #8765CB;
 }
-/* line 79, ../sass/base/_variables.scss */
+/* line 98, ../sass/base/_variables.scss */
 .purple-bg.btn-full:hover {
   background-color: #624798;
 }
 
-/* line 84, ../sass/base/_variables.scss */
+/* line 103, ../sass/base/_variables.scss */
 .dark-green {
   color: #47897E !important;
 }
-/* line 88, ../sass/base/_variables.scss */
+/* line 107, ../sass/base/_variables.scss */
 .dark-green.border-btn:hover {
   background: #47897E;
 }
 
-/* line 93, ../sass/base/_variables.scss */
+/* line 112, ../sass/base/_variables.scss */
 .dark-green-bg {
   background-color: #47897E;
 }
-/* line 97, ../sass/base/_variables.scss */
+/* line 116, ../sass/base/_variables.scss */
 .dark-green-bg.btn-full:hover {
   background-color: #356b62;
 }
@@ -1330,6 +1348,14 @@ footer .footer-social .dropdown select {
   }
 }
 /* line 17, ../sass/partials/_main-block.scss */
+.main-block.new {
+  background: #F7F7F7;
+}
+/* line 20, ../sass/partials/_main-block.scss */
+.main-block.new .name {
+  font-weight: 700;
+}
+/* line 25, ../sass/partials/_main-block.scss */
 .main-block .number {
   width: 30px;
   min-width: 30px;
@@ -1341,7 +1367,7 @@ footer .footer-social .dropdown select {
   margin-left: -5px;
 }
 @media (min-width: 990px) {
-  /* line 17, ../sass/partials/_main-block.scss */
+  /* line 25, ../sass/partials/_main-block.scss */
   .main-block .number {
     font-size: 24px;
     margin-right: 35px;
@@ -1349,7 +1375,7 @@ footer .footer-social .dropdown select {
     margin-left: 0;
   }
 }
-/* line 35, ../sass/partials/_main-block.scss */
+/* line 43, ../sass/partials/_main-block.scss */
 .main-block .feature-image {
   width: 81px;
   min-width: 81px;
@@ -1358,38 +1384,52 @@ footer .footer-social .dropdown select {
   overflow: hidden;
   margin-right: 20px;
 }
-/* line 43, ../sass/partials/_main-block.scss */
+/* line 51, ../sass/partials/_main-block.scss */
 .main-block .feature-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
-/* line 52, ../sass/partials/_main-block.scss */
+/* line 60, ../sass/partials/_main-block.scss */
 .main-block .info .author, .main-block .info .pages {
   font-size: 12px;
   color: #808080;
   margin-top: 10px;
 }
-/* line 58, ../sass/partials/_main-block.scss */
+/* line 66, ../sass/partials/_main-block.scss */
+.main-block .info .date {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* line 71, ../sass/partials/_main-block.scss */
+.main-block .info .stars {
+  display: inline-block;
+}
+/* line 74, ../sass/partials/_main-block.scss */
+.main-block .info .stars li {
+  display: inline-block;
+  margin: 0 2px;
+}
+/* line 80, ../sass/partials/_main-block.scss */
 .main-block .info .author-name {
   font-size: 14px;
   color: #4A4A4A;
   margin-bottom: 10px;
 }
-/* line 64, ../sass/partials/_main-block.scss */
+/* line 86, ../sass/partials/_main-block.scss */
 .main-block .info .category {
   font-size: 14px;
   margin-bottom: 10px;
 }
-/* line 69, ../sass/partials/_main-block.scss */
+/* line 91, ../sass/partials/_main-block.scss */
 .main-block .info .description {
   font-size: 14px;
   color: #4A4A4A;
   font-weight: 500;
   margin: 10px 0;
 }
-/* line 76, ../sass/partials/_main-block.scss */
+/* line 98, ../sass/partials/_main-block.scss */
 .main-block .info .available {
   font-size: 12px;
   color: #4A4A4A;
@@ -1397,11 +1437,11 @@ footer .footer-social .dropdown select {
   display: flex;
   align-items: center;
 }
-/* line 83, ../sass/partials/_main-block.scss */
+/* line 105, ../sass/partials/_main-block.scss */
 .main-block .info .available img {
   margin: 0 0 0 15px;
 }
-/* line 89, ../sass/partials/_main-block.scss */
+/* line 111, ../sass/partials/_main-block.scss */
 .main-block .visible-hover {
   margin-left: auto;
   opacity: 0;
@@ -1419,20 +1459,20 @@ footer .footer-social .dropdown select {
   justify-content: center;
   color: #FFFFFF;
 }
-/* line 107, ../sass/partials/_main-block.scss */
+/* line 129, ../sass/partials/_main-block.scss */
 .main-block .visible-hover .btn-list li:last-of-type {
   margin: 0;
 }
-/* line 113, ../sass/partials/_main-block.scss */
+/* line 135, ../sass/partials/_main-block.scss */
 .main-block .visible-hover p {
   color: #FFFFFF;
 }
-/* line 117, ../sass/partials/_main-block.scss */
+/* line 139, ../sass/partials/_main-block.scss */
 .main-block .visible-hover img {
   -webkit-filter: invert(100%);
 }
 @media (min-width: 990px) {
-  /* line 89, ../sass/partials/_main-block.scss */
+  /* line 111, ../sass/partials/_main-block.scss */
   .main-block .visible-hover {
     position: relative;
     width: auto;
@@ -1443,28 +1483,28 @@ footer .footer-social .dropdown select {
     color: #000000;
     padding-left: 10px;
   }
-  /* line 131, ../sass/partials/_main-block.scss */
+  /* line 153, ../sass/partials/_main-block.scss */
   .main-block .visible-hover p {
     color: #000000;
   }
-  /* line 135, ../sass/partials/_main-block.scss */
+  /* line 157, ../sass/partials/_main-block.scss */
   .main-block .visible-hover img {
     -webkit-filter: none;
   }
 }
-/* line 141, ../sass/partials/_main-block.scss */
+/* line 163, ../sass/partials/_main-block.scss */
 .main-block:hover {
   background: #F7F7F7;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.5s;
 }
-/* line 146, ../sass/partials/_main-block.scss */
+/* line 168, ../sass/partials/_main-block.scss */
 .main-block:hover .visible-hover {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s;
 }
-/* line 153, ../sass/partials/_main-block.scss */
+/* line 175, ../sass/partials/_main-block.scss */
 .main-block .magazine-image {
   overflow: hidden;
   border-radius: 5px;
@@ -3482,5 +3522,19 @@ footer .footer-social .dropdown select {
 }
 /* line 6, ../sass/pages/_seguridad-paciente.scss */
 .page-seguridad-paciente .single .borders.caption {
+  margin-bottom: 30px;
+}
+
+/* line 2, ../sass/pages/_central-inteligencia.scss */
+.page-central-inteligencia .header-bg {
+  background-image: radial-gradient(circle at 50% 10px, #182c45 4%, #329dcb 60%);
+}
+/* line 7, ../sass/pages/_central-inteligencia.scss */
+.page-central-inteligencia .inicio .main-block {
+  min-height: 100px;
+  align-items: start;
+}
+/* line 13, ../sass/pages/_central-inteligencia.scss */
+.page-central-inteligencia .single .borders.caption {
   margin-bottom: 30px;
 }

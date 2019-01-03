@@ -4,6 +4,7 @@ $black: #000000;
 $gray: #4A4A4A;
 $light-gray: #F4F5F8;
 $blue: #2283CE;
+$light-blue: #5AA8CB;
 $orange: #F99652;
 $green: #7ED2C9;
 $dark-green: #47897E;
@@ -20,6 +21,24 @@ $purple: #8765CB;
 }
 .blue-bg{
     background-color: $blue;
+    
+    &.btn-full{
+        &:hover{
+            background: #115D98 ;
+        }   
+    }
+}
+.light-blue{
+    color: $light-blue !important;
+    
+    &.border-btn{
+        &:hover{
+            background: $light-blue ;
+        }   
+    }
+}
+.light-blue-bg{
+    background-color: $light-blue;
     
     &.btn-full{
         &:hover{

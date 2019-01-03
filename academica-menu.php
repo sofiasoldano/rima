@@ -31,7 +31,7 @@
             </a>
         </li>
         <li  <?php if ($page_name == "central-inteligencia"  ) echo 'class="active"'; ?>>
-            <a href="">
+            <a href="central-inteligencia-inicio.php">
                 <img src="img/icons/core-7.png" class="img-responsive">
             </a>
         </li>

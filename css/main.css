@@ -1,111 +1,121 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans:500,600,700");
-/* line 13, ../sass/base/_variables.scss */
+/* line 15, ../sass/base/_variables.scss */
 .blue {
   color: #2283CE !important;
 }
-/* line 17, ../sass/base/_variables.scss */
+/* line 19, ../sass/base/_variables.scss */
 .blue.border-btn:hover {
   background: #2283CE;
 }
 
-/* line 22, ../sass/base/_variables.scss */
+/* line 24, ../sass/base/_variables.scss */
 .blue-bg {
   background-color: #2283CE;
 }
-/* line 26, ../sass/base/_variables.scss */
+/* line 28, ../sass/base/_variables.scss */
 .blue-bg.btn-full:hover {
   background: #115D98;
 }
 
-/* line 31, ../sass/base/_variables.scss */
+/* line 33, ../sass/base/_variables.scss */
 .light-blue {
   color: #5AA8CB !important;
 }
-/* line 35, ../sass/base/_variables.scss */
+/* line 37, ../sass/base/_variables.scss */
 .light-blue.border-btn:hover {
   background: #5AA8CB;
 }
 
-/* line 40, ../sass/base/_variables.scss */
+/* line 42, ../sass/base/_variables.scss */
 .light-blue-bg {
   background-color: #5AA8CB;
 }
-/* line 44, ../sass/base/_variables.scss */
+/* line 46, ../sass/base/_variables.scss */
 .light-blue-bg.btn-full:hover {
   background: #115D98;
 }
 
-/* line 49, ../sass/base/_variables.scss */
+/* line 51, ../sass/base/_variables.scss */
 .orange {
   color: #F99652 !important;
 }
-/* line 53, ../sass/base/_variables.scss */
+/* line 55, ../sass/base/_variables.scss */
 .orange.border-btn:hover {
   background: #F99652;
 }
 
-/* line 58, ../sass/base/_variables.scss */
+/* line 60, ../sass/base/_variables.scss */
 .orange-bg {
   background-color: #F99652;
 }
-/* line 62, ../sass/base/_variables.scss */
+/* line 64, ../sass/base/_variables.scss */
 .orange-bg.btn-full:hover {
   background-color: #ea7728;
 }
 
-/* line 67, ../sass/base/_variables.scss */
+/* line 69, ../sass/base/_variables.scss */
 .green {
   color: #7ED2C9 !important;
 }
-/* line 71, ../sass/base/_variables.scss */
+/* line 73, ../sass/base/_variables.scss */
 .green.border-btn:hover {
   background: #7ED2C9;
 }
 
-/* line 76, ../sass/base/_variables.scss */
+/* line 78, ../sass/base/_variables.scss */
 .green-bg {
   background-color: #7ED2C9;
 }
-/* line 80, ../sass/base/_variables.scss */
+/* line 82, ../sass/base/_variables.scss */
 .green-bg.btn-full:hover {
   background-color: #64ada5;
 }
 
-/* line 85, ../sass/base/_variables.scss */
+/* line 87, ../sass/base/_variables.scss */
 .purple {
   color: #8765CB !important;
 }
-/* line 89, ../sass/base/_variables.scss */
+/* line 91, ../sass/base/_variables.scss */
 .purple.border-btn:hover {
   background: #8765CB;
 }
 
-/* line 94, ../sass/base/_variables.scss */
+/* line 96, ../sass/base/_variables.scss */
 .purple-bg {
   background-color: #8765CB;
 }
-/* line 98, ../sass/base/_variables.scss */
+/* line 100, ../sass/base/_variables.scss */
 .purple-bg.btn-full:hover {
   background-color: #624798;
 }
 
-/* line 103, ../sass/base/_variables.scss */
+/* line 105, ../sass/base/_variables.scss */
 .dark-green {
   color: #47897E !important;
 }
-/* line 107, ../sass/base/_variables.scss */
+/* line 109, ../sass/base/_variables.scss */
 .dark-green.border-btn:hover {
   background: #47897E;
 }
 
-/* line 112, ../sass/base/_variables.scss */
+/* line 114, ../sass/base/_variables.scss */
 .dark-green-bg {
   background-color: #47897E;
 }
-/* line 116, ../sass/base/_variables.scss */
+/* line 118, ../sass/base/_variables.scss */
 .dark-green-bg.btn-full:hover {
   background-color: #356b62;
+}
+
+/* line 124, ../sass/base/_variables.scss */
+.red-bg {
+  background-color: #E55437;
+}
+
+/* line 127, ../sass/base/_variables.scss */
+.dark-blue-bg {
+  background-color: #2A4B5B;
 }
 
 /* line 1, ../sass/base/_reset.scss */
@@ -3632,4 +3642,122 @@ footer .footer-social .dropdown select {
   border-bottom: 1px solid #E9E9E9;
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+
+/* line 2, ../sass/pages/_actividad.scss */
+.page-actividad .header-bg {
+  background: #2283CE;
+}
+/* line 7, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .main-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+/* line 12, ../sass/pages/_actividad.scss */
+.page-actividad .submenu p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+/* line 18, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .period {
+  font-size: 12px;
+  color: #4A4A4A;
+}
+/* line 23, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .percentage {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  max-width: 778px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 95px;
+}
+/* line 32, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .percentage .range {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  width: 30px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 32, ../sass/pages/_actividad.scss */
+  .page-actividad .submenu .percentage .range {
+    width: 45px;
+  }
+}
+/* line 45, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .percentage .range .progress {
+  width: 130px;
+  height: 10px;
+  background: #DFDFDF;
+  transform: rotate(-90deg);
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+}
+/* line 54, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .percentage .range .progress .progress-bar {
+  width: 0;
+  border-radius: 3px;
+  transition: all 0.8s;
+}
+/* line 61, ../sass/pages/_actividad.scss */
+.page-actividad .submenu .percentage .range .number {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4A4A4A;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  /* line 61, ../sass/pages/_actividad.scss */
+  .page-actividad .submenu .percentage .range .number {
+    font-size: 14px;
+  }
+}
+/* line 77, ../sass/pages/_actividad.scss */
+.page-actividad .actividad .content {
+  padding-left: 25px;
+  position: relative;
+}
+/* line 81, ../sass/pages/_actividad.scss */
+.page-actividad .actividad .content:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 10px);
+  background: #D8D8D8;
+  top: 10px;
+  left: 8px;
+}
+/* line 91, ../sass/pages/_actividad.scss */
+.page-actividad .actividad .content .title-date {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+}
+/* line 97, ../sass/pages/_actividad.scss */
+.page-actividad .actividad .content .title-date:after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50px;
+  background: #2283CE;
+  top: 8px;
+  left: -21px;
+  z-index: 1;
+}
+/* line 110, ../sass/pages/_actividad.scss */
+.page-actividad .actividad .content .ver-mas {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4A4A4A;
+  margin-top: 100px;
+  display: block;
 }

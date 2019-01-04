@@ -33,6 +33,17 @@ $(document).ready(function() {
         $(".modal").removeClass("open");
     });
     
+    
+    
+    if($(".percentage").length != 0){
+        setTimeout(function() {
+            $( ".progress-bar" ).each(function() {
+                var percentage = $(this).attr('aria-valuenow');
+                $( this ).css('width', percentage + "%");
+            });
+        }, 200);
+    }
+    
     moveEditModal();
     moveEditType();
     

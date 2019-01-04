@@ -4,11 +4,13 @@ $black: #000000;
 $gray: #4A4A4A;
 $light-gray: #F4F5F8;
 $blue: #2283CE;
+$red: #E55437;
 $light-blue: #5AA8CB;
 $orange: #F99652;
 $green: #7ED2C9;
 $dark-green: #47897E;
 $purple: #8765CB;
+$dark-blue: #2A4B5B;
 
 .blue{
     color: $blue !important;
@@ -117,6 +119,13 @@ $purple: #8765CB;
             background-color: #356b62;
         }   
     }
+}
+
+.red-bg{
+    background-color: $red;
+}
+.dark-blue-bg{
+    background-color: $dark-blue;
 }
 
 // Font weights

@@ -1,0 +1,119 @@
+.page-actividad{
+    .header-bg{
+        background: $blue;
+    }
+    
+    .submenu{
+        .main-title{
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        p{
+            font-size: 18px;
+            font-weight: $medium;
+            margin-bottom: 2px;
+        }
+        
+        .period{
+            font-size: 12px;
+            color: $gray;
+        }
+        
+        .percentage{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            max-width: 778px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            margin-top: 95px;
+            
+            .range{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 80px;
+                width: 30px;
+                position: relative;
+                
+                @include respond-to("small"){
+                    width: 45px;
+                }
+                
+                .progress{
+                    width: 130px;
+                    height: 10px;
+                    background: #DFDFDF;
+                    transform: rotate(-90deg);
+                    border-radius: 3px;
+                    position: absolute;
+                    top: 0;
+                    
+                    .progress-bar{
+                        width: 0;
+                        border-radius: 3px;
+                        transition: all 0.8s;
+                    }
+                }
+                
+                .number{
+                    font-size: 12px;
+                    font-weight: $semi-bold;
+                    color: $gray;
+                    margin-top: 10px;
+                    
+                    @include respond-to("small"){
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .actividad{
+        
+        .content{
+            padding-left: 25px;
+            position: relative;
+
+            &:after{
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: calc(100% - 10px);
+                background: #D8D8D8;
+                top: 10px;
+                left: 8px;
+            }
+
+            .title-date{
+                margin-top: 30px;
+                margin-bottom: 10px;
+                font-weight: $medium;
+                position: relative;
+                
+                &:after{
+                    content: "";
+                    position: absolute;
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50px;
+                    background: $blue;
+                    top: 8px;
+                    left: -21px;
+                    z-index: 1;
+                }
+            }
+            
+            .ver-mas {
+                font-size: 14px;
+                font-weight: $medium;
+                color: $gray;
+                margin-top: 100px;
+                display: block;
+            }
+        }
+    }
+}

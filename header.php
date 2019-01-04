@@ -75,7 +75,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="actividad.php">
                                 <img src="img/icons/graphic-blue.png" width="23">
                                 <p>Mi actividad</p>
                             </a>

@@ -36,7 +36,7 @@
             </a>
         </li>
         <li  <?php if ($page_name == "sotobosque"  ) echo 'class="active"'; ?>>
-            <a href="">
+            <a href="sotobosque-destacado.php">
                 <img src="img/icons/core-8.png" class="img-responsive">
             </a>
         </li>

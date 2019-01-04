@@ -69,7 +69,7 @@
                 <div class="right">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="biblioteca.php">
                                 <img src="img/icons/books-blue.png" width="19">
                                 <p>Mi biblioteca</p>
                             </a>

@@ -3,6 +3,44 @@
     display: flex;
     flex-direction: column;
     flex-flow: wrap;
+    
+    .folder{
+        &.pink{
+            &:hover{
+                background: #d43f8a;
+            }
+        }
+        &.green{  
+            &:hover{
+                background: #4fa959;
+            }
+        }
+        &.light-blue{
+            &:hover{
+                background: #1893cc;
+            }
+        }
+        &.purple{
+            &:hover{
+                background: #675fc1;
+            }
+        }
+        &.red{
+            &:hover{
+                background: #ad3041;
+            }
+        }
+        &.light-gray{
+            &:hover{
+                background: #9a9fa2;
+            }
+        }
+        &.orange{
+            &:hover{
+                background: #c5851f;
+            }
+        }
+    }
 }
 
 .add-folder, .folder{
@@ -59,51 +97,23 @@
     
     &.pink{
         background: #EA4E9D;
-        
-        &:hover{
-            background: #d43f8a;
-        }
     }
     &.green{
         background: #63D26F;
-        
-        &:hover{
-            background: #4fa959;
-        }
     }
     &.light-blue{
         background: #1FAAEA;
-        
-        &:hover{
-            background: #1893cc;
-        }
     }
     &.purple{
         background: #7A6FF0;
-        
-        &:hover{
-            background: #675fc1;
-        }
     }
     &.red{
         background: #E8384F;
-        
-        &:hover{
-            background: #ad3041;
-        }
     }
     &.light-gray{
         background: #B6BFC6;
-        
-        &:hover{
-            background: #9a9fa2;
-        }
     }
     &.orange{
         background: #FD9B00;
-        
-        &:hover{
-            background: #c5851f;
-        }
     }
 }

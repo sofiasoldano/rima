@@ -47,22 +47,20 @@ ul{
     text-decoration: underline;
 }
 .hidden{
-    display: none;
+    display: none !important;
 }
 .hidden-xs{
     @include respond-to('xsmall'){
-        display: none;
+        display: none !important;
     }
 }
-
 .hidden-md{
-    display: none;
+    display: none !important;
     
     @include respond-to('medium'){
-        display: block;
+        display: block !important;
     }
 }
-
 .undefined{
     width: 100%;
     height: 1000px;

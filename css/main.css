@@ -183,28 +183,28 @@ ul {
 
 /* line 49, ../sass/base/_reset.scss */
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 768px) {
   /* line 52, ../sass/base/_reset.scss */
   .hidden-xs {
-    display: none;
+    display: none !important;
   }
 }
 
-/* line 58, ../sass/base/_reset.scss */
+/* line 57, ../sass/base/_reset.scss */
 .hidden-md {
-  display: none;
+  display: none !important;
 }
 @media (min-width: 990px) {
-  /* line 58, ../sass/base/_reset.scss */
+  /* line 57, ../sass/base/_reset.scss */
   .hidden-md {
-    display: block;
+    display: block !important;
   }
 }
 
-/* line 66, ../sass/base/_reset.scss */
+/* line 64, ../sass/base/_reset.scss */
 .undefined {
   width: 100%;
   height: 1000px;
@@ -3760,4 +3760,139 @@ footer .footer-social .dropdown select {
   color: #4A4A4A;
   margin-top: 100px;
   display: block;
+}
+
+/* line 2, ../sass/pages/_calendario.scss */
+.page-calendario .header-bg {
+  background: #2283CE;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  /* line 7, ../sass/pages/_calendario.scss */
+  .page-calendario .heading {
+    overflow: hidden;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 20px;
+  }
+}
+/* line 14, ../sass/pages/_calendario.scss */
+.page-calendario .heading .title {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* line 14, ../sass/pages/_calendario.scss */
+  .page-calendario .heading .title {
+    float: left;
+  }
+}
+/* line 23, ../sass/pages/_calendario.scss */
+.page-calendario .uppercase-subtitle {
+  font-size: 18px;
+}
+/* line 27, ../sass/pages/_calendario.scss */
+.page-calendario .month-indicator {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* line 27, ../sass/pages/_calendario.scss */
+  .page-calendario .month-indicator {
+    float: right;
+  }
+}
+/* line 34, ../sass/pages/_calendario.scss */
+.page-calendario .month-indicator li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 40, ../sass/pages/_calendario.scss */
+.page-calendario .month, .page-calendario .events .day {
+  background-image: url(img/calendar-blue.png);
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 25px;
+}
+/* line 48, ../sass/pages/_calendario.scss */
+.page-calendario .events {
+  margin-bottom: 40px;
+}
+/* line 51, ../sass/pages/_calendario.scss */
+.page-calendario .events .day {
+  font-size: 14px;
+  color: #4A4A4A;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+/* line 59, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block {
+  padding: 0;
+}
+/* line 62, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block .hour {
+  min-width: 90px;
+  background-color: #F4F5F8;
+  color: #2283CE;
+  text-align: center;
+  height: 100%;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 14px;
+}
+@media (min-width: 768px) {
+  /* line 62, ../sass/pages/_calendario.scss */
+  .page-calendario .events .main-block .hour {
+    min-height: 75px;
+  }
+}
+/* line 80, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block .info .category {
+  font-size: 12px;
+  color: #2283CE;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+@media (min-width: 768px) {
+  /* line 80, ../sass/pages/_calendario.scss */
+  .page-calendario .events .main-block .info .category {
+    margin-top: 0;
+  }
+}
+/* line 92, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block .info .name {
+  line-height: 1.3;
+}
+/* line 96, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block .info .place {
+  font-size: 12px;
+  color: #4A4A4A;
+  margin-top: 2px;
+}
+/* line 103, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block.active {
+  background: rgba(208, 2, 24, 0.08);
+  position: relative;
+}
+/* line 107, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block.active .hour {
+  background: #f1e3e8;
+  color: #000000;
+}
+/* line 112, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block.active .category {
+  color: #D0021B;
+}
+/* line 116, ../sass/pages/_calendario.scss */
+.page-calendario .events .main-block.active:after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #D0021B;
+  border-radius: 50px;
+  border: 2px solid #eca8af;
+  top: 6px;
+  right: 6px;
 }

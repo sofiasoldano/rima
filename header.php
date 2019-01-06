@@ -81,7 +81,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="calendario.php">
                                 <img src="img/icons/calendar-blue.png" width="25">
                                 <p>Eventos</p>
                             </a>

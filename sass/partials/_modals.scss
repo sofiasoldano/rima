@@ -41,6 +41,12 @@
         overflow: hidden;
         height: auto;
         border-radius: 6px;
+        max-height: 90vh;
+        overflow: scroll;
+        
+        @include respond-to("xxsmall"){
+            max-height: 85vh;
+        }
     }
     
     .btn-close{
@@ -258,6 +264,28 @@
     }
 }
 
+#publicar-evento{
+    @extend #guardar-articulo;
+    
+    .modal-body{
+        input[type='text'], input[type='password'], input[type='number'], input[type='email'], input[type='tel'], textarea, select, .dropdown{
+            margin-bottom: 35px;
+        }
+
+        .upload-content{
+            font-size: 14px;
+            background-image: url(img/add-document.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 23px;
+            padding: 5px 30px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    }
+    
+}
+
 #edit-carpeta{
     .modal-bg{
         background: transparent;
@@ -417,6 +445,134 @@
                         background: $black;
                         color: $white;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+#event-info{
+    .modal-container{
+        width: 730px;
+    }
+    .modal-body{
+        padding: 0;
+        
+        .heading{
+            height: 70px;
+            border-radius: 4px;
+            background: #F4F5F8;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            border: 0;
+            margin: 0;
+            
+            .title{
+                margin: 0;
+                text-align: left;
+                font-size: 18px;
+                max-width: 85%;
+                
+                @include respond-to("small"){
+                    font-size: 20px;
+                    max-width: auto;
+                }
+            }
+            
+            .btn-close {
+                right: 21px;
+                top: 21px;
+            }
+        }
+        
+        .content{
+            padding: 10px 15px;
+            position: relative;
+            height: 380px;
+            
+            @include respond-to("small"){
+                width: 60%;
+                float: left;
+                padding: 20px;
+            }
+            
+            .item{
+                margin-bottom: 20px;
+                overflow: hidden;
+                
+                .icon{
+                    float: left;
+                    margin-right: 20px;
+                }
+                
+                .info{
+                    float: left;
+                    max-width: 85%;
+                    
+                    @include respond-to("xxsmall"){
+                        max-width: 80%;
+                    }
+                    
+                    p{
+                        font-size: 14px;
+                        color: $gray;
+                        margin: 0;
+                        line-height: 1.2;
+                    }
+                }
+            }
+            
+            .bottom{
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                left: 0;
+                border-top: 1px solid #E9E9E9;
+                padding: 15px 0;
+                
+                @include respond-to("small"){
+                    width: calc(100% - 40px);
+                    margin: 0 20px;
+                    padding: 20px 0;
+                }
+                
+                li{
+                    display: inline;
+                    font-size: 14px;
+                    font-weight: $medium;
+                    margin: 0 15px;
+                    
+                    @include respond-to("xxsmall"){
+                       margin: 0 5px; 
+                    }
+                    
+                    @include respond-to("small"){
+                        margin: 0;
+                        margin-right: 40px;
+                    }
+                    
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        
+        .map{
+            @include respond-to("small"){
+                width: 40%;
+                float: right;
+            }
+            
+            iframe{
+                height: 160px;
+                width: 100%;
+                
+                @include respond-to("small"){
+                    height: 380px;
                 }
             }
         }

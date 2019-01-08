@@ -34,7 +34,37 @@
 </section>
 
 <section class="single">
-    <div class="container">
+    <div class="container"><div id="ver-texto" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+    <div class="modal-container">
+        <div class="modal-body text-center">
+            <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
+            <div class="title">Seleccione una de las siguientes opciones</div>
+            <div class="main-block">
+                <img class="icon" src="img/icons/pdf.png" width="30">
+                <div class="info">
+                    <div class="subtitle">Visualizar el artículo original</div>
+                </div>
+                <div class="visible-hover right">
+                    <ul class="btn-list">
+                        <li><a href="#" class="border-btn small dark-green"><p>Descargar PDF</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-block">
+                <img class="icon" src="img/icons/translate.png" width="40">
+                <div class="info">
+                    <div class="subtitle">Traducir el artículo </div>
+                </div>
+                <div class="visible-hover right">
+                    <ul class="btn-list">
+                        <li><a href="#" class="border-btn small dark-green"><p>Ver traducción</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
         <div class="row">
             <div class="col-md-12">
                 <div class="breadcrumbs">

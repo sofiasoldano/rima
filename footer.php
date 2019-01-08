@@ -6,7 +6,7 @@
                         <div class="left">
                             <ul class="contact-links">
                                 <li><a href="#">Sobre RIMA</a></li>
-                                <li><a href="#">Contacto directo </a></li>
+                                <li><a href="contacto.php">Contacto directo </a></li>
                                 <li><a href="#">RIMA TEA</a></li>
                             </ul>
                         </div>

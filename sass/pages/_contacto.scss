@@ -1,0 +1,60 @@
+.page-contacto{
+    .header-bg{
+        background: $blue;
+        margin-bottom: 80px;
+    }
+    
+    .contact-box{
+        border: 1px solid #E9E9E9;
+        overflow: hidden;
+        padding: 20px;
+        
+        @include respond-to("medium"){
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 60px;
+        }
+        
+        .column{
+            width: 100%;
+            
+            @include respond-to("medium"){
+                width: 45%;
+                margin: 0;
+            }
+            
+            &:first-of-type{
+                margin-bottom: 50px;
+            }    
+        }
+        
+        .main-title{
+            font-size: 32px;
+            text-align: left;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+        
+        form{
+            label{
+                text-transform: none;
+                letter-spacing: 0;
+                font-size: 13px;
+            }
+            .dropdown{
+                width: 100%;
+            }
+            
+            .btn-full {
+                width: 230px;
+                margin: 0 auto;
+
+                @include respond-to('small'){
+                    margin: 0 0 20px;
+                    float: right;
+                }
+            }
+        
+        }
+    }
+}

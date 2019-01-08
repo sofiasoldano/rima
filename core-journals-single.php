@@ -46,7 +46,7 @@
                     <p>BACKGROUND: Developmental dysplasia of the hip (DDH) remains common. If detected early, DDH can usually be corrected with conservative management. Late presentations often require surgery and have worse outcomes. OBJECTIVE: We estimated the risk of undergoing surgery for DDH by age 3 years before and after the introduction of enhanced DDH detection services. DESIGN: Retrospective cohort study. SETTING: Scotland, 1997/98-2010/11. PATIENTS: All children. METHODS: Using routinely collected national hospital discharge records, we examined rates of first surgery for DDH by age 3 by March 2014. Using a difference in difference analysis, we compared rates in two areas of Scotland before (to April 2002) and after (from April 2005) implementation of enhanced DDH detection services to those seen in the rest of Scotland. RESULTS: For children born in the study period, the risk of first surgery for DDH by age 3 was 1.18 (95% CI 1.11 to 1.26) per 1000 live births (918/777 375).Prior to April 2002, the risk of surgery was 1.13 (95% CI 0.88 to 1.42) and 1.31 (95% CI 1.16 to 1.46) per 1000 live births in the intervention and non-intervention areas, respectively. In the intervention areas, from April 2005, this risk halved (RR 0.47; 95% CI 0.32 to 0.68). The risk remained unchanged in other areas (RR 1.01; 95% CI 0.86 to 1.18). The ratio for the difference in change of risk was 0.46 (95% CI 0.31 to 0.70). </p>
                     <p>CONCLUSIONS: The implementation of enhanced DDH detection services can produce substantial reductions in the number of children having surgical correction for DDH.</p>
                 </div>
-                <a href="#ver-texto" class="border-btn green js-open-modal"><p>Solicitar texto completo</p></a>
+                <a href="#ver-texto" class="border-btn orange js-open-modal"><p>Solicitar texto completo</p></a>
             </div>
         </div>
         <div class="comments">
@@ -153,7 +153,7 @@
                 </div>
                 <div class="visible-hover right">
                     <ul class="btn-list">
-                        <li><a href="#" class="border-btn small dark-green"><p>Descargar PDF</p></a></li>
+                        <li><a href="#" class="border-btn small orange"><p>Descargar PDF</p></a></li>
                     </ul>
                 </div>
             </div>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="visible-hover right">
                     <ul class="btn-list">
-                        <li><a href="#" class="border-btn small dark-green"><p>Ver traducción</p></a></li>
+                        <li><a href="#" class="border-btn small orange"><p>Ver traducción</p></a></li>
                     </ul>
                 </div>
             </div>

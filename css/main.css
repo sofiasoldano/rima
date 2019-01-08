@@ -542,17 +542,16 @@ input[type='checkbox']:checked {
   .floating-menu {
     position: fixed;
     right: 15px;
-    top: 400px;
   }
-  /* line 26, ../sass/modules/_floating-menu.scss */
+  /* line 25, ../sass/modules/_floating-menu.scss */
   .floating-menu li {
     display: block;
   }
-  /* line 30, ../sass/modules/_floating-menu.scss */
+  /* line 29, ../sass/modules/_floating-menu.scss */
   .floating-menu .left, .floating-menu .right {
     float: none;
   }
-  /* line 33, ../sass/modules/_floating-menu.scss */
+  /* line 32, ../sass/modules/_floating-menu.scss */
   .floating-menu .left li, .floating-menu .right li {
     margin: 20px 0;
     width: 30px;
@@ -2246,9 +2245,8 @@ footer .footer-social .dropdown select {
 
 /* line 93, ../sass/partials/_indice.scss */
 .open-indice {
-  position: fixed;
+  position: absolute;
   left: 0;
-  top: 0;
   width: 45px;
   background-color: #ebebeb;
   background-image: url(../img/icons/arrow-prev.png);
@@ -2258,6 +2256,7 @@ footer .footer-social .dropdown select {
   background-position: center;
   height: 45px;
   z-index: 1;
+  transition: none;
 }
 
 /* line 1, ../sass/partials/_modals.scss */

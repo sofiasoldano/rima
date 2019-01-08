@@ -21,7 +21,6 @@
     @include respond-to('large'){
         position: fixed;
         right: 15px;
-        top: 400px;
         
         li{
             display: block;

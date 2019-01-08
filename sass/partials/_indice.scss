@@ -91,9 +91,8 @@
 }
 
 .open-indice{
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 0;
     width: 45px;
     background-color: #ebebeb;
     background-image: url(../img/icons/arrow-prev.png);
@@ -103,4 +102,5 @@
     background-position: center;
     height: 45px;
     z-index: 1;
+    transition: none;
 }

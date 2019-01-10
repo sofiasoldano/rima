@@ -51,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="profile">
-                    <a href="#">
+                    <a href="perfil-datos-personales.php">
                         <div class="picture left">
                             <img src="img/profile-pic.png" width="35" class="img-responsive">
                         </div>

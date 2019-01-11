@@ -19,7 +19,7 @@
                             <li><a href="#edit-type" class="js-open-modal type-btn"><img src="img/icons/font-size.png" width="27"></a></li>
                         </div>
                         <div class="right">
-                            <li><a href="#"><img src="img/icons/share.png" width="16"></a></li>
+                            <li><a href="#share" class="js-open-modal share-btn"><img src="img/icons/share.png" width="16"></a></li>
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
                             <li><a href="#guardar-articulo" class="js-open-modal"><img src="img/icons/bookmark.png" width="14"></a></li>
                         </div>
@@ -170,5 +170,21 @@
             </div>
         </div>
     </div>
+</div>
+
+<div id="share" class="modal">
+    <div class="modal-bg js-close-modal"></div>
+
+    <div class="modal-body text-center">
+        <ul class="btn-list">
+            <li><a href="#"><img src="img/facebook-logo.png"></a></li>
+            <li><a href="#"><img src="img/twitter-logo.png"></a></li>
+            <li><a href="#"><img src="img/instagram-logo.png"></a></li>
+            <li><a href="#"><img src="img/mail-logo.png"></a></li>
+            <li><a href="#"><img src="img/messenger-logo.png"></a></li>
+            <li><a href="#"><img src="img/plane-logo.png"></a></li>
+        </ul>
+    </div>
+
 </div>
 <?php include('footer.php'); ?>

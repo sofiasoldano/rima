@@ -45,19 +45,22 @@ $(document).ready(function() {
     }
     
     moveEditModal();
-    moveEditType();
+    moveModals('.type-btn', '#edit-type', 90, 50);
+    moveModals('.share-btn', '#share', 50, 240);
     moveFloatingMenu();
     moveIndice();
     
     $(window).scroll( function(){
 	    moveEditModal();
-        moveEditType();
+        moveModals('.type-btn', '#edit-type', 90, 50);
+        moveModals('.share-btn', '#share', 50, 240);
         moveFloatingMenu();
         moveIndice();
 	});
     $( window ).resize(function() {
         moveEditModal();
-        moveEditType();
+        moveModals('.type-btn', '#edit-type', 90, 50);
+        moveModals('.share-btn', '#share', 50, 240);
     });
     
     function moveEditModal(){
@@ -76,25 +79,28 @@ $(document).ready(function() {
         }
     }
     
-    function moveEditType(){
-        if($(".type-btn").length != 0){
+    function moveModals(btn, modal, y_offset,  y_offset_mobile){
+        if($(btn).length != 0){
             var top_of_window = $(window).scrollTop();
             
             if($( window ).width() < 1200){
-                var left_of_edit = $(".type-btn").offset().left - 52;
-                var bottom_of_edit =  $(".type-btn").offset().top + $(".type-btn").outerHeight() + 40;
+                var left_of_edit = $(btn).offset().left - y_offset_mobile;
+                var bottom_of_edit =  $(btn).offset().top + $(btn).outerHeight() + 50;
                 
-                $("#edit-type .modal-body").addClass("mobile");
+                $(modal + " .modal-body").addClass("mobile");
             }
             else{
-                var left_of_edit = $(".type-btn").offset().left - 310;
-                var bottom_of_edit =  $(".type-btn").offset().top + $(".type-btn").outerHeight() - 95;
+                var element_width = $(modal + " .modal-body").width() + 50;
+                var left_of_edit = $(btn).offset().left - element_width ;
+                var bottom_of_edit =  $(btn).offset().top + $(btn).outerHeight() - y_offset;
                 
-                $("#edit-type .modal-body").removeClass("mobile");
+                $(modal + " .modal-body").removeClass("mobile");
             }
 
-            $("#edit-type .modal-body").css('top', bottom_of_edit - top_of_window);
-            $("#edit-type .modal-body").css('left', left_of_edit);
+            $(modal + " .modal-body").css('top', bottom_of_edit - top_of_window);
+            $(modal + " .modal-body").css('left', left_of_edit);
+            
+            console.log(element_width);
         }
     }
     
@@ -127,17 +133,12 @@ $(document).ready(function() {
             if(bottom_of_single < bottom_of_window ){
                $(".single .floating-menu").css('top', top_of_single);
                 $(".single .floating-menu").css('bottom', 'initial');
-
-                if(bottom_of_menu > bottom_of_single){
-                    $(".single .floating-menu").css('top', 'initial');
-                    $(".single .floating-menu").css('bottom', top_of_window  - bottom_position + 480);
-                } 
             }
             
-            
-            
-            console.log(bottom_of_menu);
-            console.log(bottom_of_single);
+            if(bottom_of_menu > bottom_of_single){
+                $(".single .floating-menu").css('top', 'initial');
+                $(".single .floating-menu").css('bottom', top_of_window  - bottom_position + 480);
+            } 
         }
     }
 });

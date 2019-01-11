@@ -451,6 +451,53 @@
     }
 }
 
+#share{
+    @extend #edit-type;
+    
+    .modal-body{
+        width: 390px;
+        
+        &.mobile{
+            width: 330px;
+            
+            .btn-list{
+                li{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            
+            &:after{
+                left: 230px;
+            }
+        }
+        
+        .btn-list{
+            margin: 15px 0;
+            
+            li{
+                margin-right: 8px;
+                border: 2px solid;
+                border-radius: 50px;
+                width: 50px;
+                height: 50px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                
+                img{
+                    width: 25px;
+                    display: block;
+                }
+            }
+        }
+        
+        &:after{
+            top: 22px;
+            right: -18px;
+        }
+    }
+}
 
 #event-info{
     .modal-container{

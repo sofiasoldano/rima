@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="category blue">Reporte para investigadores</div>
                         <div class="name">Estimation of initial phenobarbital dosing in term neonates with moderate-to-severe hypoxic ischaemic encephalopathy following perinatal asphyxia.</div>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                  
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="category purple">Medline Pearls</div>
                         <div class="name">Biochemical and clinical predictors of hypoxic-ischemic encephalopathy after perinatal asphyxia.</div>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="category orange">Seguridad del paciente</div>
                         <div class="name">Systemic and transdermal melatonin administration prevents neuropathology in response to perinatal asphyxia in newborn lambs.</div>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="category blue">Reporte para investigadores</div>
                         <div class="name">Estimation of initial phenobarbital dosing in term neonates with moderate-to-severe hypoxic ischaemic encephalopathy following perinatal asphyxia.</div>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                  
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="category purple">Medline Pearls</div>
                         <div class="name">Biochemical and clinical predictors of hypoxic-ischemic encephalopathy after perinatal asphyxia.</div>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="category orange">Seguridad del paciente</div>
                         <div class="name">Systemic and transdermal melatonin administration prevents neuropathology in response to perinatal asphyxia in newborn lambs.</div>

@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Travaglia, J.</div>
                         <div class="name">Disturbing the Doxa of Patient Safety Comment on "False Dawns and New Horizons in Patient Safety Research and Practice"</div>
@@ -50,7 +50,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Sujka, J.A.; Weaver, K.L.; Lim, J.D.; Gonzalez, K.W.; Biondo, D.J.; Juang, D.; Aguayo, P.; Hendrickson, R.J.</div>
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
@@ -63,7 +63,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Zipursky, J.; Juurlink, D.N.</div>
                         <div class="name">Studying Drug Safety in the Real World.</div>
@@ -76,7 +76,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Sreeramoju, P.; Dura, L.; Fernandez, M.E.; Minhajuddin, A.; Simacek, K.; Fomby, T.B.; Doebbeling, B.N.</div>
                         <div class="name">Using a Positive Deviance Approach to Influence the Culture of Patient Safety Related to Infection Prevention.</div>
@@ -89,7 +89,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Rees, S.; Mian, S.; Grabowski, N.</div>
                         <div class="name">Using social media in safety signal management: is it reliable?</div>
@@ -102,7 +102,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Moore, J.; Mello, M.M.</div>
                         <div class="name">Improving reconciliation following medical injury: a qualitative study of responses to patient safety incidents in New Zealand.</div>
@@ -115,7 +115,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Moore, J.; Mello, M.M.</div>
                         <div class="name">Improving reconciliation following medical injury: a qualitative study of responses to patient safety incidents in New Zealand.</div>

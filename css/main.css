@@ -1502,13 +1502,13 @@ footer .footer-social .dropdown select {
   }
 }
 /* line 163, ../sass/partials/_main-block.scss */
-.main-block:hover {
+.main-block:hover, .main-block:active {
   background: #F7F7F7;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.5s;
 }
 /* line 168, ../sass/partials/_main-block.scss */
-.main-block:hover .visible-hover {
+.main-block:hover .visible-hover, .main-block:active .visible-hover {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s;

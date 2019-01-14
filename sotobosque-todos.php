@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="title">Toda la colección de novelas</div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Ana María Matute</div>
@@ -20,7 +20,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Kate Morton</div>
@@ -34,7 +34,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Kate Morton</div>
@@ -48,7 +48,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Kate Morton</div>
@@ -62,7 +62,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Kate Morton</div>
@@ -76,7 +76,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Kate Morton</div>
@@ -90,7 +90,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">El árbol de oro</div>
                         <div class="author">Kate Morton</div>

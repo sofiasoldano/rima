@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -49,7 +49,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -61,7 +61,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -73,7 +73,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -85,7 +85,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -97,7 +97,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -109,7 +109,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>
@@ -121,7 +121,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Guía de la sociedad española de infectología pediátrica sobre prevención, diagnóstico y tratamiento de la infección neonatal por virus herpes simplex</div>
                         <div class="author">Anales de Pediatría (Barcelona) 2018;89(1):64.e1-64.e10. doi: 10.1016/j.anpedi.2018.01.004. Epub 2018 Feb 13.      </div>

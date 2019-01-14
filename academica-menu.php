@@ -11,7 +11,7 @@
             </a>
         </li>
         <li  <?php if ($page_name == "rima-tv"  ) echo 'class="active"'; ?>>
-            <a href="">
+            <a href="rima-tv-inicio.php">
                 <img src="img/icons/core-3.png" class="img-responsive">
             </a>
         </li>

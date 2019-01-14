@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-5">
                     <div class="title">Artículos relacionados</div>
-                    <div class="main-block">
+                    <div onclick="" class="main-block">
                         <div class="info">
                             <div class="author">Irimu, G.; Ogero, M.; Mbevi, G.; Agweyu, A.; Akech, S.; Julius, T.; Nyamai, R.; Githang'a, D.; Ayieko, P.; English, M.; Clinical Information Network Authors, G.r.oup.</div>
                             <div class="name">Preserving oral history: 50 years of paediatric nephrology in Europe.</div>
@@ -90,7 +90,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="main-block">
+                    <div onclick="" class="main-block">
                         <div class="info">
                             <div class="author">Lagercrantz, H.</div>
                             <div class="name">Sweden wins over England in child health championship.</div>
@@ -117,7 +117,7 @@
         <div class="modal-body text-center">
             <a href="#" class="js-close-modal btn-close"><img src="img/icons/close.png" width="28"></a>
             <div class="title">Seleccione una de las siguientes opciones</div>
-            <div class="main-block">
+            <div onclick="" class="main-block">
                 <img class="icon" src="img/icons/pdf.png" width="30">
                 <div class="info">
                     <div class="subtitle">Visualizar el artículo original</div>
@@ -128,7 +128,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="main-block">
+            <div onclick="" class="main-block">
                 <img class="icon" src="img/icons/translate.png" width="40">
                 <div class="info">
                     <div class="subtitle">Traducir el artículo </div>

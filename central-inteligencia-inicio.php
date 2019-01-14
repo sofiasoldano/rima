@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main-block new">
+                <div onclick="" class="main-block new">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -57,7 +57,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block new">
+                 <div onclick="" class="main-block new">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -77,7 +77,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -139,7 +139,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -159,7 +159,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -179,7 +179,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">
@@ -199,7 +199,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="date">11/6/2018</div>
                         <ul class="stars">

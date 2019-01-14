@@ -29,7 +29,7 @@
                 </div>
                 
                 <div class="title">Novedades literarias</div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <img class="cuento" src="img/cuento.png" width="68">
                     
                     <div class="info">
@@ -44,7 +44,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <img class="cuento" src="img/cuento.png" width="68">
                     
                     <div class="info">
@@ -59,7 +59,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <img class="cuento" src="img/cuento.png" width="68">
                     
                     <div class="info">
@@ -74,7 +74,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <img class="cuento" src="img/cuento.png" width="68">
                     
                     <div class="info">

@@ -18,7 +18,7 @@
                         <li><a href="#" class="border-btn green">Todas</a></li>
                     </ul>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="feature-image app-image blue-bg"><img src="img/app1.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
@@ -30,7 +30,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="feature-image app-image"><img src="img/app2.png"></div>
                     <div class="info">
                         <div class="name">CLOTS App</div>
@@ -42,7 +42,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                      <div class="feature-image app-image"><img src="img/app3.png"></div>
                     <div class="info">
                         <div class="name">ArthritisPower</div>
@@ -54,7 +54,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="feature-image app-image"><img src="img/app4.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
@@ -66,7 +66,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="feature-image app-image blue-bg"><img src="img/app1.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>
@@ -78,7 +78,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="feature-image app-image"><img src="img/app2.png"></div>
                     <div class="info">
                         <div class="name">CLOTS App</div>
@@ -90,7 +90,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                      <div class="feature-image app-image"><img src="img/app3.png"></div>
                     <div class="info">
                         <div class="name">ArthritisPower</div>
@@ -102,7 +102,7 @@
                         <a href="#" class="border-btn small green"><p>Descargar</p></a>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="feature-image app-image"><img src="img/app4.png"></div>
                     <div class="info">
                         <div class="name">Prostate Cancer Clinical Risk Classification Tool</div>

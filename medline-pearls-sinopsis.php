@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Cardiotoxicidad inducida por antraciclinas en pediatría: ¿Enalapril tendría un efecto preventivo?</div>
                         <div class="description">Rol de los inhibidores de la enzima convertidora de angiotensina en la cardiotoxicidad inducida por antraciclinas: ensayo aleatorizado, en doble ciego, y controlado con placebo.</div>
@@ -19,7 +19,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">¿Existen diferencias en eficacia o seguridad entre azitromicina y amoxicilina-clavulánico para el tratamiento de las exacerbaciones por bronquiectasias en pediatría?</div>
                         <div class="description">Comparación entre amoxicilina-clavulánico versus azitromicina para las exacerbaciones respiratorias en niños con bronquiectasias (BEST-2): ensayo clínico, aleatorizado, multicéntrico, en doble ciego, de no inferioridad.</div>
@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Síndrome de abstinencia neonatal: ¿cuál opioide es superior morfina o metadona?</div>
                         <div class="description">Comparación de la seguridad y eficacia de metadona versus morfina para el tratamiento del síndrome de abstinencia neonatal: ensayo clínico aleatorizado.</div>
@@ -47,7 +47,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">¿La prednisolona por vía oral revierte el deterioro auditivo en niños con otitis media exudativa?</div>
                         <div class="description">Administración oral de esteroides para la resolución de las otitis medias exudativas en niños. El estudio OSTRICH, un ensayo aleatorizado, en doble ciego y controlado con placebo.</div>
@@ -61,7 +61,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">¿Existen diferencias en eficacia o seguridad entre azitromicina y amoxicilina-clavulánico para el tratamiento de las exacerbaciones por bronquiectasias en pediatría?</div>
                         <div class="description">Comparación entre amoxicilina-clavulánico versus azitromicina para las exacerbaciones respiratorias en niños con bronquiectasias (BEST-2): ensayo clínico, aleatorizado, multicéntrico, en doble ciego, de no inferioridad.</div>
@@ -75,7 +75,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <div class="info">
                         <div class="name">Síndrome de abstinencia neonatal: ¿cuál opioide es superior morfina o metadona?</div>
                         <div class="description">Comparación de la seguridad y eficacia de metadona versus morfina para el tratamiento del síndrome de abstinencia neonatal: ensayo clínico aleatorizado.</div>

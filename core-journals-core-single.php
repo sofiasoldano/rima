@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     <img class="magazine-image" src="img/magazine-1.png" width="66">
                     
@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     <img class="magazine-image" src="img/magazine-2.png" width="66">
                     
@@ -85,7 +85,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     <img class="magazine-image" src="img/magazine-3.png" width="66">
                     
@@ -101,7 +101,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     <img class="magazine-image" src="img/magazine-4.png" width="66">
                     
@@ -117,7 +117,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     <img class="magazine-image" src="img/magazine-5.png" width="66">
                     
@@ -133,7 +133,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     <img class="magazine-image" src="img/magazine-6.png" width="66">
                     

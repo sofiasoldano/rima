@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -67,7 +67,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -82,7 +82,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -97,7 +97,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -112,7 +112,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -127,7 +127,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -142,7 +142,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-block">
+                <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">
@@ -157,7 +157,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="main-block">
+                 <div onclick="" class="main-block">
                     <input type="checkbox" name="articles" value="all" class="left">
                     
                     <div class="info">

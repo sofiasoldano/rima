@@ -4467,3 +4467,167 @@ footer .footer-social .dropdown select {
     margin-top: 0;
   }
 }
+
+/* line 2, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .header-bg {
+  background-image: radial-gradient(circle at 50% 10px, #51c5ec 4%, #3023ae 60%);
+}
+/* line 5, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .video {
+  position: relative;
+}
+/* line 8, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .video:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(img/play.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+/* line 22, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .main-block {
+  padding: 4px 8px;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  /* line 22, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .main-block {
+    padding: 10px 15px;
+  }
+}
+/* line 30, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .main-block .video {
+  min-width: 115px;
+  width: 160px;
+  height: 60px;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  /* line 30, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .main-block .video {
+    height: 90px;
+  }
+}
+/* line 40, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .main-block .video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media (min-width: 990px) {
+  /* line 48, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .main-block .info {
+    max-width: 40%;
+  }
+}
+/* line 53, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .main-block .info .name {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  /* line 53, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .main-block .info .name {
+    font-size: 16px;
+  }
+}
+/* line 64, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single {
+  position: relative;
+}
+/* line 68, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .video:after {
+  width: 85px;
+  height: 85px;
+  left: calc(50% - 42px);
+  top: calc(50% - 42px);
+}
+/* line 76, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .title {
+  margin: 0;
+  border-bottom: 1px solid #E9E9E9;
+  padding: 25px 0;
+}
+@media (min-width: 1200px) {
+  /* line 82, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .inicio .single .borders {
+    max-width: 92%;
+  }
+}
+/* line 88, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .floating-menu {
+  position: absolute;
+  right: 0 !important;
+  top: 560px !important;
+  display: none;
+}
+@media (min-width: 1200px) {
+  /* line 88, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .inicio .single .floating-menu {
+    display: block;
+  }
+}
+/* line 100, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .comments .title {
+  border: 0;
+}
+/* line 104, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .comments .main-block {
+  display: flex;
+  border: 0;
+  padding: 0;
+  min-height: auto;
+  align-items: start;
+}
+/* line 111, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .comments .main-block:hover {
+  background: transparent;
+  box-shadow: none;
+}
+/* line 117, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .comments .main-block .video:after {
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+/* line 125, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .single .comments .main-block .info {
+  max-width: 100%;
+}
+/* line 132, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .related-videos {
+  padding-top: 45px;
+}
+@media (min-width: 990px) {
+  /* line 136, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .inicio .related-videos .main-block {
+    display: block;
+    border: 0;
+  }
+  /* line 140, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .inicio .related-videos .main-block .video {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 15px;
+  }
+  /* line 145, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .inicio .related-videos .main-block .info {
+    max-width: 95%;
+  }
+  /* line 149, ../sass/pages/_rima-tv.scss */
+  .page-rima-tv .inicio .related-videos .main-block:hover {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+/* line 156, ../sass/pages/_rima-tv.scss */
+.page-rima-tv .inicio .related-videos .border-btn {
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,165 @@
+.page-rima-tv{
+    .header-bg{
+        background-image: radial-gradient(circle at 50% 10px , #51C5EC 4%, #3023AE 60%);
+    }
+    .video{
+        position: relative;
+        
+        &:after{
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url(img/play.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            left: calc(50% - 25px);
+            top: calc(50% - 25px);
+        }
+    }
+  
+
+    .main-block{
+        padding: 4px 8px;
+        align-items: center;
+
+        @include respond-to("small"){
+            padding: 10px 15px;
+        }
+
+        .video{
+            min-width: 115px;
+            width: 160px;
+            height: 60px;
+            margin-right: 20px;
+
+            @include respond-to("small"){
+                height: 90px;
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .info{
+            @include respond-to("medium"){
+                max-width: 40%;
+            }
+
+            .name{
+                font-size: 14px;
+
+                @include respond-to("small"){
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    .inicio{
+        .single{
+            position: relative;
+            
+            .video{
+                &:after{
+                    width: 85px;
+                    height: 85px;
+                    left: calc(50% - 42px);
+                    top: calc(50% - 42px);
+                }
+            }
+            
+            .title{
+                margin: 0;
+                border-bottom: 1px solid #E9E9E9;
+                padding: 25px 0;
+            }
+            
+            .borders{
+                @include respond-to("large"){
+                    max-width: 92%;
+                }
+            }
+            
+            .floating-menu{
+                position: absolute;
+                right: 0 !important;
+                top: 560px !important;
+                display: none;
+                
+                @include respond-to("large"){
+                    display: block;
+                }
+            }
+            
+            .comments{
+                .title{
+                    border: 0;
+                }
+
+                .main-block{
+                    display: flex;
+                    border: 0;
+                    padding: 0;
+                    min-height: auto;
+                    align-items: start;
+                    
+                    &:hover{
+                        background: transparent;
+                        box-shadow: none;
+                    }
+
+                    .video{
+                        &:after{
+                            width: 50px;
+                            height: 50px;
+                            left: calc(50% - 25px);
+                            top: calc(50% - 25px);
+                        }
+                    }
+
+                    .info{
+                        max-width: 100%;
+                    }
+                }
+            }   
+        }
+          
+      .related-videos{
+          padding-top: 45px;
+          
+          @include respond-to("medium"){
+                .main-block{
+                    display: block;
+                    border: 0;
+                    
+                    .video{
+                        width: 100%;
+                        height: 130px;
+                        margin-bottom: 15px;
+                    }
+                    .info{
+                        max-width: 95%;
+                    }
+                    
+                    &:hover{
+                        background: transparent;
+                        box-shadow: none;
+                    }
+                }
+            }
+          
+            .border-btn{
+                margin: 0 auto;
+                border-radius: 15px;
+                margin-top: 20px;
+            }
+        }
+    } 
+    
+    
+}

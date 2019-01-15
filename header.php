@@ -99,13 +99,13 @@
         
         <div class="menu-mobile">
             <ul>
-                <li>
-                    <a href="#">
+                <li <?php if ( $page_name == "biblioteca" ) echo 'class="active"'; ?>>
+                    <a href="biblioteca.php">
                         <img src="img/icons/books.png" width="19">
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li <?php if ( $page_name == "actividad" ) echo 'class="active"'; ?>>
+                    <a href="actividad.php">
                         <img src="img/icons/graphic.png" width="23">
                     </a>
                 </li>
@@ -114,13 +114,13 @@
                         <img src="img/world.png" width="75">
                     </a>
                 </li>
-                <li>
-                    <a href="#" class="new">
+                <li <?php if ( $page_name == "notificaciones" ) echo 'class="active"'; ?>>
+                    <a href="notificaciones.php" class="new">
                         <img src="img/icons/bell.png" width="18">
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li <?php if ( $page_name == "calendario" ) echo 'class="active"'; ?>>
+                    <a href="calendario.php">
                         <img src="img/icons/calendar.png" width="25">
                     </a>
                 </li>

@@ -37,6 +37,69 @@
                         <p class="date">7/10/18</p>
                     </div>
                 </a>
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-4.png">
+                     <div class="info">
+                        <p>Hemos encontrado nuevos artículos para tu estrategia de cardiología</p>
+                     </div>
+                </a>
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-8.png">
+                    <div class="info">
+                        <p>Ya tenés un nuevo cuento para leer en Sotobosque</p>
+                        <p class="date">7/10/18</p>
+                    </div>
+                </a>
+                
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-4.png">
+                     <div class="info">
+                        <p>Hemos encontrado nuevos artículos para tu estrategia de cardiología</p>
+                     </div>
+                </a>
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-8.png">
+                    <div class="info">
+                        <p>Ya tenés un nuevo cuento para leer en Sotobosque</p>
+                        <p class="date">7/10/18</p>
+                    </div>
+                </a>
+                
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-4.png">
+                     <div class="info">
+                        <p>Hemos encontrado nuevos artículos para tu estrategia de cardiología</p>
+                     </div>
+                </a>
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-8.png">
+                    <div class="info">
+                        <p>Ya tenés un nuevo cuento para leer en Sotobosque</p>
+                        <p class="date">7/10/18</p>
+                    </div>
+                </a>
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-4.png">
+                     <div class="info">
+                        <p>Hemos encontrado nuevos artículos para tu estrategia de cardiología</p>
+                     </div>
+                </a>
+                
+                <a href="#" class="notification">
+                    <img class="icon" src="img/icons/core-8.png">
+                    <div class="info">
+                        <p>Ya tenés un nuevo cuento para leer en Sotobosque</p>
+                        <p class="date">7/10/18</p>
+                    </div>
+                </a>
+                
             </div>
         </div>
     </div>

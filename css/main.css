@@ -2918,6 +2918,33 @@ footer .footer-social .dropdown select {
   }
 }
 
+/* line 630, ../sass/partials/_modals.scss */
+#notificaciones .modal-bg {
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 634, ../sass/partials/_modals.scss */
+#notificaciones .modal-body {
+  width: 370px;
+  padding: 0;
+}
+/* line 638, ../sass/partials/_modals.scss */
+#notificaciones .modal-body .title {
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* line 645, ../sass/partials/_modals.scss */
+#notificaciones .modal-body .notification .info {
+  max-width: 65%;
+}
+/* line 649, ../sass/partials/_modals.scss */
+#notificaciones .modal-body .ver-todas {
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
 /* line 2, ../sass/pages/_login.scss */
 .page-login header {
   display: none;
@@ -4651,20 +4678,28 @@ footer .footer-social .dropdown select {
   background: #2283CE;
   margin-bottom: 50px;
 }
-/* line 7, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification {
+
+/* line 8, ../sass/pages/_notificaciones.scss */
+.notification {
   position: relative;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
   padding: 15px 0px;
-  margin-right: -15px;
-  padding-right: 30px;
   margin-bottom: -1px;
+  padding-left: 15px;
 }
-/* line 18, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification:after {
+@media (max-width: 768px) {
+  /* line 8, ../sass/pages/_notificaciones.scss */
+  .notification {
+    margin-right: -15px;
+    padding-right: 30px;
+    padding-left: 0;
+  }
+}
+/* line 24, ../sass/pages/_notificaciones.scss */
+.notification:after {
   content: "";
   position: absolute;
   width: 10px;
@@ -4675,40 +4710,45 @@ footer .footer-social .dropdown select {
   right: 15px;
   top: calc(50% - 5px);
 }
-/* line 30, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification.active {
+/* line 36, ../sass/pages/_notificaciones.scss */
+.notification.active {
   background: rgba(24, 115, 243, 0.1);
-  margin-left: -15px;
-  padding-left: 15px;
 }
-/* line 35, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification.active:after {
+@media (max-width: 768px) {
+  /* line 36, ../sass/pages/_notificaciones.scss */
+  .notification.active {
+    margin-left: -15px;
+    padding-left: 15px;
+  }
+}
+/* line 44, ../sass/pages/_notificaciones.scss */
+.notification.active:after {
   background-image: url(img/arrow-right-blue.png);
 }
-/* line 40, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification .icon {
+/* line 49, ../sass/pages/_notificaciones.scss */
+.notification .icon {
   width: 45px;
   margin-right: 20px;
 }
-/* line 45, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification .info {
+/* line 54, ../sass/pages/_notificaciones.scss */
+.notification .info {
   max-width: 75%;
 }
-/* line 49, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification p {
+/* line 58, ../sass/pages/_notificaciones.scss */
+.notification p {
   margin: 0;
   line-height: 1.3;
   font-weight: 500;
 }
-/* line 55, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification .important {
+/* line 64, ../sass/pages/_notificaciones.scss */
+.notification .important {
   color: #D0021B;
   font-size: 14px;
   margin: 5px 0;
   letter-spacing: -0.22px;
 }
-/* line 62, ../sass/pages/_notificaciones.scss */
-.page-notificaciones .notification .date {
+/* line 71, ../sass/pages/_notificaciones.scss */
+.notification .date {
   font-size: 14px;
   font-weight: 400;
   color: #2283CE;

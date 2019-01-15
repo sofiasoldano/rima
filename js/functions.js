@@ -49,6 +49,7 @@ $(document).ready(function() {
     moveModals('.share-btn', '#share', 50, 240);
     moveFloatingMenu();
     moveIndice();
+    moveNotifications();
     
     $(window).scroll( function(){
 	    moveEditModal();
@@ -56,9 +57,11 @@ $(document).ready(function() {
         moveModals('.share-btn', '#share', 50, 240);
         moveFloatingMenu();
         moveIndice();
+        moveNotifications();
 	});
     $( window ).resize(function() {
         moveEditModal();
+        moveNotifications();
         moveModals('.type-btn', '#edit-type', 90, 50);
         moveModals('.share-btn', '#share', 50, 240);
     });
@@ -77,6 +80,18 @@ $(document).ready(function() {
             $("#edit-carpeta .modal-body").css('top', bottom_of_edit - top_of_window);
             $("#edit-carpeta .modal-body").css('left', left_of_edit);
         }
+    }
+    
+    function moveNotifications(){
+
+        var top_of_window = $(window).scrollTop();
+        var bottom_of_btn =  $(".btn-notifications").offset().top + $(".btn-notifications").outerHeight() + 20;
+        var left_of_btn = $(".btn-notifications").offset().left - 100;
+
+
+        $("#notificaciones .modal-body").css('top', bottom_of_btn - top_of_window);
+        $("#notificaciones .modal-body").css('left', left_of_btn);
+
     }
     
     function moveModals(btn, modal, y_offset,  y_offset_mobile){

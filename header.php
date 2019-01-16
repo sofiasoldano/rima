@@ -34,6 +34,10 @@
                     <form>
                         <input type="search" placeholder="Buscar por palabra clave, disciplina, etc..." class="input-search">
                         <button type="submit" value="Enviar" class="button-search"><img src="img/icons/search.png"  width="18"></button>
+                        <div class="only-in">
+                            <input type="checkbox" name="only">
+                            <label for="only">Solo en Core Journals</label>
+                        </div>
                     </form>
                 </div>
                 <div class="notifs">

@@ -16,71 +16,158 @@
         </div>
         <div class="row magazine-list">
                 <div class="col-11">
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Dermato - Venereologica  Vol. 98 (10) 5/11/2018</a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Diabetologica  Vol. 55 (9) 1/9/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Diabetologica  <span class="vol">Vol. 55 (9) 1/9/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Gastroenterológica Latinoamericana  Vol. 48 (3) 1/9/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Gastroenterológica Latinoamericana  <span class="vol">Vol. 48 (3) 1/9/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Haematologica  Vol. 140 (3) 1/11/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Haematologica  <span class="vol">Vol. 140 (3) 1/11/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Histochemica et Cytochemica  Vol. 51 (3) 26/6/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Histochemica et Cytochemica  <span class="vol">Vol. 51 (3) 26/6/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Informatica Medica  Vol. 26 (2) 1/6/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Informatica Medica  <span class="vol">Vol. 26 (2) 1/6/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Medica Okayama  Vol. 72 (5) 1/10/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Medica Okayama <span class="vol"> Vol. 72 (5) 1/10/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Médica Portuguesa  Vol. 31 (10) 31/10/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Médica Portuguesa  <span class="vol">Vol. 31 (10) 31/10/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
-                        <a href="#">Acta Neurobiologiae Experimentalis  Vol. 78 (3) 1/9/2018</a>
+                    <div onclick="" class="list-block">
+                        <a href="#">Acta Neurobiologiae Experimentalis  <span class="vol">Vol. 78 (3) 1/9/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Abdominal Imaging  <span class="vol"> Vol. 40 (7) 1/10/2015</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Abdominal Radiology <span class="vol">  Vol. 43 (12) 1/12/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Academic Emergency Medicine  <span class="vol"> Vol. 25 (10) 1/10/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Academic Medicine <span class="vol"> Vol. 93 (11) 1/11/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Academic Pediatrics <span class="vol"> Vol. 18 (8) 1/11/2018</span></a>
+                        
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Academic Radiology <span class="vol"> Vol. 25 (11) 1/11/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
                     </div>
-                    <div class="list-block">
+                    
+                    <div onclick="" class="list-block">
                         <a href="#">Accounts of Chemical Research <span class="vol"> Vol. 51 (10) 16/10/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Anaesthesiologica Scandinavica <span class="vol"> Vol. 62 (10) 1/11/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Biochimica Polonica <span class="vol"> Vol. 65 (2) 1/6/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Cardiologica <span class="vol"> Vol. 72 (4) 1/8/2017</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Cardiologica Sinica <span class="vol"> Vol. 34 (5) 1/9/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Cirurgica Brasileira <span class="vol"> Vol. 33 (9) 1/9/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
-                    <div class="list-block">
+                    <div onclick="" class="list-block">
                         <a href="#">Acta Cytologica <span class="vol"> Vol. 62 (4) 1/7/2018</span></a>
+                        <div class="visible-hover">
+                            <a href="#" class="add">Agregar a Mi Core</a>
+                        </div>
+                        
                     </div>
                     
                 </div>

@@ -282,6 +282,22 @@
             margin-bottom: 20px;
             display: inline-block;
         }
+        
+        .calendar{
+            position: relative;
+            
+            &:after{
+                content: "";
+                position: absolute;
+                width: 25px;
+                height: 23px;
+                background-image: url(img/calendar-blue.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                top: 0;
+                right: 1px;
+            }
+        }
     }
     
 }
@@ -318,6 +334,26 @@
                 .color{
                     width: 25px;
                     height: 25px;
+                    
+                    &.active{
+                        position: relative;
+                        
+                        &:before{
+                            content: "";
+                            position: absolute;
+                            width: 33px;
+                            height: 33px;
+                            border: 2px solid #E9E9E9;
+                            border-radius: 9px;
+                            background-image: url(img/check.png);
+                            background-repeat: no-repeat;
+                            background-size: 15px;
+                            background-position: center;
+                            z-index: 9;
+                            top: -4px;
+                            left: -4px;
+                        }
+                    }
                 }
             }
         }

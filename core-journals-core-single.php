@@ -161,7 +161,7 @@
         <ul class="colors">
             <li><a class="color orange" href="#"></a></li>
             <li><a class="color red" href="#"></a></li>
-            <li><a class="color pink" href="#"></a></li>
+            <li><a class="color pink active" href="#"></a></li>
             <li><a class="color green" href="#"></a></li>
             <li><a class="color light-blue" href="#"></a></li>
             <li><a class="color purple" href="#"></a></li>

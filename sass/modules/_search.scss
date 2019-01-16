@@ -46,4 +46,43 @@
         border: none;
         background: none;
     }
+    
+    .only-in{
+        position: absolute;
+        top: 13px;
+        right: 65px;
+        display: flex;
+        align-items: center;
+        
+        input{
+            border-radius: 6px;
+            background: transparent;
+            position: relative;
+            width: 16px;
+            height: 16px;
+            min-width: 16px;
+            
+            &:checked{
+                border: 1px solid $blue;
+                
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 3px;
+                    top: 2px;
+                    left: 2px;
+                    background: $blue;
+                }
+            }  
+        }
+        
+        label{
+            text-transform: none;
+            letter-spacing: 0;
+            margin: 0;
+            font-size: 12px;
+        }
+    }
 }

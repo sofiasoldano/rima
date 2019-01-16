@@ -390,6 +390,45 @@ input[type='checkbox']:checked {
   border: none;
   background: none;
 }
+/* line 50, ../sass/modules/_search.scss */
+.search .only-in {
+  position: absolute;
+  top: 13px;
+  right: 65px;
+  display: flex;
+  align-items: center;
+}
+/* line 57, ../sass/modules/_search.scss */
+.search .only-in input {
+  border-radius: 6px;
+  background: transparent;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+}
+/* line 65, ../sass/modules/_search.scss */
+.search .only-in input:checked {
+  border: 1px solid #2283CE;
+}
+/* line 68, ../sass/modules/_search.scss */
+.search .only-in input:checked:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  top: 2px;
+  left: 2px;
+  background: #2283CE;
+}
+/* line 81, ../sass/modules/_search.scss */
+.search .only-in label {
+  text-transform: none;
+  letter-spacing: 0;
+  margin: 0;
+  font-size: 12px;
+}
 
 /* line 1, ../sass/modules/_buttons.scss */
 .btn-full {
@@ -1541,33 +1580,69 @@ footer .footer-social .dropdown select {
   border-top: 1px solid #E9E9E9;
   border-bottom: 1px solid #E9E9E9;
   margin-top: -1px;
+  transition: all 0.5s;
+  position: relative;
 }
-/* line 6, ../sass/partials/_list-block.scss */
+/* line 8, ../sass/partials/_list-block.scss */
 .list-block a {
   display: block;
   padding: 12px 0;
 }
-/* line 11, ../sass/partials/_list-block.scss */
+/* line 13, ../sass/partials/_list-block.scss */
 .list-block .vol {
   color: #4A4A4A;
   font-size: 12px;
   margin-left: 10px;
 }
-/* line 17, ../sass/partials/_list-block.scss */
+/* line 19, ../sass/partials/_list-block.scss */
 .list-block p {
   color: #4A4A4A;
   font-size: 14px;
   margin: 0;
 }
+/* line 25, ../sass/partials/_list-block.scss */
+.list-block .visible-hover {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+/* line 33, ../sass/partials/_list-block.scss */
+.list-block .visible-hover .add {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F99652;
+  text-decoration: underline;
+  background-image: url(img/add-orange.png);
+  background-repeat: no-repeat;
+  background-size: 19px;
+  background-position: left center;
+  padding-left: 25px;
+}
+/* line 46, ../sass/partials/_list-block.scss */
+.list-block:hover {
+  background: #F7F7F7;
+  padding-left: 15px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+  transition: all 0.5s;
+}
+/* line 52, ../sass/partials/_list-block.scss */
+.list-block:hover .visible-hover {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s;
+}
 
 @media (min-width: 990px) {
-  /* line 25, ../sass/partials/_list-block.scss */
+  /* line 61, ../sass/partials/_list-block.scss */
   .magazine-list {
     margin-top: 25px;
   }
 }
 @media (max-width: 360px) {
-  /* line 30, ../sass/partials/_list-block.scss */
+  /* line 66, ../sass/partials/_list-block.scss */
   .magazine-list .col-11 {
     max-width: 90%;
   }
@@ -2569,50 +2644,86 @@ footer .footer-social .dropdown select {
   margin-bottom: 20px;
   display: inline-block;
 }
+/* line 286, ../sass/partials/_modals.scss */
+#publicar-evento .modal-body .calendar {
+  position: relative;
+}
+/* line 289, ../sass/partials/_modals.scss */
+#publicar-evento .modal-body .calendar:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  background-image: url(img/calendar-blue.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  right: 1px;
+}
 
-/* line 290, ../sass/partials/_modals.scss */
+/* line 306, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-bg {
   background: transparent;
 }
-/* line 293, ../sass/partials/_modals.scss */
+/* line 309, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body {
   box-shadow: 0 0 50px 0px rgba(57, 95, 121, 0.48);
   width: 300px;
   position: absolute;
 }
-/* line 298, ../sass/partials/_modals.scss */
+/* line 314, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body p {
   margin-bottom: 15px;
 }
-/* line 301, ../sass/partials/_modals.scss */
+/* line 317, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body p img {
   margin-right: 10px;
 }
-/* line 305, ../sass/partials/_modals.scss */
+/* line 321, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body p:last-of-type {
   margin-bottom: 0;
 }
-/* line 310, ../sass/partials/_modals.scss */
+/* line 326, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body .colors {
   margin: 0;
   margin-left: 26px;
   margin-bottom: 10px;
 }
-/* line 315, ../sass/partials/_modals.scss */
+/* line 331, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body .colors li {
   margin: 0 3px;
 }
-/* line 318, ../sass/partials/_modals.scss */
+/* line 334, ../sass/partials/_modals.scss */
 #edit-carpeta .modal-body .colors li .color {
   width: 25px;
   height: 25px;
 }
+/* line 338, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body .colors li .color.active {
+  position: relative;
+}
+/* line 341, ../sass/partials/_modals.scss */
+#edit-carpeta .modal-body .colors li .color.active:before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border: 2px solid #E9E9E9;
+  border-radius: 9px;
+  background-image: url(img/check.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: center;
+  z-index: 9;
+  top: -4px;
+  left: -4px;
+}
 
-/* line 328, ../sass/partials/_modals.scss */
+/* line 364, ../sass/partials/_modals.scss */
 #edit-type .modal-bg, #share .modal-bg {
   opacity: 0.2;
 }
-/* line 332, ../sass/partials/_modals.scss */
+/* line 368, ../sass/partials/_modals.scss */
 #edit-type .modal-body, #share .modal-body {
   box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.42);
   width: 270px;
@@ -2620,7 +2731,7 @@ footer .footer-social .dropdown select {
   padding: 0;
   overflow: visible;
 }
-/* line 339, ../sass/partials/_modals.scss */
+/* line 375, ../sass/partials/_modals.scss */
 #edit-type .modal-body:after, #share .modal-body:after {
   content: "";
   position: absolute;
@@ -2634,18 +2745,18 @@ footer .footer-social .dropdown select {
   box-shadow: 4px -4px 7px 0px rgba(0, 0, 0, 0.13);
   z-index: -6;
 }
-/* line 354, ../sass/partials/_modals.scss */
+/* line 390, ../sass/partials/_modals.scss */
 #edit-type .modal-body.mobile:after, #share .modal-body.mobile:after {
   top: -16px;
   right: initial;
   left: 48px;
   transform: rotate(-45deg);
 }
-/* line 362, ../sass/partials/_modals.scss */
+/* line 398, ../sass/partials/_modals.scss */
 #edit-type .modal-body .size, #share .modal-body .size {
   border-bottom: 1px solid #E9E9E9;
 }
-/* line 365, ../sass/partials/_modals.scss */
+/* line 401, ../sass/partials/_modals.scss */
 #edit-type .modal-body .size a, #share .modal-body .size a {
   display: inline-block;
   width: 49%;
@@ -2654,16 +2765,16 @@ footer .footer-social .dropdown select {
   padding: 18px;
   margin: -2px;
 }
-/* line 373, ../sass/partials/_modals.scss */
+/* line 409, ../sass/partials/_modals.scss */
 #edit-type .modal-body .size a:last-of-type, #share .modal-body .size a:last-of-type {
   border: none;
 }
-/* line 379, ../sass/partials/_modals.scss */
+/* line 415, ../sass/partials/_modals.scss */
 #edit-type .modal-body .brightness, #share .modal-body .brightness {
   border-bottom: 1px solid #E9E9E9;
   padding: 20px;
 }
-/* line 383, ../sass/partials/_modals.scss */
+/* line 419, ../sass/partials/_modals.scss */
 #edit-type .modal-body .brightness .slider-range, #share .modal-body .brightness .slider-range {
   -webkit-appearance: none;
   height: 2px;
@@ -2671,7 +2782,7 @@ footer .footer-social .dropdown select {
   outline: none;
   margin: 0 10px;
 }
-/* line 391, ../sass/partials/_modals.scss */
+/* line 427, ../sass/partials/_modals.scss */
 #edit-type .modal-body .brightness .slider-range::-webkit-slider-thumb, #share .modal-body .brightness .slider-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -2682,7 +2793,7 @@ footer .footer-social .dropdown select {
   cursor: pointer;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.42);
 }
-/* line 402, ../sass/partials/_modals.scss */
+/* line 438, ../sass/partials/_modals.scss */
 #edit-type .modal-body .brightness .slider-range::-moz-range-thumb, #share .modal-body .brightness .slider-range::-moz-range-thumb {
   width: 18px;
   height: 18px;
@@ -2691,20 +2802,20 @@ footer .footer-social .dropdown select {
   cursor: pointer;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.42);
 }
-/* line 412, ../sass/partials/_modals.scss */
+/* line 448, ../sass/partials/_modals.scss */
 #edit-type .modal-body .brightness .slider-range::-webkit-range-progress, #share .modal-body .brightness .slider-range::-webkit-range-progress, #edit-type .modal-body .brightness .slider-range::-moz-range-progress, #share .modal-body .brightness .slider-range::-moz-range-progress, #edit-type .modal-body .brightness .slider-range::-ms-fill-upper, #share .modal-body .brightness .slider-range::-ms-fill-upper {
   background: #7ED2C9;
 }
-/* line 417, ../sass/partials/_modals.scss */
+/* line 453, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color, #share .modal-body .bg-color {
   padding: 20px 0;
 }
-/* line 420, ../sass/partials/_modals.scss */
+/* line 456, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color li, #share .modal-body .bg-color li {
   display: inline-block;
   margin: 0 5px;
 }
-/* line 424, ../sass/partials/_modals.scss */
+/* line 460, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color li a, #share .modal-body .bg-color li a {
   width: 45px;
   height: 45px;
@@ -2714,48 +2825,48 @@ footer .footer-social .dropdown select {
   font-weight: 300;
   padding-top: 5px;
 }
-/* line 433, ../sass/partials/_modals.scss */
+/* line 469, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color li a.white, #share .modal-body .bg-color li a.white {
   border: 1px solid #979797;
 }
-/* line 436, ../sass/partials/_modals.scss */
+/* line 472, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color li a.beige, #share .modal-body .bg-color li a.beige {
   border: 1px solid #D5D5D5;
   background: #F7F1E3;
 }
-/* line 440, ../sass/partials/_modals.scss */
+/* line 476, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color li a.gray, #share .modal-body .bg-color li a.gray {
   background: #2D3135;
   color: #FFFFFF;
 }
-/* line 444, ../sass/partials/_modals.scss */
+/* line 480, ../sass/partials/_modals.scss */
 #edit-type .modal-body .bg-color li a.black, #share .modal-body .bg-color li a.black {
   background: #000000;
   color: #FFFFFF;
 }
 
-/* line 457, ../sass/partials/_modals.scss */
+/* line 493, ../sass/partials/_modals.scss */
 #share .modal-body {
   width: 390px;
 }
-/* line 460, ../sass/partials/_modals.scss */
+/* line 496, ../sass/partials/_modals.scss */
 #share .modal-body.mobile {
   width: 330px;
 }
-/* line 464, ../sass/partials/_modals.scss */
+/* line 500, ../sass/partials/_modals.scss */
 #share .modal-body.mobile .btn-list li {
   width: 40px;
   height: 40px;
 }
-/* line 470, ../sass/partials/_modals.scss */
+/* line 506, ../sass/partials/_modals.scss */
 #share .modal-body.mobile:after {
   left: 230px;
 }
-/* line 475, ../sass/partials/_modals.scss */
+/* line 511, ../sass/partials/_modals.scss */
 #share .modal-body .btn-list {
   margin: 15px 0;
 }
-/* line 478, ../sass/partials/_modals.scss */
+/* line 514, ../sass/partials/_modals.scss */
 #share .modal-body .btn-list li {
   margin-right: 8px;
   border: 2px solid;
@@ -2766,26 +2877,26 @@ footer .footer-social .dropdown select {
   align-items: center;
   justify-content: center;
 }
-/* line 488, ../sass/partials/_modals.scss */
+/* line 524, ../sass/partials/_modals.scss */
 #share .modal-body .btn-list li img {
   width: 25px;
   display: block;
 }
-/* line 495, ../sass/partials/_modals.scss */
+/* line 531, ../sass/partials/_modals.scss */
 #share .modal-body:after {
   top: 22px;
   right: -18px;
 }
 
-/* line 503, ../sass/partials/_modals.scss */
+/* line 539, ../sass/partials/_modals.scss */
 #event-info .modal-container {
   width: 730px;
 }
-/* line 506, ../sass/partials/_modals.scss */
+/* line 542, ../sass/partials/_modals.scss */
 #event-info .modal-body {
   padding: 0;
 }
-/* line 509, ../sass/partials/_modals.scss */
+/* line 545, ../sass/partials/_modals.scss */
 #event-info .modal-body .heading {
   height: 70px;
   border-radius: 4px;
@@ -2796,7 +2907,7 @@ footer .footer-social .dropdown select {
   border: 0;
   margin: 0;
 }
-/* line 519, ../sass/partials/_modals.scss */
+/* line 555, ../sass/partials/_modals.scss */
 #event-info .modal-body .heading .title {
   margin: 0;
   text-align: left;
@@ -2804,60 +2915,60 @@ footer .footer-social .dropdown select {
   max-width: 85%;
 }
 @media (min-width: 768px) {
-  /* line 519, ../sass/partials/_modals.scss */
+  /* line 555, ../sass/partials/_modals.scss */
   #event-info .modal-body .heading .title {
     font-size: 20px;
     max-width: auto;
   }
 }
-/* line 531, ../sass/partials/_modals.scss */
+/* line 567, ../sass/partials/_modals.scss */
 #event-info .modal-body .heading .btn-close {
   right: 21px;
   top: 21px;
 }
-/* line 537, ../sass/partials/_modals.scss */
+/* line 573, ../sass/partials/_modals.scss */
 #event-info .modal-body .content {
   padding: 10px 15px;
   position: relative;
   height: 380px;
 }
 @media (min-width: 768px) {
-  /* line 537, ../sass/partials/_modals.scss */
+  /* line 573, ../sass/partials/_modals.scss */
   #event-info .modal-body .content {
     width: 60%;
     float: left;
     padding: 20px;
   }
 }
-/* line 548, ../sass/partials/_modals.scss */
+/* line 584, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .item {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 552, ../sass/partials/_modals.scss */
+/* line 588, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .item .icon {
   float: left;
   margin-right: 20px;
 }
-/* line 557, ../sass/partials/_modals.scss */
+/* line 593, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .item .info {
   float: left;
   max-width: 85%;
 }
 @media (max-width: 360px) {
-  /* line 557, ../sass/partials/_modals.scss */
+  /* line 593, ../sass/partials/_modals.scss */
   #event-info .modal-body .content .item .info {
     max-width: 80%;
   }
 }
-/* line 565, ../sass/partials/_modals.scss */
+/* line 601, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .item .info p {
   font-size: 14px;
   color: #4A4A4A;
   margin: 0;
   line-height: 1.2;
 }
-/* line 574, ../sass/partials/_modals.scss */
+/* line 610, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .bottom {
   text-align: center;
   position: absolute;
@@ -2868,14 +2979,14 @@ footer .footer-social .dropdown select {
   padding: 15px 0;
 }
 @media (min-width: 768px) {
-  /* line 574, ../sass/partials/_modals.scss */
+  /* line 610, ../sass/partials/_modals.scss */
   #event-info .modal-body .content .bottom {
     width: calc(100% - 40px);
     margin: 0 20px;
     padding: 20px 0;
   }
 }
-/* line 589, ../sass/partials/_modals.scss */
+/* line 625, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .bottom li {
   display: inline;
   font-size: 14px;
@@ -2883,62 +2994,62 @@ footer .footer-social .dropdown select {
   margin: 0 15px;
 }
 @media (max-width: 360px) {
-  /* line 589, ../sass/partials/_modals.scss */
+  /* line 625, ../sass/partials/_modals.scss */
   #event-info .modal-body .content .bottom li {
     margin: 0 5px;
   }
 }
 @media (min-width: 768px) {
-  /* line 589, ../sass/partials/_modals.scss */
+  /* line 625, ../sass/partials/_modals.scss */
   #event-info .modal-body .content .bottom li {
     margin: 0;
     margin-right: 40px;
   }
 }
-/* line 604, ../sass/partials/_modals.scss */
+/* line 640, ../sass/partials/_modals.scss */
 #event-info .modal-body .content .bottom li img {
   margin-right: 10px;
 }
 @media (min-width: 768px) {
-  /* line 611, ../sass/partials/_modals.scss */
+  /* line 647, ../sass/partials/_modals.scss */
   #event-info .modal-body .map {
     width: 40%;
     float: right;
   }
 }
-/* line 617, ../sass/partials/_modals.scss */
+/* line 653, ../sass/partials/_modals.scss */
 #event-info .modal-body .map iframe {
   height: 160px;
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 617, ../sass/partials/_modals.scss */
+  /* line 653, ../sass/partials/_modals.scss */
   #event-info .modal-body .map iframe {
     height: 380px;
   }
 }
 
-/* line 630, ../sass/partials/_modals.scss */
+/* line 666, ../sass/partials/_modals.scss */
 #notificaciones .modal-bg {
   background: rgba(0, 0, 0, 0.4);
 }
-/* line 634, ../sass/partials/_modals.scss */
+/* line 670, ../sass/partials/_modals.scss */
 #notificaciones .modal-body {
   width: 370px;
   padding: 0;
 }
-/* line 638, ../sass/partials/_modals.scss */
+/* line 674, ../sass/partials/_modals.scss */
 #notificaciones .modal-body .title {
   padding: 10px;
   margin: 0;
   font-size: 20px;
   font-weight: 400;
 }
-/* line 645, ../sass/partials/_modals.scss */
+/* line 681, ../sass/partials/_modals.scss */
 #notificaciones .modal-body .notification .info {
   max-width: 65%;
 }
-/* line 649, ../sass/partials/_modals.scss */
+/* line 685, ../sass/partials/_modals.scss */
 #notificaciones .modal-body .ver-todas {
   text-align: center;
   display: block;

@@ -12,7 +12,7 @@
                         <img src="img/icons/add-folder.png" width="40">
                         <p>Nueva carpeta</p>
                     </a>
-                    <a href="core-journals-core-single.php" class="folder pink">
+                    <a href="core-journals-core-single.php" class="folder new pink">
                         <img src="img/icons/folder.png" width="47">
                         <p>Para compartir <span class="quantity">8 artículos</span></p>
                     </a>

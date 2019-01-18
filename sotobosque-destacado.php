@@ -14,7 +14,7 @@
                     <a href="sotobosque-single.php" class="folder red">
                         <p>El sabio que tomo el poder <span class="author">Augusto Monterroso</span></p>
                     </a>
-                    <a href="sotobosque-single.php" class="folder pink">
+                    <a href="sotobosque-single.php" class="folder new pink">
                         <p>El juego del muerto<span class="author">Augusto Monterroso</span></p>
                     </a>
                     <a href="sotobosque-single.php" class="folder green">

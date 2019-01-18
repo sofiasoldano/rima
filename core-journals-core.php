@@ -12,33 +12,33 @@
                         <img src="img/icons/add-folder.png" width="40">
                         <p>Nueva carpeta</p>
                     </a>
-                    <a href="core-journals-core-single.php" class="folder new pink">
+                    <a href="core-journals-core-single.php" class="folder pink">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Para compartir <span class="quantity">8 artículos</span></p>
+                        <p>Para compartir <span class="quantity">8 revistas</span></p>
                     </a>
                     <a href="core-journals-core-single.php" class="folder green">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Sin título <span class="quantity">18 artículos</span></p>
+                        <p>Sin título <span class="quantity">18 revistas</span></p>
                     </a>
                     <a href="core-journals-core-single.php" class="folder light-blue">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Pediatría <span class="quantity">18 artículos</span></p>
+                        <p>Pediatría <span class="quantity">18 revistas</span></p>
                     </a>
                     <a href="core-journals-core-single.php" class="folder purple">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Temas varios <span class="quantity">18 artículos</span></p>
+                        <p>Temas varios <span class="quantity">18 revistas</span></p>
                     </a>
                     <a href="core-journals-core-single.php" class="folder red">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Sin título <span class="quantity">18 artículos</span></p>
+                        <p>Sin título <span class="quantity">18 revistas</span></p>
                     </a>
                     <a href="core-journals-core-single.php" class="folder light-gray">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Sin título <span class="quantity">18 artículos</span></p>
+                        <p>Sin título <span class="quantity">18 revistas</span></p>
                     </a>
                     <a href="core-journals-core-single.php" class="folder orange">
                         <img src="img/icons/folder.png" width="47">
-                        <p>Favoritas <span class="quantity">18 artículos</span></p>
+                        <p>Favoritas <span class="quantity">18 revistas</span></p>
                     </a>
                 </div>
             </div>

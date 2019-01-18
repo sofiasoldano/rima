@@ -16,9 +16,12 @@
             justify-content: space-between;
             min-height: auto;
             margin-bottom: 50px;
+            margin-right: 0;
+            margin-right: -40px;
 
             .folder{
                 width: 50%;
+                height: 164px;
                 margin: 0;
                 justify-content: flex-end;
                 text-align: left;

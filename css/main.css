@@ -3995,9 +3995,8 @@ footer .footer-social .dropdown select {
   min-height: auto;
   margin-bottom: 50px;
   margin-right: 0;
-  margin-right: -40px;
 }
-/* line 22, ../sass/pages/_sotobosque.scss */
+/* line 21, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .destacado .folders-container .folder {
   width: 50%;
   height: 164px;
@@ -4009,54 +4008,54 @@ footer .footer-social .dropdown select {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  /* line 22, ../sass/pages/_sotobosque.scss */
+  /* line 21, ../sass/pages/_sotobosque.scss */
   .page-sotobosque .destacado .folders-container .folder {
     width: 30%;
   }
 }
 @media (min-width: 990px) {
-  /* line 22, ../sass/pages/_sotobosque.scss */
+  /* line 21, ../sass/pages/_sotobosque.scss */
   .page-sotobosque .destacado .folders-container .folder {
     width: 140px;
   }
 }
-/* line 40, ../sass/pages/_sotobosque.scss */
+/* line 39, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .destacado .folders-container .folder p {
   font-size: 16px;
   font-weight: 600;
 }
-/* line 44, ../sass/pages/_sotobosque.scss */
+/* line 43, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .destacado .folders-container .folder p .author {
   display: block;
   font-size: 12px;
   font-weight: 500;
 }
-/* line 55, ../sass/pages/_sotobosque.scss */
+/* line 54, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .main-block .cuento {
   margin-right: 20px;
 }
-/* line 59, ../sass/pages/_sotobosque.scss */
+/* line 58, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .main-block .name {
   font-size: 18px;
   font-weight: 500;
 }
-/* line 64, ../sass/pages/_sotobosque.scss */
+/* line 63, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .main-block .author {
   margin: 2px 0 8px;
 }
-/* line 68, ../sass/pages/_sotobosque.scss */
+/* line 67, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .main-block p {
   color: #4A4A4A;
 }
-/* line 74, ../sass/pages/_sotobosque.scss */
+/* line 73, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .single .borders.caption {
   margin-bottom: 30px;
 }
-/* line 78, ../sass/pages/_sotobosque.scss */
+/* line 77, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .single .ver-bio {
   margin-left: 10px;
 }
-/* line 84, ../sass/pages/_sotobosque.scss */
+/* line 83, ../sass/pages/_sotobosque.scss */
 .page-sotobosque .single.author-single .title {
   border-bottom: 1px solid #E9E9E9;
   padding-bottom: 20px;

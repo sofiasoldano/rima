@@ -1,5 +1,6 @@
 $(document).ready(function() {
-
+    
+    /* Abir y cerrar modales */
     $(".js-open-indice").click(function(event){
         event.preventDefault();
         $(".indice").addClass("open");
@@ -34,7 +35,7 @@ $(document).ready(function() {
     });
     
     
-    
+    /* Cargar porcentajes en mi actividad */
     if($(".percentage").length != 0){
         setTimeout(function() {
             $( ".progress-bar" ).each(function() {
@@ -66,6 +67,10 @@ $(document).ready(function() {
         moveModals('.share-btn', '#share', 50, 240);
     });
     
+    
+
+    
+    /* Funciones que posicionan modales en un punto especifico con respecto a otro elemento */
     function moveEditModal(){
         if($(".edit").length != 0){
             var top_of_window = $(window).scrollTop();
@@ -156,4 +161,79 @@ $(document).ready(function() {
             } 
         }
     }
+
 });
+
+
+/* Funcion para el video de intro*/
+if($(".page-intro").length != 0){
+    var video = document.getElementById('intro-video');
+    video.play();
+    var time = 2.5;
+    var step = 1;
+    var reverse = false;
+    
+    
+    
+    $(window).bind('mousewheel', function(event) {
+    if (event.originalEvent.wheelDelta >= 0) {
+        console.log('Scroll down');
+    }
+    else {
+        console.log('Scroll up');
+    }
+});
+    
+    video.addEventListener("timeupdate", function() {
+        
+        if(step < 2 && video.currentTime < 3){
+            $(".heading").addClass('active');
+        } else{
+            $(".heading").removeClass('active');
+        }
+        
+        if (this.currentTime >= time) {
+            this.pause();
+            $(".steps li:nth-of-type(" + step + ") a").addClass('active');
+            $(".step-info").removeClass('active');
+            if(reverse == false){
+                $(".step-info:nth-of-type(" + (step + 2) + ")").addClass('active');
+            }
+        }
+
+    }, false);
+}
+
+
+function playVideoAt(newStep, endtime){
+    if(newStep != step){
+       var video = document.getElementById('intro-video');
+        $(".steps li a").removeClass('active');
+        $(".step-info").removeClass('active');
+        step = newStep;
+
+
+
+        $(".steps li:nth-of-type(" + step + ") a").addClass('active');
+
+        time = endtime;
+        if(video.currentTime < endtime){
+           video.play();
+        } else{
+            intervalRewind = setInterval(function(){
+               video.playbackRate = 1.0;
+               if(video.currentTime <= endtime){
+                   reverse = false;
+                   clearInterval(intervalRewind);
+                   video.pause();
+                   $(".step-info:nth-of-type(" + (step + 2) + ")").addClass('active');
+               }
+               else{
+                   reverse = true;
+                   video.currentTime += -.1;
+               }
+            }, 85);
+        }
+    }
+    
+}

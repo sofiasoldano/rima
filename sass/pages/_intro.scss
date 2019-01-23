@@ -1,0 +1,248 @@
+.page-intro{
+    header, footer{
+        display: none;
+    }
+    
+    .video-player{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        
+        video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .heading{
+            position: absolute;
+            top: 100px;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s;
+            
+            &.active{
+                opacity: 1;
+                visibility: visible;
+                transition: all 1s;
+            }
+            
+            .title{
+                font-size: 32px;
+                color: $white;
+                font-weight: 300;
+                margin-top: 30px;
+            }
+        }
+        
+        .enter-btn{
+            background: $white;
+            color: $black !important;
+            width: auto;
+            display: inline-block;
+            padding: 10px 40px;
+            font-size: 14px;
+            position: absolute;
+            top: 0;
+            right: 50px;
+        }
+        
+        .steps{
+            position: absolute;
+            top: calc(50% - 100px);
+            right: 0;
+            
+            li{
+                text-align: right;
+                
+                a{
+                    color: $white;
+                    font-weight: $regular;
+                    font-size: 24px;
+                    margin-bottom: 30px;
+                    opacity: 0.4;
+                    display: inline-flex;
+                    align-items: center;
+                    transition: all 0.5s;
+
+                    &:after{
+                        content: "";
+                        width: 20px;
+                        height: 1px;
+                        background: $white;
+                        display: inline-flex;
+                        margin-left: 10px;
+                    }
+
+                    &.active{
+                        opacity: 1;
+                        font-weight: $bold;
+                        font-size: 36px;
+                            
+                        &:after{
+                            width: 40px;
+                            transition: all 0.5s;
+                        }
+                            
+                    }
+                }
+            }
+        }
+        
+        .step-info {
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 1s;
+            
+            &:after{
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 1px;
+                background: $white;
+                transition: all 0.8s 0.1s;
+            }
+            
+            &:before{
+                content: "";
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                border-radius: 50px;
+                background: $white;
+                box-shadow: 0 0 20px 1px #F5A623;
+                visibility: hidden;
+                opacity: 0;
+                transition: all 0.2s;
+            }
+            
+            &.active{
+                visibility: visible;
+                opacity: 1;
+                transition: opacity 0.5;
+                
+                &:after{
+                    transition: all 0.8s;
+                }
+                
+                &:before{
+                    visibility: visible;
+                    opacity: 1;
+                    transition: all 0.2s 0.7s;
+                }
+            }
+            
+            .title{
+                color: $white;
+                font-size: 32px;
+                font-weight: $semi-bold;
+                font-family: 'Encode Sans', sans-serif;
+            }
+            
+            p{
+                color: $white;
+                font-size: 18px;
+                font-weight: $regular;
+                max-width: 320px;
+                font-family: 'Encode Sans', sans-serif;
+            }
+            
+            .academica-menu{
+                text-align: left;
+                margin-top: 30px;
+                
+                ul li {
+                    width: 50px;
+                    margin: 0;
+                    margin-right: 20px;
+                }
+            } 
+            
+            &.actualidad{
+                bottom: 325px;
+                left: 120px;
+                
+                &:after{
+                    bottom: -20px;
+                }
+
+                &:before{
+                    right: -150px;
+                    bottom: -31px;
+                }
+
+                &.active{
+                    &:after{
+                        width: 450px;
+                    }
+                }
+            }
+            
+            &.tea{
+                right: 0;
+                bottom: 100px;
+                
+                &:after{
+                    top: -30px;
+                    right: 120px;
+                }
+
+                &:before{
+                    left: -170px;
+                    top: -40px;
+                }
+
+                 &.active{
+                    &:after{
+                        width: 350px;
+                    }
+                }
+            }
+            
+            &.academica{
+                left: 50px;
+                bottom: 350px;
+                
+                &:after{
+                    left: 0;
+                    bottom: -20px;
+                }
+
+                &:before{
+                    right: -200px;
+                    bottom: -31px;
+                }
+
+                 &.active{
+                    &:after{
+                        width: 618px;
+                    }
+                }
+            }
+            
+            &.core{
+                right: 200px;
+                bottom: 130px;
+                
+                &:after{
+                    top: -30px;
+                    right: 120px;
+                }
+
+                &:before{
+                    left: -300px;
+                    top: -40px;
+                }
+
+                 &.active{
+                    &:after{
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+}

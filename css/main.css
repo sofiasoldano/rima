@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Encode+Sans:500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans:300, 400, 500,600,700");
 /* line 15, ../sass/base/_variables.scss */
 .blue {
   color: #2283CE !important;
@@ -4923,4 +4923,243 @@ footer .footer-social .dropdown select {
   font-weight: 400;
   color: #2283CE;
   margin-top: 5px;
+}
+
+/* line 2, ../sass/pages/_intro.scss */
+.page-intro header, .page-intro footer {
+  display: none;
+}
+/* line 6, ../sass/pages/_intro.scss */
+.page-intro .video-player {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+/* line 11, ../sass/pages/_intro.scss */
+.page-intro .video-player video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 17, ../sass/pages/_intro.scss */
+.page-intro .video-player .heading {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+/* line 26, ../sass/pages/_intro.scss */
+.page-intro .video-player .heading.active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s;
+}
+/* line 32, ../sass/pages/_intro.scss */
+.page-intro .video-player .heading .title {
+  font-size: 32px;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-top: 30px;
+}
+/* line 40, ../sass/pages/_intro.scss */
+.page-intro .video-player .enter-btn {
+  background: #FFFFFF;
+  color: #000000 !important;
+  width: auto;
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+/* line 52, ../sass/pages/_intro.scss */
+.page-intro .video-player .steps {
+  position: absolute;
+  top: calc(50% - 100px);
+  right: 0;
+}
+/* line 57, ../sass/pages/_intro.scss */
+.page-intro .video-player .steps li {
+  text-align: right;
+}
+/* line 60, ../sass/pages/_intro.scss */
+.page-intro .video-player .steps li a {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 30px;
+  opacity: 0.4;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.5s;
+}
+/* line 70, ../sass/pages/_intro.scss */
+.page-intro .video-player .steps li a:after {
+  content: "";
+  width: 20px;
+  height: 1px;
+  background: #FFFFFF;
+  display: inline-flex;
+  margin-left: 10px;
+}
+/* line 79, ../sass/pages/_intro.scss */
+.page-intro .video-player .steps li a.active {
+  opacity: 1;
+  font-weight: 700;
+  font-size: 36px;
+}
+/* line 84, ../sass/pages/_intro.scss */
+.page-intro .video-player .steps li a.active:after {
+  width: 40px;
+  transition: all 0.5s;
+}
+/* line 94, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+/* line 100, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: #FFFFFF;
+  transition: all 0.8s 0.1s;
+}
+/* line 109, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 1px #F5A623;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+}
+/* line 122, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.active {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5;
+}
+/* line 127, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.active:after {
+  transition: all 0.8s;
+}
+/* line 131, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.active:before {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.2s 0.7s;
+}
+/* line 138, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info .title {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Encode Sans', sans-serif;
+}
+/* line 145, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info p {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 320px;
+  font-family: 'Encode Sans', sans-serif;
+}
+/* line 153, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info .academica-menu {
+  text-align: left;
+  margin-top: 30px;
+}
+/* line 157, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info .academica-menu ul li {
+  width: 50px;
+  margin: 0;
+  margin-right: 20px;
+}
+/* line 164, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.actualidad {
+  bottom: 325px;
+  left: 120px;
+}
+/* line 168, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.actualidad:after {
+  bottom: -20px;
+}
+/* line 172, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.actualidad:before {
+  right: -150px;
+  bottom: -31px;
+}
+/* line 178, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.actualidad.active:after {
+  width: 450px;
+}
+/* line 184, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.tea {
+  right: 0;
+  bottom: 100px;
+}
+/* line 188, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.tea:after {
+  top: -30px;
+  right: 120px;
+}
+/* line 193, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.tea:before {
+  left: -170px;
+  top: -40px;
+}
+/* line 199, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.tea.active:after {
+  width: 350px;
+}
+/* line 205, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.academica {
+  left: 50px;
+  bottom: 350px;
+}
+/* line 209, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.academica:after {
+  left: 0;
+  bottom: -20px;
+}
+/* line 214, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.academica:before {
+  right: -200px;
+  bottom: -31px;
+}
+/* line 220, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.academica.active:after {
+  width: 618px;
+}
+/* line 226, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.core {
+  right: 200px;
+  bottom: 130px;
+}
+/* line 230, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.core:after {
+  top: -30px;
+  right: 120px;
+}
+/* line 235, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.core:before {
+  left: -300px;
+  top: -40px;
+}
+/* line 241, ../sass/pages/_intro.scss */
+.page-intro .video-player .step-info.core.active:after {
+  width: 500px;
 }

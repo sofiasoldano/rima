@@ -1,4 +1,9 @@
 .single{
+    padding-top: 60px;
+    
+    @include respond-to('medium'){
+        padding-top: 0;
+    }
     
     .single-title{
         border-bottom: 1px solid #E9E9E9;
@@ -20,7 +25,7 @@
             width: 202px;
             margin-top: 7px;
             position: absolute;
-            top: -50px;
+            top: -110px;
             left: calc(50% - 101px);
             
              @include respond-to('medium'){

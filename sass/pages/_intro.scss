@@ -225,6 +225,10 @@
                     bottom: 180px;
                 }
                 
+                @include respond-to("large"){
+                    right: 100px;
+                }
+                
                 &:after{
                     top: -30px;
                     right: 120px;

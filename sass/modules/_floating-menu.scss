@@ -1,6 +1,19 @@
 .floating-menu{
     overflow: hidden;
-    margin: 20px 0;
+    padding: 10px 15px;
+    position: absolute;
+    top: -60px;;
+    width: 100%;
+    background: $white;
+    z-index: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+    
+    &.fixed{
+        position: fixed;
+        top: 0;
+    }
     
     li{
         display: inline-block;

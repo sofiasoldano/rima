@@ -49,6 +49,7 @@ $(document).ready(function() {
     moveModals('.type-btn', '#edit-type', 90, 50);
     moveModals('.share-btn', '#share', 50, 240);
     moveFloatingMenu();
+    fixedFloatingMenu();
     moveIndice();
     moveNotifications();
     
@@ -58,6 +59,7 @@ $(document).ready(function() {
         moveModals('.share-btn', '#share', 50, 240);
         moveFloatingMenu();
         moveIndice();
+        fixedFloatingMenu();
         moveNotifications();
 	});
     $( window ).resize(function() {
@@ -65,6 +67,7 @@ $(document).ready(function() {
         moveNotifications();
         moveModals('.type-btn', '#edit-type', 90, 50);
         moveModals('.share-btn', '#share', 50, 240);
+        fixedFloatingMenu();
     });
     
     
@@ -129,6 +132,10 @@ $(document).ready(function() {
             var top_of_window = $(window).scrollTop();
             var top_of_single =  $(".single").offset().top - 30;
             
+            if($( window ).width() < 990){
+                var top_of_single =  $(".single").offset().top - 48;
+            }
+            
             if(top_of_window > top_of_single){
                $(".open-indice").css('position', 'fixed');
                $(".open-indice").css('top', 0);
@@ -141,24 +148,40 @@ $(document).ready(function() {
     
     function moveFloatingMenu(){
         if($(".single").length != 0){
-            var top_of_window = $(window).scrollTop();
-            var bottom_of_window = $(window).scrollTop() + $(window).outerHeight();
-            
-            
-            var top_of_single =  $(".single").offset().top;
-            var bottom_of_menu = $(".floating-menu").offset().top + $(".floating-menu").outerHeight();
-            var bottom_of_single =  $(".single .content").offset().top + $(".single .content").outerHeight();
-            var bottom_position = $(".single .content").position().top + $(".single .content").outerHeight();
-            
-            if(bottom_of_single < bottom_of_window ){
-               $(".single .floating-menu").css('top', top_of_single);
-                $(".single .floating-menu").css('bottom', 'initial');
+            if($( window ).width() > 990){
+                var top_of_window = $(window).scrollTop();
+                var bottom_of_window = $(window).scrollTop() + $(window).outerHeight();
+
+                var top_of_single =  $(".single").offset().top;
+                var bottom_of_menu = $(".floating-menu").offset().top + $(".floating-menu").outerHeight();
+                var bottom_of_single =  $(".single .content").offset().top + $(".single .content").outerHeight();
+                var bottom_position = $(".single .content").position().top + $(".single .content").outerHeight();
+
+                if(bottom_of_single < bottom_of_window ){
+                   $(".single .floating-menu").css('top', top_of_single);
+                    $(".single .floating-menu").css('bottom', 'initial');
+                }
+
+                if(bottom_of_menu > bottom_of_single){
+                    $(".single .floating-menu").css('top', 'initial');
+                    $(".single .floating-menu").css('bottom', top_of_window  - bottom_position + 480);
+                } 
             }
-            
-            if(bottom_of_menu > bottom_of_single){
-                $(".single .floating-menu").css('top', 'initial');
-                $(".single .floating-menu").css('bottom', top_of_window  - bottom_position + 480);
-            } 
+        }
+    }
+    
+    function fixedFloatingMenu(){
+        if($(".single").length != 0){
+            if($( window ).width() < 990){
+                var top_of_window = $(window).scrollTop();
+                var top_of_single =  $(".single").offset().top ;
+                
+                if(top_of_window > top_of_single){
+                   $(".floating-menu").addClass("fixed");
+                } else{
+                    $(".floating-menu").removeClass("fixed");
+                }
+            }
         }
     }
 

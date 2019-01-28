@@ -148,7 +148,76 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="title">Foro de discusión</div>
-                    <div class="discussion blue-bg"></div>
+                    <div class="discussion">
+                        <div class="type-comment">
+                            <input type="text" placeholder="Escribí tu comentario">
+                        </div>
+                        
+                        <div class="comment">
+                            <div class="user-image"><img src="img/user-image.png" class="img-responsive"></div>
+                            <div class="info">
+                                <div class="name">Dr. Hugo Boto </div>
+                                <div class="date">- 01/08/2018 </div>
+                                <div class="text">Developmental dysplasia of the hip (DDH) remains common. </div>
+                                <div class="actions">
+                                    <ul>
+                                        <li><a href="" class="blue"><img src="img/icons/like.png" width="11">Estoy de acuerdo</a></li>
+                                        <li><a href=""><img src="img/icons/comment-box.png" width="11">Comentar</a></li>
+                                        <li><a href=""><img src="img/icons/share3.png" width="14">Compartir</a></li>
+                                    </ul>
+                                </div>
+                                <div class="reactions">
+                                    <div class="people">
+                                        <ul class="images">
+                                            <li><img src="img/user1.png" width="16"></li>
+                                            <li><img src="img/user2.png" width="16"></li>
+                                            <li><img src="img/user3.png" width="16"></li>
+                                            <li><img src="img/user4.png" width="16"></li>
+                                        </ul>
+                                        <p>You, Helena, tomy and 43 Others </p>
+                                    </div>
+                                    <div class="shares">
+                                        <ul>
+                                            <li><a href=""><img width="12" src="img/icons/comment-box-blue.png">3</a></li>
+                                            <li><a href=""><img width="13" src="img/icons/share3-blue.png">2</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="user-image"><img src="img/user-image.png" class="img-responsive"></div>
+                            <div class="info">
+                                <div class="name">Dr. Hugo Boto </div>
+                                <div class="date">- 01/08/2018 </div>
+                                <div class="text">Developmental dysplasia of the hip (DDH) remains common. </div>
+                                <div class="actions">
+                                    <ul>
+                                        <li><a href="" class="blue"><img src="img/icons/like.png" width="11">Estoy de acuerdo</a></li>
+                                        <li><a href=""><img src="img/icons/comment-box.png" width="11">Comentar</a></li>
+                                        <li><a href=""><img src="img/icons/share3.png" width="14">Compartir</a></li>
+                                    </ul>
+                                </div>
+                                <div class="reactions">
+                                    <div class="people">
+                                        <ul class="images">
+                                            <li><img src="img/user1.png" width="16"></li>
+                                            <li><img src="img/user2.png" width="16"></li>
+                                            <li><img src="img/user3.png" width="16"></li>
+                                            <li><img src="img/user4.png" width="16"></li>
+                                        </ul>
+                                        <p>You, Helena, tomy and 43 Others </p>
+                                    </div>
+                                    <div class="shares">
+                                        <ul>
+                                            <li><a href=""><img width="12" src="img/icons/comment-box-blue.png">3</a></li>
+                                            <li><a href=""><img width="13" src="img/icons/share3-blue.png">2</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-5">
                     <div class="title">Artículos relacionados</div>

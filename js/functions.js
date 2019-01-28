@@ -168,8 +168,9 @@ $(document).ready(function() {
 /* Funcion para el video de intro*/
 if($(".page-intro").length != 0){
     var video = document.getElementById('intro-video');
+    video.playbackRate = 2.0;
     video.play();
-    var time = 2.5;
+    var time = 5.7;
     var step = 1;
     var reverse = false;
     
@@ -185,20 +186,22 @@ if($(".page-intro").length != 0){
 });
     
     video.addEventListener("timeupdate", function() {
-        
-        if(step < 2 && video.currentTime < 3){
+        if(step < 2 && video.currentTime < 7){
             $(".heading").addClass('active');
         } else{
             $(".heading").removeClass('active');
         }
         
-        if (this.currentTime >= time) {
-            this.pause();
-            $(".steps li:nth-of-type(" + step + ") a").addClass('active');
-            $(".step-info").removeClass('active');
+        if (this.currentTime >= (time - 1.5) ) {
             if(reverse == false){
+                $(".step-info").removeClass('active');
                 $(".step-info:nth-of-type(" + (step + 2) + ")").addClass('active');
             }
+        }
+        
+        if (this.currentTime >= time) {
+            $(".steps li:nth-of-type(" + step + ") a").addClass('active');
+            this.pause();
         }
 
     }, false);
@@ -210,18 +213,19 @@ function playVideoAt(newStep, endtime){
        var video = document.getElementById('intro-video');
         $(".steps li a").removeClass('active');
         $(".step-info").removeClass('active');
+        /*if(newStep > (step + 1)){
+            video.playbackRate = 5.0;
+        }*/
         step = newStep;
-
-
-
+        
         $(".steps li:nth-of-type(" + step + ") a").addClass('active');
-
+        
         time = endtime;
         if(video.currentTime < endtime){
            video.play();
         } else{
             intervalRewind = setInterval(function(){
-               video.playbackRate = 1.0;
+               video.playbackRate = 2.0;
                if(video.currentTime <= endtime){
                    reverse = false;
                    clearInterval(intervalRewind);
@@ -230,7 +234,7 @@ function playVideoAt(newStep, endtime){
                }
                else{
                    reverse = true;
-                   video.currentTime += -.1;
+                   video.currentTime += -.2;
                }
             }, 85);
         }

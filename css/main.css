@@ -2036,29 +2036,171 @@ footer .footer-social .dropdown select {
     margin-top: 100px;
   }
 }
-/* line 133, ../sass/partials/_single.scss */
-.single .comments .discussion {
-  height: 253px;
-  margin-bottom: 50px;
+/* line 134, ../sass/partials/_single.scss */
+.single .comments .discussion .type-comment {
+  position: relative;
 }
-@media (min-width: 990px) {
-  /* line 133, ../sass/partials/_single.scss */
-  .single .comments .discussion {
-    height: 383px;
-  }
+/* line 137, ../sass/partials/_single.scss */
+.single .comments .discussion .type-comment input {
+  border: 1px solid #EDEDED;
+  padding: 10px;
+  padding-left: 50px;
 }
 /* line 142, ../sass/partials/_single.scss */
+.single .comments .discussion .type-comment input::placeholder {
+  color: #CCCCCC;
+  font-size: 14px;
+}
+/* line 148, ../sass/partials/_single.scss */
+.single .comments .discussion .type-comment:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(img/attach.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 13px;
+  left: 16px;
+  cursor: pointer;
+}
+/* line 161, ../sass/partials/_single.scss */
+.single .comments .discussion .type-comment:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(img/smiley.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 13px;
+  right: 16px;
+  cursor: pointer;
+}
+/* line 175, ../sass/partials/_single.scss */
+.single .comments .discussion .comment {
+  border: 1px solid #EDEDED;
+  display: flex;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+/* line 181, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+/* line 188, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .user-image img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+/* line 196, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info {
+  min-width: 91%;
+  margin-left: auto;
+  margin-top: -8px;
+}
+/* line 201, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .name {
+  color: #2283CE;
+  font-size: 10px;
+  font-weight: 500;
+  display: inline-block;
+}
+/* line 208, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .date {
+  display: inline-block;
+}
+/* line 212, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .text {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+/* line 217, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .actions {
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  padding-bottom: 6px;
+}
+/* line 223, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .actions ul li {
+  display: inline-block;
+  font-size: 11px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #9197A3;
+}
+/* line 230, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .actions ul li a {
+  color: #9197A3;
+}
+/* line 235, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .actions ul li img {
+  margin-right: 5px;
+}
+/* line 242, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions {
+  padding: 5px 0;
+}
+/* line 245, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .people {
+  float: left;
+}
+/* line 248, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .people .images {
+  display: inline-block;
+}
+/* line 251, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .people .images li {
+  display: inline-block;
+  margin-right: -6px;
+}
+/* line 257, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .people p {
+  color: #9197A3;
+  font-size: 11px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+/* line 266, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .shares {
+  float: right;
+}
+/* line 269, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .shares li {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 300;
+  vertical-align: middle;
+  margin-left: 20px;
+  color: #9197A3;
+}
+/* line 277, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .shares li a {
+  color: #9197A3;
+}
+/* line 281, ../sass/partials/_single.scss */
+.single .comments .discussion .comment .info .reactions .shares li img {
+  margin-right: 5px;
+}
+/* line 291, ../sass/partials/_single.scss */
 .single .comments .main-block {
   min-height: 210px;
   display: block;
   padding-bottom: 60px;
 }
-/* line 147, ../sass/partials/_single.scss */
+/* line 296, ../sass/partials/_single.scss */
 .single .comments .main-block .author, .single .comments .main-block .pages {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 152, ../sass/partials/_single.scss */
+/* line 301, ../sass/partials/_single.scss */
 .single .comments .main-block .bottom {
   position: absolute;
   bottom: 18px;
@@ -5050,7 +5192,7 @@ footer .footer-social .dropdown select {
 .page-intro .video-player .step-info.active {
   visibility: visible;
   opacity: 1;
-  transition: opacity 0.5;
+  transition: opacity 0.3;
 }
 /* line 127, ../sass/pages/_intro.scss */
 .page-intro .video-player .step-info.active:after {

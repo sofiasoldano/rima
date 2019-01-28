@@ -3,8 +3,7 @@
 
 <div class="video-player" >
     <video id="intro-video" muted>
-        <source src="img/intro.mp4" type="video/mp4">
-        <source src="img/intro.ogg" type="video/ogg">
+        <source src="img/intro.mp4" type="video/mp4"> 
     </video>
     <a href="noticias.php" class="btn-full enter-btn">Ir al portal</a>
     
@@ -14,10 +13,10 @@
     </div>
     <div class="steps">
         <ul>
-            <li><a href="javascript:playVideoAt(1, 2.5);">01</a></li>
-            <li><a href="javascript:playVideoAt(2, 3.8);">02</a></li>
-            <li><a href="javascript:playVideoAt(3, 5);">03</a></li>
-            <li><a href="javascript:playVideoAt(4, 7);">04</a></li>
+            <li><a href="javascript:playVideoAt(1, 5.7);">01</a></li>
+            <li><a href="javascript:playVideoAt(2, 12);">02</a></li>
+            <li><a href="javascript:playVideoAt(3, 17);">03</a></li>
+            <li><a href="javascript:playVideoAt(4, 25);">04</a></li>
         </ul>
     </div>
     

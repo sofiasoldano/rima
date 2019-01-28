@@ -131,11 +131,160 @@
         }
         
         .discussion{
-            height: 253px;
-            margin-bottom: 50px;
+            .type-comment{
+                position: relative;
+                
+                input{
+                    border: 1px solid #EDEDED;
+                    padding: 10px;
+                    padding-left: 50px;
+                    
+                    &::placeholder{
+                        color: #CCCCCC;
+                        font-size: 14px;
+                    }
+                }
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(img/attach.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    top: 13px;
+                    left: 16px;
+                    cursor: pointer;
+                }
+                
+                &:after{
+                    content: "";
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(img/smiley.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    top: 13px;
+                    right: 16px;
+                    cursor: pointer;
+                }
+            }
             
-            @include respond-to('medium'){
-                height: 383px;
+            .comment{
+                border: 1px solid #EDEDED;
+                display: flex;
+                padding: 18px;
+                margin-bottom: 15px;
+                
+                .user-image{
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50px;
+                    overflow: hidden;
+                    margin-right: 15px;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-position: center;
+                        object-fit: cover;
+                    }
+                }
+                
+                .info{
+                    min-width: 91%;
+                    margin-left: auto;
+                    margin-top: -8px;
+                    
+                    .name{
+                        color: $blue;
+                        font-size: 10px;
+                        font-weight: $medium;
+                        display: inline-block;
+                    }
+                    
+                    .date{
+                        display: inline-block;
+                    }
+                    
+                    .text{
+                        font-weight: $light;
+                        margin-bottom: 15px;
+                    }
+                    
+                    .actions{
+                        border-top: 1px solid #EDEDED;
+                        border-bottom: 1px solid #EDEDED;
+                        padding-bottom: 6px;
+                        
+                        ul{
+                            li{
+                                display: inline-block;
+                                font-size: 11px;
+                                margin-right: 10px;
+                                vertical-align: middle;
+                                color: #9197A3;
+                                
+                                a{
+                                    color: #9197A3;
+                                }
+                                
+                                
+                                img{
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .reactions{
+                        padding: 5px 0;
+                        
+                        .people{
+                            float: left;
+                            
+                            .images{
+                                display: inline-block;
+                                
+                                li{
+                                    display: inline-block;
+                                    margin-right: -6px;
+                                }
+                            }
+                            
+                            p{
+                                color: #9197A3;
+                                font-size: 11px;
+                                display: inline-block;
+                                margin-left: 10px;
+                                margin-bottom: 0;
+                            }
+                        }
+                        
+                        .shares{
+                            float: right;
+                            
+                            li{
+                                display: inline-block;
+                                font-size: 10px;
+                                font-weight: $light;
+                                vertical-align: middle;
+                                margin-left: 20px;
+                                color: #9197A3;
+                                
+                                a{
+                                    color: #9197A3;
+                                }
+                                
+                                img{
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
         

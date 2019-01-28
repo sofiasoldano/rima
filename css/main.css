@@ -3952,6 +3952,16 @@ footer .footer-social .dropdown select {
 .page-core-journals .floating-menu.fixed {
   padding-left: 60px;
 }
+/* line 51, ../sass/pages/_core-journals.scss */
+.page-core-journals .submenu .dropdown {
+  display: none;
+}
+@media (min-width: 990px) {
+  /* line 51, ../sass/pages/_core-journals.scss */
+  .page-core-journals .submenu .dropdown {
+    display: block;
+  }
+}
 
 /* line 2, ../sass/pages/_medline-pearls.scss */
 .page-medline-pearls .header-bg {

@@ -47,4 +47,12 @@
     .floating-menu.fixed{
         padding-left: 60px;
     }
+    
+    .submenu .dropdown{
+        display: none;
+        
+        @include respond-to('medium'){
+            display: block;
+        }
+    }
 }

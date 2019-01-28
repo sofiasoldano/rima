@@ -1,7 +1,7 @@
 .single{
     padding-top: 60px;
     
-    @include respond-to('medium'){
+    @include respond-to('large'){
         padding-top: 0;
     }
     

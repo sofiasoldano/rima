@@ -148,7 +148,7 @@ $(document).ready(function() {
     
     function moveFloatingMenu(){
         if($(".single").length != 0){
-            if($( window ).width() > 990){
+            if($( window ).width() > 1200){
                 var top_of_window = $(window).scrollTop();
                 var bottom_of_window = $(window).scrollTop() + $(window).outerHeight();
 
@@ -172,7 +172,7 @@ $(document).ready(function() {
     
     function fixedFloatingMenu(){
         if($(".single").length != 0){
-            if($( window ).width() < 990){
+            if($( window ).width() < 1200){
                 var top_of_window = $(window).scrollTop();
                 var top_of_single =  $(".single").offset().top ;
                 

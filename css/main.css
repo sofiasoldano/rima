@@ -577,7 +577,6 @@ input[type='checkbox']:checked {
   top: -60px;
   width: 100%;
   background: #FFFFFF;
-  z-index: 0;
   left: 0;
   margin: 0;
   z-index: 1;
@@ -604,16 +603,19 @@ input[type='checkbox']:checked {
   .floating-menu {
     position: fixed;
     right: 15px;
+    width: auto;
+    background: transparent;
+    left: initial;
   }
-  /* line 38, ../sass/modules/_floating-menu.scss */
+  /* line 41, ../sass/modules/_floating-menu.scss */
   .floating-menu li {
     display: block;
   }
-  /* line 42, ../sass/modules/_floating-menu.scss */
+  /* line 45, ../sass/modules/_floating-menu.scss */
   .floating-menu .left, .floating-menu .right {
     float: none;
   }
-  /* line 45, ../sass/modules/_floating-menu.scss */
+  /* line 48, ../sass/modules/_floating-menu.scss */
   .floating-menu .left li, .floating-menu .right li {
     margin: 20px 0;
     width: 30px;
@@ -1916,7 +1918,7 @@ footer .footer-social .dropdown select {
 .single {
   padding-top: 60px;
 }
-@media (min-width: 990px) {
+@media (min-width: 1200px) {
   /* line 1, ../sass/partials/_single.scss */
   .single {
     padding-top: 0;

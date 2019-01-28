@@ -122,7 +122,7 @@
             &.active{
                 visibility: visible;
                 opacity: 1;
-                transition: opacity 0.3;
+                transition: opacity 0.3s;
                 
                 &:after{
                     transition: all 0.8s;
@@ -162,49 +162,115 @@
             } 
             
             &.actualidad{
-                bottom: 325px;
-                left: 120px;
+                bottom: 100px;
+                
+                @include respond-to("h1"){
+                    bottom: 150px;
+                }
+                @include respond-to("h2"){
+                    bottom: 200px;
+                }
+                @include respond-to("h3"){
+                    bottom: 325px;
+                }
+
+                @include respond-to("small"){
+                    left: 50px;
+                }
+                @include respond-to("large"){
+                    left: 120px;
+                }
+                
                 
                 &:after{
                     bottom: -20px;
                 }
 
                 &:before{
-                    right: -150px;
                     bottom: -31px;
+                    
+                    @include respond-to("small"){
+                        right: -40px;
+                    }
+                    @include respond-to("large"){
+                        right: -150px;
+                    }
                 }
 
                 &.active{
                     &:after{
-                        width: 450px;
+                        
+                        
+                        @include respond-to("small"){
+                            width: 350px;
+                        }
+                        @include respond-to("large"){
+                            width: 450px;
+                        }
                     }
                 }
             }
             
             &.tea{
                 right: 0;
-                bottom: 100px;
+                bottom: 30px;
+                
+                @include respond-to("h1"){
+                    bottom: 100px;
+                }
+                @include respond-to("h2"){
+                    bottom: 150px;
+                }
+                @include respond-to("h3"){
+                    bottom: 180px;
+                }
                 
                 &:after{
                     top: -30px;
                     right: 120px;
+                    
+                    
                 }
 
                 &:before{
-                    left: -170px;
                     top: -40px;
+                    
+                     @include respond-to("small"){
+                        left: -70px;
+                    }
+
+                    @include respond-to("large"){
+                        left: -170px;
+                    }
                 }
 
                  &.active{
                     &:after{
-                        width: 350px;
+                        
+                        @include respond-to("small"){
+                            width: 250px;
+                        }
+
+                        @include respond-to("large"){
+                            width: 350px;
+                        }
                     }
                 }
             }
             
             &.academica{
                 left: 50px;
-                bottom: 350px;
+                bottom: 200px;
+                
+                @include respond-to("h1"){
+                    bottom: 280px;
+                }
+                @include respond-to("h2"){
+                    bottom: 330px;
+                }
+                @include respond-to("h3"){
+                    bottom: 350px;
+                }
                 
                 &:after{
                     left: 0;
@@ -212,20 +278,59 @@
                 }
 
                 &:before{
-                    right: -200px;
+                    
                     bottom: -31px;
+                    
+                    @include respond-to("small"){
+                       right: 70px;
+                    }
+
+                    @include respond-to("medium"){
+                        right: -30px;
+                    }
+                        
+                    @include respond-to("large"){
+                        right: -200px;
+                    }
                 }
 
                  &.active{
                     &:after{
-                        width: 618px;
+                        @include respond-to("small"){
+                            width: 350px;
+                        }
+                        
+                        @include respond-to("medium"){
+                            width: 450px;
+                        }
+                        
+                        @include respond-to("large"){
+                            width: 618px;
+                        }
                     }
                 }
             }
             
             &.core{
-                right: 200px;
-                bottom: 130px;
+                bottom: -10px;
+                
+                @include respond-to("h1"){
+                    bottom: 0;
+                }
+                @include respond-to("h2"){
+                    bottom: 60px;
+                }
+                @include respond-to("h3"){
+                    bottom: 130px;
+                }
+                
+                @include respond-to("small"){
+                    right: 50px;
+                }
+
+                @include respond-to("xlarge"){
+                    right: 150px;
+                }
                 
                 &:after{
                     top: -30px;
@@ -233,13 +338,43 @@
                 }
 
                 &:before{
-                    left: -300px;
                     top: -40px;
+                    
+                    @include respond-to("small"){
+                        left: -50px;
+                    }
+
+                    @include respond-to("medium"){
+                        left: -150px;
+                    }
+
+                    @include respond-to("large"){
+                        left: -250px;
+                    }
+                    
+                    @include respond-to("xlarge"){
+                        left: -300px;
+                    }
                 }
 
                  &.active{
                     &:after{
-                        width: 500px;
+                        
+                        @include respond-to("small"){
+                            width: 245px;
+                        }
+
+                        @include respond-to("medium"){
+                            width: 335px;
+                        }
+
+                        @include respond-to("large"){
+                            width: 450px;
+                        }
+                        
+                         @include respond-to("xlarge"){
+                            width: 500px;
+                        }
                     }
                 }
             }

@@ -4,7 +4,11 @@ $breakpoints: (
     'small'  : ( min-width:  768px ),
     'medium' : ( min-width:  990px ),
     'large'  : ( min-width: 1200px ), 
-    'xlarge'  : ( min-width: 1400px )
+    'xlarge'  : ( min-width: 1400px ),
+    'h1'  : ( min-height:  700px ),
+    'h2'  : ( min-height:  800px ),
+    'h3' : ( min-height:  900px ),
+    
 );
 
 @mixin respond-to($breakpoint) {

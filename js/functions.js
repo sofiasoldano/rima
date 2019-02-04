@@ -157,10 +157,8 @@ $(document).ready(function() {
                 var bottom_of_single =  $(".single .content").offset().top + $(".single .content").outerHeight();
                 var bottom_position = $(".single .content").position().top + $(".single .content").outerHeight();
 
-                if(bottom_of_single < bottom_of_window ){
-                   $(".single .floating-menu").css('top', top_of_single);
-                    $(".single .floating-menu").css('bottom', 'initial');
-                }
+               $(".single .floating-menu").css('top', top_of_single);
+                $(".single .floating-menu").css('bottom', 'initial');
 
                 if(bottom_of_menu > bottom_of_single){
                     $(".single .floating-menu").css('top', 'initial');
@@ -191,14 +189,17 @@ $(document).ready(function() {
 /* Funcion para el video de intro*/
 if($(".page-intro").length != 0){
     var video = document.getElementById('intro-video');
+    if($( window ).width() < 768){
+        var sources = video.getElementsByTagName('source');
+        sources[0].src = 'img/intro-mobile.mp4';
+        video.load();
+    }
     video.playbackRate = 2.0;
     video.play();
     var time = 5.7;
     var step = 1;
     var reverse = false;
-    
-    
-    
+
     $(window).bind('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
         console.log('Scroll down');

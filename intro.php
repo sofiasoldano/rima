@@ -5,6 +5,7 @@
     <video id="intro-video" muted>
         <source src="img/intro.mp4" type="video/mp4"> 
     </video>
+    
     <a href="noticias.php" class="btn-full enter-btn">Ir al portal</a>
     
     <div class="heading active">

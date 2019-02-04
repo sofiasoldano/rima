@@ -13,10 +13,10 @@
             <div class="col-md-12">
                 <div class="submenu-tabs left">
                     <ul>
-                        <li class="active orange">
+                        <li>
                             <a href="seguridad-paciente-articulos.php">Artículos</a>
                         </li>
-                        <li>
+                        <li class="active orange">
                             <a href="seguridad-paciente-novedades.php">Novedades</a>
                         </li>
                     </ul>   
@@ -35,10 +35,11 @@
     </div>
 </section>
 
-<section class="inicio">
+<section class="novedades">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <div class="title">Novedades de agencias regulatorias y documentos oficiales</div>
                 <div onclick="" class="main-block">
                     <div class="info">
                         <div class="author-name">Travaglia, J.</div>

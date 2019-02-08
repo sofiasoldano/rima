@@ -5698,3 +5698,116 @@ footer .footer-social .dropdown select {
     width: 500px;
   }
 }
+
+/* line 2, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .header-bg {
+  background: #2283CE;
+}
+/* line 6, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .title {
+  font-size: 32px;
+  font-weight: 500;
+}
+/* line 11, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .faq {
+  max-width: 745px;
+  margin: 0 auto 50px;
+}
+/* line 15, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .faq .subtitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 21, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .que-es {
+  background-image: url(img/sobre-rima-bg.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 444px;
+  padding-top: 60px;
+}
+/* line 29, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .que-es:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: white;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+@media (min-width: 990px) {
+  /* line 29, ../sass/pages/_sobre-rima.scss */
+  .page-sobre-rima .que-es:after {
+    height: 50px;
+  }
+}
+/* line 49, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .que-es .title {
+  color: #FFFFFF;
+}
+/* line 53, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .que-es p {
+  font-size: 20px;
+  color: #FFFFFF;
+  max-width: 650px;
+  margin: 0 auto;
+}
+/* line 61, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .proposito {
+  margin: 50px 0;
+}
+/* line 64, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .proposito .title {
+  margin-bottom: 50px;
+}
+/* line 70, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .estrategia .row {
+  margin: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+/* line 76, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .estrategia .no-pd {
+  padding: 0;
+}
+@media (min-width: 990px) {
+  /* line 80, ../sass/pages/_sobre-rima.scss */
+  .page-sobre-rima .estrategia .image-container {
+    height: 658px;
+  }
+  /* line 84, ../sass/pages/_sobre-rima.scss */
+  .page-sobre-rima .estrategia .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 80, ../sass/pages/_sobre-rima.scss */
+  .page-sobre-rima .estrategia .image-container {
+    height: 555px;
+  }
+}
+/* line 96, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .estrategia .blue-bg {
+  padding: 35px;
+  color: #FFFFFF;
+}
+@media (min-width: 1200px) {
+  /* line 96, ../sass/pages/_sobre-rima.scss */
+  .page-sobre-rima .estrategia .blue-bg {
+    height: 555px;
+  }
+}
+/* line 104, ../sass/pages/_sobre-rima.scss */
+.page-sobre-rima .estrategia .blue-bg .faq {
+  margin-bottom: 30px;
+}

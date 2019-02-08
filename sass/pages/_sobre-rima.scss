@@ -1,0 +1,109 @@
+.page-sobre-rima{
+    .header-bg{
+        background: $blue;
+    }
+    
+    .title{
+        font-size: 32px;
+        font-weight: $medium;
+    }
+    
+    .faq{
+        max-width: 745px;
+        margin: 0 auto 50px;
+
+        .subtitle{
+            font-size: 18px;
+            font-weight: $semi-bold;
+        }
+    }
+    
+    .que-es{
+        background-image: url(img/sobre-rima-bg.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        min-height: 444px;
+        padding-top: 60px;
+        
+        &:after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            background: white;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+            -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            
+            @include respond-to("medium"){
+                 height: 50px;
+            }
+        }
+        
+        
+        .title{
+            color: $white;
+        }
+        
+        p{
+            font-size: 20px;
+            color: $white;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+    }
+    
+    .proposito{
+        margin: 50px 0;
+        
+        .title{
+            margin-bottom: 50px;
+        }
+    }
+    
+    .estrategia{
+        .row{
+            margin: 0;  
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .no-pd{
+            padding: 0;
+        }
+        
+        .image-container{
+            @include respond-to("medium"){
+                height: 658px;
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            @include respond-to("large"){
+                height: 555px;
+            }
+        }
+        
+        .blue-bg{
+            padding: 35px;
+            color: $white;
+            
+            @include respond-to("large"){
+                height: 555px;
+            }
+            
+            .faq{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

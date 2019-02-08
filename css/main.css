@@ -3271,6 +3271,140 @@ footer .footer-social .dropdown select {
   padding: 20px;
 }
 
+/* line 3, ../sass/partials/_multimedia.scss */
+.multimedia .video {
+  position: relative;
+}
+/* line 6, ../sass/partials/_multimedia.scss */
+.multimedia .video:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(img/play.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+/* line 21, ../sass/partials/_multimedia.scss */
+.multimedia .main-block .video {
+  min-width: 115px;
+  width: 160px;
+  height: 60px;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  /* line 21, ../sass/partials/_multimedia.scss */
+  .multimedia .main-block .video {
+    height: 90px;
+  }
+}
+/* line 31, ../sass/partials/_multimedia.scss */
+.multimedia .main-block .video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* line 40, ../sass/partials/_multimedia.scss */
+.multimedia .single {
+  position: relative;
+  padding-top: 0;
+}
+/* line 45, ../sass/partials/_multimedia.scss */
+.multimedia .single .video:after {
+  width: 85px;
+  height: 85px;
+  left: calc(50% - 42px);
+  top: calc(50% - 42px);
+}
+/* line 53, ../sass/partials/_multimedia.scss */
+.multimedia .single .title {
+  margin: 0;
+  border-bottom: 1px solid #E9E9E9;
+  padding: 25px 0;
+}
+@media (min-width: 1200px) {
+  /* line 59, ../sass/partials/_multimedia.scss */
+  .multimedia .single .borders {
+    max-width: 92%;
+  }
+}
+/* line 65, ../sass/partials/_multimedia.scss */
+.multimedia .single .floating-menu {
+  position: absolute;
+  right: 0 !important;
+  top: 560px !important;
+  display: none;
+}
+@media (min-width: 1200px) {
+  /* line 65, ../sass/partials/_multimedia.scss */
+  .multimedia .single .floating-menu {
+    display: block;
+  }
+}
+/* line 77, ../sass/partials/_multimedia.scss */
+.multimedia .single .comments .title {
+  border: 0;
+}
+/* line 81, ../sass/partials/_multimedia.scss */
+.multimedia .single .comments .main-block {
+  display: flex;
+  border: 0;
+  padding: 0;
+  min-height: auto;
+  align-items: start;
+}
+/* line 88, ../sass/partials/_multimedia.scss */
+.multimedia .single .comments .main-block:hover {
+  background: transparent;
+  box-shadow: none;
+}
+/* line 94, ../sass/partials/_multimedia.scss */
+.multimedia .single .comments .main-block .video:after {
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+/* line 102, ../sass/partials/_multimedia.scss */
+.multimedia .single .comments .main-block .info {
+  max-width: 100%;
+}
+/* line 109, ../sass/partials/_multimedia.scss */
+.multimedia .related-videos {
+  padding-top: 45px;
+}
+@media (min-width: 990px) {
+  /* line 113, ../sass/partials/_multimedia.scss */
+  .multimedia .related-videos .main-block {
+    display: block;
+    border: 0;
+  }
+  /* line 117, ../sass/partials/_multimedia.scss */
+  .multimedia .related-videos .main-block .video {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 15px;
+  }
+  /* line 122, ../sass/partials/_multimedia.scss */
+  .multimedia .related-videos .main-block .info {
+    max-width: 95%;
+  }
+  /* line 126, ../sass/partials/_multimedia.scss */
+  .multimedia .related-videos .main-block:hover {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+/* line 133, ../sass/partials/_multimedia.scss */
+.multimedia .related-videos .border-btn {
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
 /* line 2, ../sass/pages/_login.scss */
 .page-login header {
   display: none;
@@ -4032,6 +4166,37 @@ footer .footer-social .dropdown select {
   padding: 0;
   width: 100%;
   margin: 0;
+}
+/* line 86, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .multimedia .single .caption p {
+  margin-bottom: 5px;
+}
+/* line 90, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .multimedia .single .borders {
+  max-width: 100%;
+}
+/* line 94, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .multimedia .accordion {
+  margin: 30px 0;
+}
+/* line 97, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .multimedia .accordion .card-header {
+  background: #E6E8EC;
+}
+/* line 100, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .multimedia .accordion .card-header p {
+  color: #000000;
+}
+/* line 104, ../sass/pages/_medline-pearls.scss */
+.page-medline-pearls .multimedia .accordion .card-header .card-btn {
+  border: 1px solid #979797;
+}
+@media (min-width: 990px) {
+  /* line 109, ../sass/pages/_medline-pearls.scss */
+  .page-medline-pearls .multimedia .related-videos {
+    padding-top: 0;
+    margin-top: -10px;
+  }
 }
 
 /* line 2, ../sass/pages/_guias-practica.scss */
@@ -4999,103 +5164,6 @@ footer .footer-social .dropdown select {
   .page-rima-tv .main-block .info .name {
     font-size: 16px;
   }
-}
-/* line 64, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single {
-  position: relative;
-  padding-top: 0;
-}
-/* line 69, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .video:after {
-  width: 85px;
-  height: 85px;
-  left: calc(50% - 42px);
-  top: calc(50% - 42px);
-}
-/* line 77, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .title {
-  margin: 0;
-  border-bottom: 1px solid #E9E9E9;
-  padding: 25px 0;
-}
-@media (min-width: 1200px) {
-  /* line 83, ../sass/pages/_rima-tv.scss */
-  .page-rima-tv .inicio .single .borders {
-    max-width: 92%;
-  }
-}
-/* line 89, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .floating-menu {
-  position: absolute;
-  right: 0 !important;
-  top: 560px !important;
-  display: none;
-}
-@media (min-width: 1200px) {
-  /* line 89, ../sass/pages/_rima-tv.scss */
-  .page-rima-tv .inicio .single .floating-menu {
-    display: block;
-  }
-}
-/* line 101, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .comments .title {
-  border: 0;
-}
-/* line 105, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .comments .main-block {
-  display: flex;
-  border: 0;
-  padding: 0;
-  min-height: auto;
-  align-items: start;
-}
-/* line 112, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .comments .main-block:hover {
-  background: transparent;
-  box-shadow: none;
-}
-/* line 118, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .comments .main-block .video:after {
-  width: 50px;
-  height: 50px;
-  left: calc(50% - 25px);
-  top: calc(50% - 25px);
-}
-/* line 126, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .single .comments .main-block .info {
-  max-width: 100%;
-}
-/* line 133, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .related-videos {
-  padding-top: 45px;
-}
-@media (min-width: 990px) {
-  /* line 137, ../sass/pages/_rima-tv.scss */
-  .page-rima-tv .inicio .related-videos .main-block {
-    display: block;
-    border: 0;
-  }
-  /* line 141, ../sass/pages/_rima-tv.scss */
-  .page-rima-tv .inicio .related-videos .main-block .video {
-    width: 100%;
-    height: 130px;
-    margin-bottom: 15px;
-  }
-  /* line 146, ../sass/pages/_rima-tv.scss */
-  .page-rima-tv .inicio .related-videos .main-block .info {
-    max-width: 95%;
-  }
-  /* line 150, ../sass/pages/_rima-tv.scss */
-  .page-rima-tv .inicio .related-videos .main-block:hover {
-    background: transparent;
-    box-shadow: none;
-  }
-}
-/* line 157, ../sass/pages/_rima-tv.scss */
-.page-rima-tv .inicio .related-videos .border-btn {
-  margin: 0 auto;
-  border-radius: 15px;
-  margin-top: 20px;
 }
 
 /* line 2, ../sass/pages/_notificaciones.scss */

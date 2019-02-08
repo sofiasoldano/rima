@@ -79,4 +79,38 @@
             }
         }
     }
+    
+    .multimedia{
+        .single{
+            .caption{
+                p{
+                    margin-bottom: 5px;
+                }
+            }
+            .borders {
+                max-width: 100%;
+            } 
+        }   
+        .accordion{
+            margin: 30px 0;
+            
+            .card-header{
+                    background: #E6E8EC;
+                
+                p{
+                    color: $black;
+                }
+                
+                .card-btn{
+                    border: 1px solid #979797;
+                }
+            }
+        }
+        .related-videos{
+            @include respond-to("medium"){
+                padding-top: 0;
+                margin-top: -10px;
+            }
+        }
+    }
 }

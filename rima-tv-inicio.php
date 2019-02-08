@@ -1,7 +1,7 @@
 <?php $page_int = "inicio" ?>
 <?php include('rima-tv-submenu.php'); ?>
 
-<section class="inicio">
+<section class="multimedia">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">

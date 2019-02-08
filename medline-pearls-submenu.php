@@ -16,6 +16,9 @@
                         <li <?php if ( $page_int == "sinopsis" ) echo 'class="active purple"'; ?>>
                             <a href="medline-pearls-sinopsis.php">Sinopsis</a>
                         </li>
+                        <li <?php if ( $page_int == "multimedia" ) echo 'class="active purple"'; ?>>
+                            <a href="medline-pearls-multimedia.php">Evidencia multimedia</a>
+                        </li>
                         <li <?php if ( $page_int == "glosario" ) echo 'class="active purple"'; ?>>
                             <a href="medline-pearls-glosario.php">Glosario</a>
                         </li>

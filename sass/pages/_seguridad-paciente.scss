@@ -6,4 +6,23 @@
     .single .borders.caption {
         margin-bottom: 30px;
     }
+    
+    .main-block{
+        .author-name{
+            font-weight: $medium;
+        }
+        
+        .category{
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: $semi-bold;
+        }
+        
+        &.new{
+            .category{
+                color: $orange;
+                font-weight: $medium;
+            }
+        }
+    }
 }

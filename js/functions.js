@@ -91,14 +91,15 @@ $(document).ready(function() {
     }
     
     function moveNotifications(){
+        if($(".btn-notifications").length != 0){
+            var top_of_window = $(window).scrollTop();
+            var bottom_of_btn =  $(".btn-notifications").offset().top + $(".btn-notifications").outerHeight() + 20;
+            var left_of_btn = $(".btn-notifications").offset().left - 100;
 
-        var top_of_window = $(window).scrollTop();
-        var bottom_of_btn =  $(".btn-notifications").offset().top + $(".btn-notifications").outerHeight() + 20;
-        var left_of_btn = $(".btn-notifications").offset().left - 100;
 
-
-        $("#notificaciones .modal-body").css('top', bottom_of_btn - top_of_window);
-        $("#notificaciones .modal-body").css('left', left_of_btn);
+            $("#notificaciones .modal-body").css('top', bottom_of_btn - top_of_window);
+            $("#notificaciones .modal-body").css('left', left_of_btn);
+        }
 
     }
     

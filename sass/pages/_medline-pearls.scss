@@ -10,4 +10,73 @@
     .letters-menu li.active:before{
         background: $purple;
     }
+    
+    .tabla-evidencia{
+        position: absolute;
+        left: -15px;
+        width: calc(100% + 30px);
+        overflow-x: scroll;
+        padding: 0 15px;
+        overflow-y: hidden;
+        margin-bottom: 100px;
+        
+        @include respond-to("small"){
+            overflow: hidden;
+            padding: 0;
+        }
+        
+        @include respond-to("medium"){
+            position: initial;
+            left: 0;
+            width: auto;
+        }
+        
+        thead{
+            text-align: center;
+            border: 1px solid #E9E9E9;
+            
+            th{
+                width: 17%;
+                background: #f3f0fb;
+                font-weight: $medium;
+                height: 60px;
+            }
+        }
+        
+        tbody{
+            td{
+                border: 1px solid #E9E9E9;
+                font-size: 14px;
+                font-weight: $regular;
+                vertical-align: top;
+                padding: 10px;
+                
+                &:first-of-type{
+                    font-size: 16px;
+                    font-weight: $medium;
+                }
+            }
+            
+            tr.highlight{
+                td{
+                    border: none;
+                    background: #f3f0fb;
+                }
+            }
+        }
+    }
+    
+    .accordion{
+        .card-body{
+            padding: 0;
+            
+            .tabla-evidencia{
+                position: relative;
+                left: 0;
+                padding: 0;
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
 }

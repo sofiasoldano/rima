@@ -42,14 +42,13 @@
                 <div class="title">Novedades de agencias regulatorias y documentos oficiales</div>
                 <div onclick="" class="main-block">
                     <div class="info">
-                        <div class="author-name">Travaglia, J.</div>
+                        <div class="category">Novedades de agencias regulatorias</div>
                         <div class="name">Disturbing the Doxa of Patient Safety Comment on "False Dawns and New Horizons in Patient Safety Research and Practice"</div>
-                        <div class="author">International Journal of Health Policy and Management	2018;Vol 7(9):867 869</div>
                     </div>
                     <div class="visible-hover right">
                         <ul class="btn-list">
                             <li><a href="#"><img src="img/icons/comment.png" width="20"></a></li>
-                            <li><a href="seguridad-paciente-single.php" class="border-btn small orange"><p>Ver artículo</p></a></li>
+                            <li><a href="seguridad-paciente-single.php" class="border-btn small orange"><p>Ver novedad</p></a></li>
                         </ul>
                     </div>
                 </div>

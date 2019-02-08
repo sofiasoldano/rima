@@ -41,8 +41,9 @@
             <div class="col-md-12">
                 <div onclick="" class="main-block">
                     <div class="info">
-                        <div class="author-name">Travaglia, J.</div>
+                        <div class="category">Artículos de actualización</div>
                         <div class="name">Disturbing the Doxa of Patient Safety Comment on "False Dawns and New Horizons in Patient Safety Research and Practice"</div>
+                        <div class="author-name">Travaglia, J.</div>
                         <div class="author">International Journal of Health Policy and Management	2018;Vol 7(9):867 869</div>
                     </div>
                     <div class="visible-hover right">

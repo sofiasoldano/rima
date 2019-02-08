@@ -47,6 +47,10 @@
         @include respond-to("xxsmall"){
             max-height: 85vh;
         }
+        
+        @include respond-to("small"){
+            overflow: hidden;
+        } 
     }
     
     .btn-close{

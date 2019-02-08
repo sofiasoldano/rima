@@ -46,32 +46,77 @@
                     <div class="accordion" id="accordion">
                       <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
-                            <p class="left">Nivel de Evidencia <a href="#" class="ver-tabla purple">Ver tabla completa</a></p> 
-                                
-                            
-                            <a class="card-btn right" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-                                <img src="img/icons/arrow-down.png" width="12">
+                            <a class="btn-collapse" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+                                <p class="left">Nivel de Evidencia </p> 
+                                <div class="card-btn right"><img src="img/icons/arrow-down-white.png" width="12"></div>
                             </a>
                         </div>
 
                         <div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                           <div class="card-body">
-                                <div class="title purple">B - 1b - (Prevención)</div>
-                              <div class="box">
-                                <div class="subtitle">Terapéutica / prevención, etiología / nocividad</div>
-                                <p>ERC individuales (con IC estrecho)</p>
-                              </div>
-                                <div class="box">
-                                    <div class="subtitle">Pronóstico</div>
-                                    <p>Estudio inicial de cohorte individual, con 80% o menos de seguimiento.</p>
-                                </div>
-                                <div class="box">
-                                    <div class="subtitle">Diagnóstico</div>
-                                    <p>Comparación independiente en ciego de un espectro adecuado de pacientes consecutivos, todos los cuales han sido sometidos a prueba diagnóstica y estándar de referencia.</p>
-                                </div>
-                                <div class="box">
-                                    <div class="subtitle">Análisis económico</div>
-                                    <p>Análisis comparativo (críticamente validado) de evolución alternativa contra medidas financieras adecuadas, incluyendo análisis de sensibilidad con la incorporación de variantes clínicamentes sensibles en variables importantes.</p>
+                                <div class="tabla-evidencia">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Pregunta</th>
+                                                <th>Nivel 1</th>
+                                                <th>Nivel 2</th>
+                                                <th>Nivel 3</th>
+                                                <th>Nivel 4</th>
+                                                <th>Nivel 5</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>¿Qué tan frecuente es la enfermedad?</td>
+                                                <td>Estudio con muestra aleatoria local y actual (o consenso)</td>
+                                                <td>Revisión sistemática de estudios que pueden compararse con las circunstancias locales</td>
+                                                <td>Muestra local no aleatorizada</td>
+                                                <td>Series de casos.</td>
+                                                <td>Serie de casos, estudios de casos y controles, o estudios con controles históricos.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>¿Este test es diagnóstico o preciso?</td>
+                                                <td>Revisión sistemática de estudios de corte transversal con aplicación consistente de estándares y de ciego</td>
+                                                <td>Estudio individual de corte transversal con aplicación consistente de los estándares y del ciego</td>
+                                                <td>Estudios no consecutivos, o estudios que no aplicaron los estándares de referencia de manera consistente</td>
+                                                <td>Estudios de casos y controles o pobre o sin un estándar de referencia independiente</td>
+                                                <td>N/A.</td>
+                                            </tr>
+                                            <tr class="highlight">
+                                                <td>¿Qué pasaría si no se utiliza esta terapéutica (pronóstico)</td>
+                                                <td>Revisión sistemática de estudios de cohortes</td>
+                                                <td>Estudios de cohortes desde el origen</td>
+                                                <td>Estudios de cohortes o brazo de control de un ensayo aleatorizado</td>
+                                                <td>Series de casos o estudios de casos y controles o estudios de cohorte con una escasa calidad pronóstica</td>
+                                                <td>Razonamient o en relación al mecanismo.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>¿Esta intervención ayuda? (beneficios terapéuticos)</td>
+                                                <td>Revisión sistemática de ensayos aleatorizados</td>
+                                                <td>Ensayo aleatorizado o estudio observacional con un efecto contundente</td>
+                                                <td>Estudio de cohorte no aleatorizado o de seguimiento</td>
+                                                <td>Series de casos o estudios de casos y controles o estudios de cohorte con una escasa calidad pronóstica</td>
+                                                <td>N/A.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>¿Cuáles son los daños frecuentes? (daños terapéuticos)</td>
+                                                <td>Revisión sistemática de ensayos aleatorizados, revisión sistemática de estudios de casos y controles o estudios observacionales con un efecto trascendente</td>
+                                                <td>Ensayo aleatorizado individual o (excepcionalmente) estudio observacional con un efecto trascendente.</td>
+                                                <td>Estudio de cohorte no aleatorizado o de seguimiento (vigilancia post-comercializ ación) Suponiendo que tiene un número suficiente de pacientes para descartar un daño frecuente. (Para los daños en largo plazo la duración del seguimiento debe ser suficiente.)</td>
+                                                <td>Series de casos, estudios de casos y controles o estudios con controles históricos</td>
+                                                <td>Razonamient o en relación al mecanismo.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>¿Este método es útil para la detección precoz? (tamizaje).</td>
+                                                <td>Revisión sistemática de ensayos aleatorizados</td>
+                                                <td>Ensayo aleatorizado</td>
+                                                <td>Estudio de cohorte no aleatorizado o de seguimiento.</td>
+                                                <td>Serie de casos, estudios de casos y controles, o estudios con controles históricos.</td>
+                                                <td>Razonamient o en relación al mecanismo.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                           </div>
                         </div>

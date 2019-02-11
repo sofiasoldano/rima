@@ -1,0 +1,236 @@
+.page-premios{
+    .header-bg{
+        background: $blue;
+    }
+    
+    .mis-premios{
+        .estatus{
+            background: #F4F5F8;
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            margin-bottom: 50px;
+            
+            .title{
+                font-size: 16px;
+                margin-left: 30px;
+                font-weight: $semi-bold;
+                margin-bottom: 0;
+                
+                @include respond-to("small"){
+                    font-size: 24px;
+                }
+            }
+        }
+        
+        .reconocimiento{
+            border: 1px solid #E9E9E9;
+            padding: 20px;
+            text-align: center;
+            
+            @include respond-to("small"){
+                display: flex;
+                align-items: center;
+            }
+            
+            @include respond-to("medium"){
+                padding: 50px;
+            }
+            
+            .info{
+                text-align: left;
+                margin-top: 30px;
+                
+                @include respond-to("small"){
+                    margin-left: 20px;
+                    margin-top: 0;
+                }
+
+                @include respond-to("medium"){
+                     margin-left: 80px;
+                }
+                
+                .title{
+                    font-size: 24px;
+                    font-weight: $semi-bold;
+                    line-height: 1.08;
+                }
+                
+                p{
+                    font-size: 14px;
+                    margin: 30px 0;
+                }
+                
+                .border-btn{
+                    font-size: 16px;
+                    margin: 0 auto;
+                    
+                    @include respond-to("small"){
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    .que-son{
+        background: $black;
+        color: $white;
+        margin-top: -30px;
+        min-height: 400px;
+        position: relative;
+        margin-bottom: 50px;
+        
+        &:after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            background: $white;
+            bottom: -1px;
+            left: 0;
+            z-index: 0;
+            -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            
+            @include respond-to("medium"){
+                 height: 50px;
+            }
+        }
+
+        .info{
+            padding: 50px 0;
+            max-width: 500px;
+            
+            p{
+                font-size: 14px;
+                font-weight: $light;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+    .description{
+        .tabs{
+            border: 1px solid #E9E9E9;
+            
+            .nav-tabs{
+                li{
+                    width: 50%;
+                    text-align: center;
+                    background: #F4F5F8;
+                    
+                    a{
+                        display: block;
+                        padding: 15px 0;
+                        color: #9B9B9B;
+                        font-size: 14px;
+                        font-weight: $light;
+                        margin-bottom: -1px;
+                        
+                        @include respond-to("small"){
+                            font-size: 18px;
+                        }
+                        
+                        &.active{
+                            color: #4A4A4A;
+                            font-weight: $medium;
+                            border-bottom: 3px solid $blue;
+                        }
+                    }
+                }
+            }
+            
+            .tab-content{
+                padding: 25px;
+                
+                @include respond-to("small"){
+                    padding: 50px;
+                }
+                
+                p{
+                    font-size: 14px;
+                    color: $gray;
+                    font-weight: $light;
+                    margin-bottom: 20px;
+                    
+                    b{
+                        color: $black;
+                        font-weight: $semi-bold;
+                    }
+                }
+                
+                img{
+                    display: block;
+                    margin: 0 auto;
+                }
+                
+                .line{
+                    width: 100%;
+                    height: 1px;
+                    background: #E9E9E9;
+                    margin: 40px 0;
+                }
+                
+                .graphic{
+                    margin: 40px 0 60px;
+                    
+                     @include respond-to("xsmall"){
+                        overflow-x: scroll;
+                         -webkit-overflow-scrolling: touch;
+                        margin-right: -25px;
+                        margin-left: -25px;
+                        padding-left: 25px;
+                        padding-right: 25px;
+                         
+                         img{
+                            max-width: initial;
+                            height: 90px;
+                            padding-right: 25px;
+                         }
+                    }
+                }
+                
+                .proceso{
+                    margin: 50px -25px;
+                    background: #F4F5F8;
+                    padding: 25px;
+                    padding-bottom: 20px;
+                    
+                    @include respond-to("small"){
+                        margin: 50px -50px;
+                        padding: 50px;
+                    }
+                    
+                    .uppercase-subtitle{
+                        margin-bottom: 10px;
+                    }
+                    
+                    p{
+                        margin-bottom: 30px;
+                    }
+                }
+                
+                .list-actividades{
+                    li{
+                        padding-left: 20px;
+                        position: relative;
+                        
+                        &:before{
+                            content: "";
+                            position: absolute;
+                            width: 8px;
+                            height: 8px;
+                            background: $blue;
+                            border-radius: 50px;
+                            top: 8px;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

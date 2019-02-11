@@ -153,58 +153,63 @@ a:focus {
 a:visited {
   text-decoration: none;
 }
-
 /* line 32, ../sass/base/_reset.scss */
+a.underline:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+}
+
+/* line 37, ../sass/base/_reset.scss */
 .img-responsive {
   max-width: 100%;
 }
 
-/* line 35, ../sass/base/_reset.scss */
+/* line 40, ../sass/base/_reset.scss */
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 40, ../sass/base/_reset.scss */
+/* line 45, ../sass/base/_reset.scss */
 .left {
   float: left;
 }
 
-/* line 43, ../sass/base/_reset.scss */
+/* line 48, ../sass/base/_reset.scss */
 .right {
   float: right;
 }
 
-/* line 46, ../sass/base/_reset.scss */
+/* line 51, ../sass/base/_reset.scss */
 .underline {
   text-decoration: underline;
 }
 
-/* line 49, ../sass/base/_reset.scss */
+/* line 54, ../sass/base/_reset.scss */
 .hidden {
   display: none !important;
 }
 
 @media (max-width: 768px) {
-  /* line 52, ../sass/base/_reset.scss */
+  /* line 57, ../sass/base/_reset.scss */
   .hidden-xs {
     display: none !important;
   }
 }
 
-/* line 57, ../sass/base/_reset.scss */
+/* line 62, ../sass/base/_reset.scss */
 .hidden-md {
   display: block !important;
 }
 @media (min-width: 990px) {
-  /* line 57, ../sass/base/_reset.scss */
+  /* line 62, ../sass/base/_reset.scss */
   .hidden-md {
     display: none !important;
   }
 }
 
-/* line 64, ../sass/base/_reset.scss */
+/* line 69, ../sass/base/_reset.scss */
 .undefined {
   width: 100%;
   height: 1000px;
@@ -1098,17 +1103,38 @@ footer .footer-social .contact-links li {
   border-right: 2px solid;
   line-height: 0.8;
 }
+/* line 39, ../sass/partials/_footer.scss */
+footer .footer-social .contact-links li a {
+  position: relative;
+}
 /* line 42, ../sass/partials/_footer.scss */
+footer .footer-social .contact-links li a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: #000000;
+  left: 50%;
+  bottom: -5px;
+  transition: all 0.5s;
+}
+/* line 54, ../sass/partials/_footer.scss */
+footer .footer-social .contact-links li a:hover:after {
+  width: 100%;
+  left: 0;
+  transition: all 0.5s;
+}
+/* line 65, ../sass/partials/_footer.scss */
 footer .footer-social .social-links li {
   margin: 0 10px;
 }
-/* line 47, ../sass/partials/_footer.scss */
+/* line 70, ../sass/partials/_footer.scss */
 footer .footer-social .dropdown {
   margin: 0;
   width: 95px;
   margin-left: 15px;
 }
-/* line 52, ../sass/partials/_footer.scss */
+/* line 75, ../sass/partials/_footer.scss */
 footer .footer-social .dropdown:before {
   content: "";
   position: absolute;
@@ -1120,11 +1146,11 @@ footer .footer-social .dropdown:before {
   left: 6px;
   top: 7px;
 }
-/* line 64, ../sass/partials/_footer.scss */
+/* line 87, ../sass/partials/_footer.scss */
 footer .footer-social .dropdown:after {
   background-image: url(img/arrow-down-blue.png);
 }
-/* line 68, ../sass/partials/_footer.scss */
+/* line 91, ../sass/partials/_footer.scss */
 footer .footer-social .dropdown select {
   margin: 0;
   border: 1px solid #979797;
@@ -5810,4 +5836,254 @@ footer .footer-social .dropdown select {
 /* line 104, ../sass/pages/_sobre-rima.scss */
 .page-sobre-rima .estrategia .blue-bg .faq {
   margin-bottom: 30px;
+}
+
+/* line 2, ../sass/pages/_premios.scss */
+.page-premios .header-bg {
+  background: #2283CE;
+}
+/* line 7, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .estatus {
+  background: #F4F5F8;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+/* line 14, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .estatus .title {
+  font-size: 16px;
+  margin-left: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  /* line 14, ../sass/pages/_premios.scss */
+  .page-premios .mis-premios .estatus .title {
+    font-size: 24px;
+  }
+}
+/* line 26, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .reconocimiento {
+  border: 1px solid #E9E9E9;
+  padding: 20px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* line 26, ../sass/pages/_premios.scss */
+  .page-premios .mis-premios .reconocimiento {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 990px) {
+  /* line 26, ../sass/pages/_premios.scss */
+  .page-premios .mis-premios .reconocimiento {
+    padding: 50px;
+  }
+}
+/* line 40, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .reconocimiento .info {
+  text-align: left;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  /* line 40, ../sass/pages/_premios.scss */
+  .page-premios .mis-premios .reconocimiento .info {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+}
+@media (min-width: 990px) {
+  /* line 40, ../sass/pages/_premios.scss */
+  .page-premios .mis-premios .reconocimiento .info {
+    margin-left: 80px;
+  }
+}
+/* line 53, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .reconocimiento .info .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.08;
+}
+/* line 59, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .reconocimiento .info p {
+  font-size: 14px;
+  margin: 30px 0;
+}
+/* line 64, ../sass/pages/_premios.scss */
+.page-premios .mis-premios .reconocimiento .info .border-btn {
+  font-size: 16px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* line 64, ../sass/pages/_premios.scss */
+  .page-premios .mis-premios .reconocimiento .info .border-btn {
+    margin: 0;
+  }
+}
+/* line 76, ../sass/pages/_premios.scss */
+.page-premios .que-son {
+  background: #000000;
+  color: #FFFFFF;
+  margin-top: -30px;
+  min-height: 400px;
+  position: relative;
+  margin-bottom: 50px;
+}
+/* line 84, ../sass/pages/_premios.scss */
+.page-premios .que-son:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: #FFFFFF;
+  bottom: -1px;
+  left: 0;
+  z-index: 0;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 80%, 75% 55%, 65% 44%, 50% 40%, 35% 44%, 25% 55%, 10% 80%, 0% 100%);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+@media (min-width: 990px) {
+  /* line 84, ../sass/pages/_premios.scss */
+  .page-premios .que-son:after {
+    height: 50px;
+  }
+}
+/* line 103, ../sass/pages/_premios.scss */
+.page-premios .que-son .info {
+  padding: 50px 0;
+  max-width: 500px;
+}
+/* line 107, ../sass/pages/_premios.scss */
+.page-premios .que-son .info p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+/* line 116, ../sass/pages/_premios.scss */
+.page-premios .description .tabs {
+  border: 1px solid #E9E9E9;
+}
+/* line 120, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .nav-tabs li {
+  width: 50%;
+  text-align: center;
+  background: #F4F5F8;
+}
+/* line 125, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .nav-tabs li a {
+  display: block;
+  padding: 15px 0;
+  color: #9B9B9B;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: -1px;
+}
+@media (min-width: 768px) {
+  /* line 125, ../sass/pages/_premios.scss */
+  .page-premios .description .tabs .nav-tabs li a {
+    font-size: 18px;
+  }
+}
+/* line 137, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .nav-tabs li a.active {
+  color: #4A4A4A;
+  font-weight: 500;
+  border-bottom: 3px solid #2283CE;
+}
+/* line 146, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content {
+  padding: 25px;
+}
+@media (min-width: 768px) {
+  /* line 146, ../sass/pages/_premios.scss */
+  .page-premios .description .tabs .tab-content {
+    padding: 50px;
+  }
+}
+/* line 153, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content p {
+  font-size: 14px;
+  color: #4A4A4A;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* line 159, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content p b {
+  color: #000000;
+  font-weight: 600;
+}
+/* line 165, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 170, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .line {
+  width: 100%;
+  height: 1px;
+  background: #E9E9E9;
+  margin: 40px 0;
+}
+/* line 177, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .graphic {
+  margin: 40px 0 60px;
+}
+@media (max-width: 768px) {
+  /* line 177, ../sass/pages/_premios.scss */
+  .page-premios .description .tabs .tab-content .graphic {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-right: -25px;
+    margin-left: -25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  /* line 188, ../sass/pages/_premios.scss */
+  .page-premios .description .tabs .tab-content .graphic img {
+    max-width: initial;
+    height: 90px;
+    padding-right: 25px;
+  }
+}
+/* line 196, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .proceso {
+  margin: 50px -25px;
+  background: #F4F5F8;
+  padding: 25px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 196, ../sass/pages/_premios.scss */
+  .page-premios .description .tabs .tab-content .proceso {
+    margin: 50px -50px;
+    padding: 50px;
+  }
+}
+/* line 207, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .proceso .uppercase-subtitle {
+  margin-bottom: 10px;
+}
+/* line 211, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .proceso p {
+  margin-bottom: 30px;
+}
+/* line 217, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .list-actividades li {
+  padding-left: 20px;
+  position: relative;
+}
+/* line 221, ../sass/pages/_premios.scss */
+.page-premios .description .tabs .tab-content .list-actividades li:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #2283CE;
+  border-radius: 50px;
+  top: 8px;
+  left: 0;
 }

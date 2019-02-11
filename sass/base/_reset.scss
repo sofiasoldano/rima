@@ -28,6 +28,11 @@ a {
     &:visited{
         text-decoration: none;
     }
+    
+    &.underline:hover{
+        text-decoration: underline;
+        opacity: 0.6;
+    }
 }
 .img-responsive{
     max-width: 100%;

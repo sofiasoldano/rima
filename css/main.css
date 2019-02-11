@@ -6087,3 +6087,96 @@ footer .footer-social .dropdown select {
   top: 8px;
   left: 0;
 }
+
+/* line 2, ../sass/pages/_tea.scss */
+.page-tea .header-bg {
+  background-image: radial-gradient(circle at 50% 10px, #6a6a6a 4%, #000000 60%);
+}
+/* line 5, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio {
+  margin-top: 50px;
+}
+/* line 8, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .title {
+  font-size: 32px;
+}
+/* line 12, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .info {
+  padding-top: 30px;
+  margin-bottom: 80px;
+}
+@media (min-width: 990px) {
+  /* line 12, ../sass/pages/_tea.scss */
+  .page-tea .tea-inicio .info {
+    padding-left: 30px;
+  }
+}
+/* line 20, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .info p {
+  color: #4A4A4A;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* line 27, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .beneficios {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -16px;
+  padding-left: 16px;
+}
+@media (min-width: 990px) {
+  /* line 27, ../sass/pages/_tea.scss */
+  .page-tea .tea-inicio .beneficios {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}
+/* line 40, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .beneficios .overflow {
+  width: max-content;
+}
+@media (min-width: 990px) {
+  /* line 40, ../sass/pages/_tea.scss */
+  .page-tea .tea-inicio .beneficios .overflow {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* line 50, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .beneficios .beneficio {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #E9E9E9;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.06);
+  padding: 35px;
+  margin-top: 20px;
+  height: 320px;
+  margin-right: 15px;
+}
+@media (min-width: 990px) {
+  /* line 50, ../sass/pages/_tea.scss */
+  .page-tea .tea-inicio .beneficios .beneficio {
+    width: 30%;
+    margin-right: 0;
+  }
+}
+/* line 66, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .beneficios .beneficio img {
+  margin-bottom: 30px;
+}
+/* line 70, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .beneficios .beneficio .subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+/* line 77, ../sass/pages/_tea.scss */
+.page-tea .tea-inicio .beneficios .beneficio p {
+  font-size: 14px;
+  color: #4A4A4A;
+}

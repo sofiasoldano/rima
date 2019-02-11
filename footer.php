@@ -7,7 +7,7 @@
                             <ul class="contact-links">
                                 <li><a href="sobre-rima.php">Sobre RIMA</a></li>
                                 <li><a href="contacto.php">Contacto directo </a></li>
-                                <li><a href="#">RIMA TEA</a></li>
+                                <li><a href="tea-inicio.php">RIMA TEA</a></li>
                             </ul>
                         </div>
                         <div class="right">
